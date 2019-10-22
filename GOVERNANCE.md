@@ -4,7 +4,7 @@ Eiffel is a protocol for technology agnostic machine-to-machine communication in
 Eiffel is based on the concept of decentralized real time messaging, both to drive the continuous integration and delivery system and to document it.
 
 Governance of the Eiffel Community is structured according to this document.
-This structure in intended to provide a healthy, sustainable and attractive community for Eiffel development and collaboration.
+This structure is intended to provide a healthy, sustainable and attractive community for Eiffel development and collaboration.
 
 The Eiffel community proactively adopts and follows best practices employed by successful open source communities while maintaining a governance agreeable to its members.
 
