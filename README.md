@@ -1,4 +1,4 @@
-<img src="./images/logo.png" alt="Eiffel Community Repository Template" width="350"/>
+<img src="./images/community-logo.png" alt="Eiffel Community Repository Template" width="350"/>
 
 # Eiffel Community
 This repository contains common Eiffel resources and information that and not does belong to a specific Eiffel product. General issues that concerns all repositories can be posted and discussed in this repository as well.
