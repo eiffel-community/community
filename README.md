@@ -1,7 +1,7 @@
 <img src="./images/community-logo.png" alt="Eiffel Community Repository Template" width="350"/>
 
 # Eiffel Community
-This repository contains common Eiffel resources and information that does not belong to a specific Eiffel product. General issues that concerns all repositories can be posted and discussed in this repository as well.
+This repository contains common Eiffel resources and information that does not belong to a specific Eiffel repositories. General issues that concerns all repositories can be posted and discussed in this repository as well.
 
 The https://github.com/eiffel-community/.github/ repository contains all community health files (that is: code of conduct, contributing guidelines, issue and pull request templates)
 
