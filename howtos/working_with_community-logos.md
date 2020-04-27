@@ -10,7 +10,7 @@ The xcf file is a bitmap image file and SVG is a vector image format, so there i
 - Choose 'Path' -> 'Trace Bitmap...' (or Shift-Alt-B)
 - Choose 'Colors' and set number of Scans to e.g. 32 (to get some decent graytones in the half-circle). The higher number of Scans the bigger the image file will be.
 - Check with 'Preview' or 'Update', and Click OK when done. Now you have added a vector image to your Inkscape canvas.
-- Remove the old bitmap picture
+- Remove the old bitmap picture (it is behind the newly created vector image in the canvas)
 - Resize the vector image if needed so that it fits in your canvas in Inkscape (hold Ctrl to keep aspect ratio)
 - Save as an SVG file
 - Done!
