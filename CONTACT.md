@@ -1,7 +1,7 @@
 # Contact
 
 If a breach in the [Code of Conduct](https://github.com/eiffel-community/.github/blob/master/CODE_OF_CONDUCT.md) has
-been made, you can report it to resposible eiffel maintainer team of the respecive repository according to the table
+been made, you can report it to responsible eiffel maintainer team of the respective repository according to the table
 below. The maintainer team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
 If you have technical questions, it is better to ask them in the open discussion forum on respective maintainer team
