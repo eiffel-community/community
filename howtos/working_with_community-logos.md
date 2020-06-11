@@ -1,5 +1,5 @@
 # Introduction
-The Eiffel Community logos are created using [Gimp](https://www.gimp.org/). They all exist in one Gimp [xcf file](../Resources/eiffel-community-logos.xcf), with multiple layers in it. To create a new variant of the logo for a new community tool, you need to add new layers in that image to reflect that.
+The Eiffel Community logos are created using [Gimp](https://www.gimp.org/). They all exist in one Gimp [xcf file](../resources/eiffel-community-logos.xcf), with multiple layers in it. To create a new variant of the logo for a new community tool, you need to add new layers in that image to reflect that.
 
 # Exporting to PNG
 In each community repo there should be an *images* folder containing the logo for that specific community tool. To create such a PNG file you should open the xcf file in Gimp, select the layers you wish to be visible in your exported logo image file and then select File->Export As... to export it.
