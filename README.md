@@ -20,3 +20,9 @@ New to the community? Got a lot of questions but don't know where to post them? 
 Join the discussions on [Eiffel Slack](https://join.slack.com/t/eiffel-workspace/shared_invite/enQtOTI3MzEzMzY4Mzg0LTA3NDVmNjgzZjk1YTFjNzk5OWE4MjExYzE1ODU1NzA1YzY5MzhlZmYxZmIwMzhiM2ExOWM4ZGJlYzdkN2M5OTE).
 
 Contact information to maintainers of the Eiffel repositories [are listed here](./CONTACT.md).
+
+## Eiffel Community Technical Committee
+
+The formation of [Bootstrap Technical Committee](./GOVERNANCE.md#community-bootstrap-process) is in progress and more information will be available near future.
+
+Agenda and minutes of the past and upcoming Technical Committee Meetings are available in [MEETINGS.md](./MEETINGS.md).
