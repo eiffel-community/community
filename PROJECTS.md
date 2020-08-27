@@ -25,7 +25,7 @@ in [project lifecycle process](./PROJECT_LIFECYCLE.md).
 
 ## Project Facts
 
-The table below lists the projects hosted by Eiffel Community alphabetically. (except the protocol itself)
+The table below lists the projects hosted by Eiffel Community alphabetically with the protocol itself listed first.
 All the projects are placed in to [Sandbox](./PROJECT_LIFECYCLE.md#stage-sandbox) stage by default.
 
 Please see [project lifecycle process](./PROJECT_LIFECYCLE.md) for the project lifecycle and the stages.
