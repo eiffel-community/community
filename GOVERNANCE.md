@@ -24,7 +24,7 @@ The projects that take part in Eiffel Community currently have two roles relevan
 A contributor is anyone who made contributions to any of the projects within Eiffel Community.
 
 There are different means and ways to contribute to Eiffel Community in order to be a contributor, such as issuing and reviewing pull requests, creating issues in project backlog, or taking part in technical discussions.
-Determination of the complete criteria for contributors is the responsibility of Eiffel Technical Committee with the input from Eiffel Community at large.
+Determination of the complete criteria for contributors is the responsibility of the Eiffel Technical Committee with the input from Eiffel Community at large.
 
 Contributors are eligible to vote on Technical Committee elections. Contributors do not have the rights to accept pull requests.
 
@@ -63,7 +63,7 @@ The responsibilities of the Technical Committee are
 * coordinating event participation and communications regarding the Eiffel Community Open Source Projects
 
 Eiffel Community aims to operate as a consensus based community, if any decision requires a vote to move the Eiffel Community Open Source Projects forward, the members of the Technical Committee will vote on a one vote per member basis.
-Simple majority is required for any decision to be approved.
+Simple majority is required for any decision to be approved. When voting in a meeting, it is a simple majority of the voting members present.  When voting through email or other forms of asynchronous communication, it is a simple majority of all TSC voting members.
 
 The Technical Committee meets regularly and the meetings are intended to be open to the public and can be conducted electronically, via teleconference, or in person.
 Quorum for Technical Committee meetings requires at least a majority of all voting members of the Technical Committee to be present.
@@ -122,10 +122,11 @@ The Bootstrap Technical Committee will be responsible for a series of specific a
 * Project guidelines
 * Code of conduct guidelines
 * Contribution process
+* Security/Vulnerability reporting and response processes
 
 ### Community Vision, Mission, and Goals
 
-This document will include the community vision, mission, and goals by taking different audiences into account such as developers, decision makers.
+This document will include the community vision, mission, and goals by taking different audiences into account such as developers, and decision makers.
 
 ### Technical Committee Charter
 
@@ -181,6 +182,12 @@ Bootstrap Technical Committee MUST define a contribution process that:
   * Frequency limits
 * Defines the documentation process
 * Defines what CLA process is required and how it is programmatically enforced before code is merged
+
+### Security/Vulnerability Reporting and Response Process
+* Identify and document where vulnerability reporting can be done to the project
+* Identify and document who is responsible for receiving vulnerability reports
+* Document process responsible parties go through to triage and determine veracity of vulnerability
+* Document process for facilitating fix, generating release update, and communicating vulnerability and fix to public
 
 ## Transition Process
 
