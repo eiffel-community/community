@@ -24,7 +24,7 @@ Eiffel Community including but not limited to development and maintenance of Eif
 functionality that adheres to the protocol, integration of other technologies, testing, documentation, as well as
 the support functions to create and maintain the infrastructure and the toolchain community uses.
 
-List of projects that are currently part of Eiffel Community can be seen from [PROJECTS.md](./projects.md).
+List of projects that are currently part of Eiffel Community can be seen from [PROJECTS.md](./PROJECTS.md).
 
 ## Project Lifecycle Process
 
@@ -50,7 +50,7 @@ mandatory.
 
 Simple majority of Eiffel Community Maintainers is required for a project to be accepted to Eiffel Community.
 
-Project maintainers are expected to update [PROJECTS.md](./projects.md) by sending a pull request to community
+Project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) by sending a pull request to community
 repository and include an entry for their project. Project creation is concluded upon acceptance of the pull
 request.
 
@@ -70,7 +70,7 @@ but this is not mandatory.
 
 If a project is accepted to be moved to a certain stage, this is clearly marked on project repositories to make it
 easier for potential users to see where the project is in its lifecycle. In addition to stating the project lifecycle
-stage listed on the project repositories, project maintainers are expected to update [PROJECTS.md](./projects.md) via
+stage listed on the project repositories, project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) via
 a pull request to community repository, updating the stage of their project for broader visibility. Project review
 is concluded upon acceptance of the pull request.
 
