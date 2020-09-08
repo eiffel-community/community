@@ -39,7 +39,7 @@ their ability.
 - infrastructure needs such as Git repositories
 
 Regarding project naming convenctions, the eiffel community enforces no name convention but meaningfull descriptive 
-names are encuraged. 
+names are encouraged. 
 
 Projects that are already hosted within Eiffel Community but willing to move to a different stage are also
 expected to follow same process as project creation by formally submitting their request on GitHub Eiffel
