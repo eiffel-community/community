@@ -38,7 +38,7 @@ their ability.
 - names of initial maintainers
 - infrastructure needs such as Git repositories
 
-Regarding project naming convenctions, the eiffel community enforces no name convention but meaningfull descriptive 
+Regarding project naming convenctions, the eiffel community enforces no name convention but meaningful descriptive 
 names are encouraged. 
 
 Projects that are already hosted within Eiffel Community but willing to move to a different stage are also
