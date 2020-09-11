@@ -63,7 +63,7 @@ The responsibilities of the Technical Committee are
 * coordinating event participation and communications regarding the Eiffel Community Open Source Projects
 
 Eiffel Community aims to operate as a consensus based community, if any decision requires a vote to move the Eiffel Community Open Source Projects forward, the members of the Technical Committee will vote on a one vote per member basis.
-Simple majority is required for any decision to be approved. When voting in a meeting, it is a simple majority of the voting members present.  When voting through email or other forms of asynchronous communication, it is a simple majority of all TSC voting members.
+Simple majority is required for any decision to be approved. When voting in a meeting, it is a simple majority of the voting members present.  When voting through email or other forms of asynchronous communication, it is a simple majority of all Technical Committee voting members.
 
 The Technical Committee meets regularly and the meetings are intended to be open to the public and can be conducted electronically, via teleconference, or in person.
 Quorum for Technical Committee meetings requires at least a majority of all voting members of the Technical Committee to be present.
