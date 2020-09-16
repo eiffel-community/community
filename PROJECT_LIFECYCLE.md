@@ -38,6 +38,9 @@ their ability.
 - names of initial maintainers
 - infrastructure needs such as Git repositories
 
+Regarding project naming conventions, the Eiffel Community enforces no name convention but meaningful descriptive 
+names are encouraged. 
+
 Projects that are already hosted within Eiffel Community but willing to move to a different stage are also
 expected to follow same process as project creation by formally submitting their request on GitHub Eiffel
 Community repository by creating an issue.
