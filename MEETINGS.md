@@ -6,6 +6,7 @@
 
 - [Logistics](#logistics)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-10-12 Meeting](#October-12-2020)
   - [2020-09-28 Meeting](#September-28-2020)
   - [2020-09-14 Meeting](#September-14-2020)
 
@@ -20,20 +21,108 @@
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
 
+### October 12, 2020
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, **present**
+* Fatih Degirmenci, Ericsson Software Technology, **present**
+* Fredrik Fristedt, Axis, **present**
+* Kristofer Hallén, Ericsson, **present**
+* Mattias Linnèr, Ericsson, **not present**
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, **present**
+* Ola Söder, Axis, **present**
+* Daniel Ståhl, **not present**
+* David Westberg, **present**
+* Ewelina Wilkosz, **not present**
+
+**Community Attendees**
+* Tobias Persson, Axis Communications
+
+#### Agenda and Notes
+  - Rollcall, All
+      - Quorum reached
+  - Agenda Bashing, All
+      - Agenda approved
+  - Action Item Review, All
+  - Reflections from [cdCon](https://events.linuxfoundation.org/cdcon/), All
+      - FF: It was interesting to hear what people were discussing about such as having JSON schema to help with interoperability issues.
+      - FF: They kind of described Eiffel without knowing about it.
+      - EB: Attended the both days. It was intersting and there were a lot of talks about events everywhere. People may have different opinions about events.
+      - EB: There was a presentation about Keptn from Dynatrace - Event driven CD. There were interesting talks.
+      - EB: SIG Interoperability held BoF session and there were new people in the session. They may join to SIG.
+      - KH: Were there more people you haven't seen before?
+      - EB: People talk about interoperability but they are not aware of existence of the SIG.
+      - EB: Tekton presentation was given by Andreas Frittoli and he looks forward to standardizing sending events for others to see their actions.
+      - EB: Events in CI/CD meeting this evening 18:30.
+      - EB: 1300 registrants and 800 accessed to the conference portal.
+  - [Eiffel Community Security & Vulnerability Process](https://github.com/eiffel-community/community/issues/61), Fredrik & Kristofer
+      - Working on the initial document.
+      - Other communities don't seem to describe what happens once the issue is filed. (internal process)
+      - Few steps need to be documented in order to explain the process so everyone knows how it works.
+      - How projects themselves could publish identified/fixed security issues. (shortcut for projects)
+  - [Inclusive Language Initiative and Impacts on Eiffel Community](https://github.com/eiffel-community/community/issues/68), Fatih & All
+      - Discussion on whether community feels the need to work on adopting more inclusive language
+      - Heads up on potential impacts introduced by other communities and organisations on Eiffel Community
+      - If we start changing things and adapt inclusive language, we need to document this clearly in governance and project guidelines.
+  - [Eiffel Community Infrastructure](https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ?view), Mattias & Fatih
+      - Proxy for Docker Hub is created and podman is verified to use the proxy. Documentation is available [here](https://wiki.nordix.org/display/DEV/Docker+Hub+Proxy).
+      - Builds for initial list of projects are created on Nordix: https://jenkins.nordix.org/view/Eiffel/
+      - Projects are contacted to review and provide feedback
+          - [Issue created for eiffel-gerrit-herald](https://github.com/eiffel-community/eiffel-gerrit-herald/issues/12)
+          - [Issue created for eiffel-intelligence](https://github.com/eiffel-community/eiffel-intelligence/issues/478)
+          - [Issue created for eiffel-intelligence-frontend](https://github.com/eiffel-community/eiffel-intelligence-frontend/issues/292)
+          - [Issue created for eiffel-remrem-generate](https://github.com/eiffel-community/eiffel-remrem-generate/issues/178)
+          - [Issue created for eiffel-remrem-publish](https://github.com/eiffel-community/eiffel-remrem-publish/issues/206)
+  - Eiffel Community Organization Contacts, Henning
+      - Who has right to add/invite people to Eiffel Organization on GitHub?
+      - Any volunteers to help with this?
+      - Issue https://github.com/eiffel-community/community/issues/71 tries to address this
+  - Project Lifecycle Stages - How do we mark our repositories? Do we have badges or should we use lables? [Documenation](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#project-lifecycle-stages) states it _is_ clearly marked allthough very few (None) are marked.
+      - There is an existing discussion on this topic: https://github.com/eiffel-community/eiffel-repository-template/issues/9
+  - CDF SIG Interoperability Whitepaper
+      - Ericsson contributed a case study on Eiffel to the whitepaper
+      - Link to the whitepaper: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit#
+
+#### Action Items
+  - Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik
+  - ~~Clarify which repos the BTC should have permission on and [document it](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members). [PR](https://github.com/eiffel-community/community/issues/69) created.~~
+  - ~~Document quorum requirements~~
+      - Already documented in the [governance](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee):  *Quorum for Technical Committee meetings requires at least a majority of all voting members of the Technical Committee to be present.*
+  - Kristofer and Fredrik to look at security vulnerability process
+  - ~~Henning to create eiffel-playground repo and create maintainers group with Mattias and Fatih as initial members~~
+  - Daniel Stahl to help doodling things/videos for community videos
+  - ~~Fatih and Henning to add topic/issue on community infra/organization champions/contacts with a simple/short process.~~ [PR](https://github.com/eiffel-community/community/issues/71).
+  - Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+  - Pass Kubernetes deployment details on community repo, Tobias
+  - Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9
+  - Prepare graduation proposal for Eiffel Protocol project, Emil
+
+
 ### September 28, 2020
 
 #### Participants
-  - Fatih Degirmenci, Ericsson Software Technology
-  - Henning Roos, Ericsson
-  - Mattias Linnér, Ericsson
-  - Fredrik Fristedt, Axis
-  - Emil Bäckmark, Ericsson
-  - Kristofer Hallén, Ericsson
-  - David Westberg, Volvo
-  - Christian Madsen
-  - Isac Holm
-  - Martin Lundberg
-  - Raja Maragani
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, **present**
+* Fatih Degirmenci, Ericsson Software Technology, **present**
+* Fredrik Fristedt, Axis, **present**
+* Kristofer Hallén, Ericsson, **present**
+* Mattias Linnèr, Ericsson, **present**
+* Christian Madsen, Grundfos, **present**
+* Raja Maragani, Ericsson/TCS, **present**
+* Henning Roos, Ericsson, **present**
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, **not present**
+* David Westberg, **present**
+* Ewelina Wilkosz, **not present**
+
+**Community Attendees**
+* Isac Holm
+* Martin Lundberg
  
 #### Agenda and Notes
   - Rollcall
