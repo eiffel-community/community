@@ -100,9 +100,7 @@ The technical committee members will strive to
 * hold staggered terms, sufficient to ensure an orderly transition of power via elections as designed and implemented by the committee
 * provide designated alternates in cases where quorum is required but not attainable with the current set of members
 
-Members of the Technical Committee will be given access to these resources:
-
-* [The repository `eiffel-community/community`](https://github.com/eiffel-community/community)
+Members of the Technical Committee will be granted access to the repositories listed [here](https://github.com/search?q=topic%3Acommunity+org%3Aeiffel-community+fork%3Atrue).
 
 ### Technical Committee Chair
 
