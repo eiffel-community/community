@@ -17,4 +17,4 @@ Triage and handling of the vulnerability report will be conducted within one wee
 As mentioned, each report is acknowledged and analyzed by a eiffel-community security officer within one week. If the vulnerability is reproduced and verified a response will be sent to the reporter. As the issue progresses from triage, to fix, test and release the reporter will be updated.
 
 ## Public Disclosure
-The eiffel-community humbly asks all vulnerability reporters to hold of on public disclosure and instead negotiate a time frame within which the vulnerability report will be processed, fixed and released by the eiffel-community. Once released it will be listed on the [eiffel community security page](https://eiffel-community.github.io/security.html) .
+The eiffel-community humbly asks all vulnerability reporters to hold off on public disclosure and instead negotiate a time frame within which the vulnerability report will be processed, fixed and released by the eiffel-community. Once released it will be listed on the [eiffel community security page](https://eiffel-community.github.io/security.html) .
