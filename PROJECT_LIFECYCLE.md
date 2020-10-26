@@ -96,6 +96,13 @@ moving to a different stage.
 Due to the nature of sandbox projects (eg. experimentation), project can be moved to archive stage at any point in
 time if the maintainers deem it necessary.
 
+You can use the ![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow.svg) badge to show the project stage.
+
+```markdown
+.. image:: https://img.shields.io/badge/Stage-Sandbox-yellow.svg
+  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox
+```
+
 ### Stage: Graduated
 
 Graduated stage is for the projects that achieved production level functionality and quality. Eiffel Community
@@ -111,6 +118,13 @@ actively maintained and they can turn to community for additional support.
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Graduated stage.
 
+You can use the ![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green) badge to show the project stage.
+
+```markdown
+.. image:: https://img.shields.io/badge/Stage-Graduated-green
+  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-graduated
+```
+
 ### Stage: Archived
 
 Archived stage is for the projects that do not expect further development or maintenance and may very well be
@@ -123,6 +137,13 @@ can state their intention by submitting an issue to Eiffel Community repository,
 so. It the community accepts the request, the project is moved from Archived stage to Sandbox stage.
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Archived stage.
+
+You can use the ![Archived badge](https://img.shields.io/badge/Stage-Archived-orange) badge to show the project stage.
+
+```markdown
+.. image:: https://img.shields.io/badge/Stage-Archived-orange
+  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+```
 
 ## References
 
