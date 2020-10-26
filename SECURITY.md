@@ -1,7 +1,7 @@
 # Eiffel-community vulnerability and security reporting and response
 
 ## Report a Vulnerability or Security issue
-We as a community encourage researchers, users and contributors to report vulnerabilities and security related issues to the eiffel community. All issues are thoroughly investigated by a community security officer and/or other community security volunteers. All reported and fixed security and vulnerability issues can be found on the [eiffel community security page](https://eiffel-community.github.io/security.html) .
+We as a community encourage researchers, users and contributors to report vulnerabilities and security related issues to the Eiffel community. All issues are thoroughly investigated by a community security officer and/or other community security volunteers. All reported and fixed security and vulnerability issues can be found on the [eiffel community security page](https://eiffel-community.github.io/security.html) .
 
 ## How to report a security vulnerability
 To file a vulnerability report please send and e-mail to the private eiffel-community-security@googlegroups.com  list. The e-mail should list the security specific details as well as the [standard bug report information](https://github.com/eiffel-community/.github/blob/master/.github/ISSUE_TEMPLATE.md). Only the community security officers will have access to e-mails sent on the security and vulnerability list.
