@@ -21,22 +21,77 @@
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
 
+### October 26, 2020
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, **not present**
+* Kristofer Hallén, Ericsson, **not present**
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, present
+* David Westberg, present
+* Ewelina Wilkosz, **not present**
+
+**Community Attendees**
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum **NOT** reached
+* Agenda Bashing, All
+    * Agenda is approved
+* Action Item Review, All
+* [Eiffel Community Security & Vulnerability Process](https://github.com/eiffel-community/community/issues/61), Fredrik & Kristofer
+    * PR is open for review: https://github.com/eiffel-community/community/pull/72
+    * ML: Proposed to create security.html upon approval of the PR.
+    * HR: A placeholder could be created related to this PR so the link is not broken.
+* [Eiffel Community Infrastructure](https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ?view), Mattias & Fatih
+    * Progress summary
+    * Do we need project dependency handling?
+    * Links to jobs: https://jenkins.nordix.org/view/Eiffel/
+    * The documentation about this work is kept on: https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ?view
+* [Project Lifecycle Stages](https://github.com/eiffel-community/eiffel-repository-template/issues/9), All
+    * Starting to apply badges to the projects to increase visibility?
+    * Everyone is urged to review https://github.com/eiffel-community/eiffel-repository-template/issues/9
+* How to work with items and approval process/way of working
+    * This needs to be settled over time based on pacticing the processes for few months
+
+#### Action Items
+* Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik
+* ~~Kristofer and Fredrik to look at security vulnerability process, Fredrik and Kristofer~~
+* ~~Daniel Stahl to help doodling things/videos for community videos, Daniel Stahl~~
+* ETOS project to reach out to Daniel whenever they think they want to have a video
+    * EB: Should we have some recommendations of ways to creating videos to set the way forward?
+    * DS: I'm happy to help.
+* Fatih to add topic on having guidance on community videos/recordings to next meeting
+* Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+* Pass Kubernetes deployment details on community repo, Tobias
+* Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9
+* Prepare graduation proposal for Eiffel Protocol project, Emil
+* Update project lifecycle with instructions of adding badges, Mattias
+
 ### October 12, 2020
 
 #### Participants
 
 **TC Attendees**
-* Emil Bäckmark, Ericsson, **present**
-* Fatih Degirmenci, Ericsson Software Technology, **present**
-* Fredrik Fristedt, Axis, **present**
-* Kristofer Hallén, Ericsson, **present**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
 * Mattias Linnèr, Ericsson, **not present**
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
-* Henning Roos, Ericsson, **present**
-* Ola Söder, Axis, **present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, present
 * Daniel Ståhl, **not present**
-* David Westberg, **present**
+* David Westberg, present
 * Ewelina Wilkosz, **not present**
 
 **Community Attendees**
@@ -107,17 +162,17 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 **TC Attendees**
-* Emil Bäckmark, Ericsson, **present**
-* Fatih Degirmenci, Ericsson Software Technology, **present**
-* Fredrik Fristedt, Axis, **present**
-* Kristofer Hallén, Ericsson, **present**
-* Mattias Linnèr, Ericsson, **present**
-* Christian Madsen, Grundfos, **present**
-* Raja Maragani, Ericsson/TCS, **present**
-* Henning Roos, Ericsson, **present**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, present
+* Raja Maragani, Ericsson/TCS, present
+* Henning Roos, Ericsson, present
 * Ola Söder, Axis, **not present**
 * Daniel Ståhl, **not present**
-* David Westberg, **present**
+* David Westberg, present
 * Ewelina Wilkosz, **not present**
 
 **Community Attendees**
