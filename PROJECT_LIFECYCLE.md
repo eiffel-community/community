@@ -96,7 +96,7 @@ moving to a different stage.
 Due to the nature of sandbox projects (eg. experimentation), project can be moved to archive stage at any point in
 time if the maintainers deem it necessary.
 
-You can use the ![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow.svg) badge to show the project stage.
+You should use the ![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow.svg) badge to show the project stage.
 
 ```markdown
 .. image:: https://img.shields.io/badge/Stage-Sandbox-yellow.svg
@@ -118,7 +118,7 @@ actively maintained and they can turn to community for additional support.
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Graduated stage.
 
-You can use the ![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green) badge to show the project stage.
+You should use the ![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green) badge to show the project stage.
 
 ```markdown
 .. image:: https://img.shields.io/badge/Stage-Graduated-green
@@ -138,7 +138,7 @@ so. It the community accepts the request, the project is moved from Archived sta
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Archived stage.
 
-You can use the ![Archived badge](https://img.shields.io/badge/Stage-Archived-orange) badge to show the project stage.
+You should use the ![Archived badge](https://img.shields.io/badge/Stage-Archived-orange) badge to show the project stage.
 
 ```markdown
 .. image:: https://img.shields.io/badge/Stage-Archived-orange
