@@ -4,11 +4,13 @@
 
 ## Quick links
 
-- [Logistics](#logistics)
-- [Agenda and Notes](#agenda-and-notes)
-  - [2020-10-12 Meeting](#October-12-2020)
-  - [2020-09-28 Meeting](#September-28-2020)
-  - [2020-09-14 Meeting](#September-14-2020)
+* [Logistics](#logistics)
+* [Agenda and Notes](#agenda-and-notes)
+    * [2020-11-09 Meeting](#November-9-2020)
+    * [2020-10-26 Meeting](#October-26-2020)
+    * [2020-10-12 Meeting](#October-12-2020)
+    * [2020-09-28 Meeting](#September-28-2020)
+    * [2020-09-14 Meeting](#September-14-2020)
 
 ## Logistics
 
@@ -20,6 +22,72 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### November 9, 2020
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, present
+* David Westberg, present
+* Ewelina Wilkosz, **not present**
+
+**Community Attendees**
+* \<addme\>
+
+#### Agenda and Notes
+* Rollcall, All
+      - Quorum reached
+* Agenda Bashing, All
+      - Agenda approved
+* Action Item Review, All
+* [Eiffel Community Security & Vulnerability Process](https://github.com/eiffel-community/community/issues/61), Fredrik & Kristofer
+    * PR is open for review: https://github.com/eiffel-community/community/pull/72
+    * Security officers/contacts - Kristofer, Fredrik
+* Event Repository, Tobias Persson/All
+    * Which event repository API should be the standard interface for all event repositories?
+    * Should we work together to come up with something new?
+    * Should this be documented somewhere in the community?
+    * The topic could be discussed outside of TC meeting to look for options
+    * People from broader community could take part in this discussion
+    * It is a good opportunity to work on this collaboratively to put the pieces in place as a community
+    * This would also allow bringing experiences from others
+    * Event data aggragation could be seen as an item under this discussion
+    * Lack of ER caused some difficulties so this would help with it
+* [Project Lifecycle Stages](https://github.com/eiffel-community/eiffel-repository-template/issues/9), All
+    * Starting to apply badges to the projects to increase visibility?
+    * Everyone is urged to review https://github.com/eiffel-community/eiffel-repository-template/issues/9
+    * PR would be good. 
+* Guidelines for publishing community videos/recordings, All
+    * Do we need to have guidelines for community for publishing videos/recordings?
+    * The guidelines will be documented as part of the creation of the next community recording 
+
+#### Action Items
+* Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik
+* ~~ETOS project to reach out to Daniel Stahl whenever they think they want to have a video~~
+* ~~Fatih to add topic on having guidance on community videos/recordings to next meeting~~
+* Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+* ~~Pass Kubernetes deployment details on community repo, Tobias~~
+* Fatih to get Tobias in touch with Nordix for Kubernetes cluster installation
+* Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9
+* ~~Prepare graduation proposal for Eiffel Protocol project, Emil [Issue 77](https://github.com/eiffel-community/community/issues/77)~~
+* Create a PR to graduate Eiffel Protocol, Emil
+* Update the project lifecycle document to add mail requirement to maillist for increased visibility, Fatih
+* Update project lifecycle with instructions of adding badges, Mattias [Pull request #76](https://github.com/eiffel-community/community/pull/76)
+* Update template repository with default sandbox logo/icon, Henning
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+* Create a google group for Eiffel Security, Kristofer
+* Axis and Ericsson to drive the ER topic, Tobias & Emil
+* Send PRs to repos to apply badges to the repos, Fatih
 
 ### October 26, 2020
 
