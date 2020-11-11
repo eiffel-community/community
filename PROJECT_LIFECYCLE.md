@@ -96,11 +96,10 @@ moving to a different stage.
 Due to the nature of sandbox projects (eg. experimentation), project can be moved to archive stage at any point in
 time if the maintainers deem it necessary.
 
-You should use the ![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow.svg) badge to show the project stage.
+You should use the [![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox) badge to show the project stage. Place the badge under the logo but before the heading e.g. [Eiffel Intelligence README](https://github.com/eiffel-community/eiffel-intelligence/blob/master/README.md)
 
 ```markdown
-.. image:: https://img.shields.io/badge/Stage-Sandbox-yellow.svg
-  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox
+[![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox).
 ```
 
 ### Stage: Graduated
@@ -118,11 +117,10 @@ actively maintained and they can turn to community for additional support.
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Graduated stage.
 
-You should use the ![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green) badge to show the project stage.
+You should use the [![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-graduated) badge to show the project stage. Place the badge under the logo but before the heading e.g. [Eiffel Intelligence README](https://github.com/eiffel-community/eiffel-intelligence/blob/master/README.md).
 
 ```markdown
-.. image:: https://img.shields.io/badge/Stage-Graduated-green
-  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-graduated
+[![Graduated badge](https://img.shields.io/badge/Stage-Graduated-green)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-graduated)
 ```
 
 ### Stage: Archived
@@ -138,11 +136,10 @@ so. It the community accepts the request, the project is moved from Archived sta
 
 Simple majority within Eiffel Community Maintainers is required for a project to be moved to Archived stage.
 
-You should use the ![Archived badge](https://img.shields.io/badge/Stage-Archived-orange) badge to show the project stage.
+You should use the [![Archived badge](https://img.shields.io/badge/Stage-Archived-orange)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived) badge to show the project stage. Place the badge under the logo but before the heading e.g. [Eiffel Intelligence README](https://github.com/eiffel-community/eiffel-intelligence/blob/master/README.md).
 
 ```markdown
-.. image:: https://img.shields.io/badge/Stage-Archived-orange
-  :target: https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+[![Archived badge](https://img.shields.io/badge/Stage-Archived-orange)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived)
 ```
 
 ## References
