@@ -96,10 +96,10 @@ moving to a different stage.
 Due to the nature of sandbox projects (eg. experimentation), project can be moved to archive stage at any point in
 time if the maintainers deem it necessary.
 
-You should use the [![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox) badge to show the project stage. Place the badge under the logo but before the heading e.g. [Eiffel Intelligence README](https://github.com/eiffel-community/eiffel-intelligence/blob/master/README.md)
+You should use the [![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox) badge to show the project stage. Place the badge under the logo but before the heading e.g. [Eiffel Intelligence README](https://github.com/eiffel-community/eiffel-intelligence/blob/master/README.md).
 
 ```markdown
-[![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox).
+[![Sandbox badge](https://img.shields.io/badge/Stage-Sandbox-yellow)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-sandbox)
 ```
 
 ### Stage: Graduated
