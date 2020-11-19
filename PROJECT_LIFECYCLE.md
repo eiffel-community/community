@@ -65,7 +65,7 @@ repository and include an entry for their project. Project creation is concluded
 request.
 
 Upon completion of the project creation process, TC Chair sends an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
-in order to announce the creation of the project to broader community for increased visibility.
+in order to announce the creation of the project to the broader community for increased visibility.
 
 ## Project Lifecycle Stages
 
