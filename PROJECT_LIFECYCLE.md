@@ -88,7 +88,7 @@ a pull request to community repository, updating the stage of their project for 
 is concluded upon acceptance of the pull request.
 
 Upon completion of the project lifecycle process, TC Chair sends an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
-in order to announce the changes to project lifecycle stage to broader community for increased visibility.
+in order to announce the changes to project lifecycle stage to the broader community for increased visibility.
 
 ### Stage: Sandbox
 
