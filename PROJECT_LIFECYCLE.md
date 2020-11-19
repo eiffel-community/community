@@ -40,7 +40,7 @@ their ability.
 
 In addition to formally proposing the project on GitHub, community members proposing the new project are expected
 to announce the project proposal on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) by
-sending an email in order to increase the visibility. The email should contain same information as the proposal
+sending an email in order to increase the visibility. The email should contain the same information as the proposal
 itself.
 
 Regarding project naming conventions, the Eiffel Community enforces no name convention but meaningful descriptive
