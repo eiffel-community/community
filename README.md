@@ -16,7 +16,7 @@ The contents of this repository are licensed under the [Apache License 2.0](./LI
 # About Eiffel
 This repository forms part of the Eiffel Community. Eiffel is a protocol for technology agnostic machine-to-machine communication in continuous integration and delivery pipelines, aimed at securing scalability, flexibility and traceability. Eiffel is based on the concept of decentralized real time messaging, both to drive the continuous integration and delivery system and to document it.
 
-Visit [Eiffel Community](https://eiffel-community.github.io) to get started and get involved.
+Visit [Eiffel Community](https://eiffel-community.github.io) to get started and get involved and read about our [Vision and Mission](https://eiffel-community.github.io/vision-and-mission.html).
 
 # Contact
 New to the community? Got a lot of questions but don't know where to post them? Or just want to catch up on what's happening?
