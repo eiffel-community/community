@@ -3,7 +3,7 @@
 # Eiffel Community
 This repository contains common Eiffel resources and information that does not belong to specific Eiffel repositories. General issues that concerns all repositories can be posted and discussed in this repository as well.
 
-The https://github.com/eiffel-community/.github/ repository contains all community health files (that is: code of conduct, contributing guidelines, issue and pull request templates)
+The https://github.com/eiffel-community/.github/ repository contains all community health files (that is: code of conduct, contributing guidelines, issue and pull request templates).
 
 # Code of Conduct and Contributing
 To get involved, please see [Code of Conduct](https://github.com/eiffel-community/.github/blob/master/CODE_OF_CONDUCT.md) and [contribution guidelines](https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md).
