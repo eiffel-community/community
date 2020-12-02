@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2020-11-23 Meeting](#November-23-2020)
     * [2020-11-09 Meeting](#November-9-2020)
     * [2020-10-26 Meeting](#October-26-2020)
     * [2020-10-12 Meeting](#October-12-2020)
@@ -22,6 +23,69 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### November 23, 2020
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, **not present**
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, present
+* David Westberg, **not present**
+* Ewelina Wilkosz, **not present**
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum **NOT** reached
+* Agenda Bashing, All
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * **Done:** [Governance](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md)
+    * **Done:** [License](https://github.com/eiffel-community/community/blob/master/LICENSE)
+    * **Done:** [Project Maintainers](https://github.com/eiffel-community/community/blob/master/CONTACT.md)
+    * **Done:** [Project Lifecycle](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md)
+    * **Done:** [Project List](https://github.com/eiffel-community/community/blob/master/PROJECTS.md)
+    * **Done:** [Code of Conduct](https://github.com/eiffel-community/.github/blob/master/CODE_OF_CONDUCT.md)
+    * **Done:** [Contribution Guidelines](https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md)
+    * **Missing:** [Technical Committee Charter](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) *(pieces of this is in governance document but few things such as election process require to be decided and documented)*
+    * **Missing:** Security/Vulnerability reporting and response processes *(not available yet)*
+    * **Missing:** Community Vision, Mission, Goals *(not available yet)*
+    * **Missing:** Election procedure - part of governance
+* Formation of TC - part of TC charter, All
+    * No of members in TC: BTC had 5 meetings with average attendance of 8 from TC members 
+    * Company cap: This is a common practice applied by the communities to ensure diversity. We could start with something and then we expect to lower it over time. (start with 3 for example and reduce to 2 over time)
+* How to handle approvals to community processes?, All
+    * Currently the changes could come in in the form of issue and/or PR which is time consuming.
+    * Should we use PRs solely to remove an extra step?
+    * For the things that do not result in PRs, they could be included in TC meeting and decisions could be taken quickly? (can consider silence as +1)
+    * Proposal (can't take decisions this meeting): Use issues to describe the problem. Issues do not have to be approved. Create PRs to describe solutions.  
+
+#### Action Items
+* Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik
+* Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+* Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9
+* ~~Create a PR to graduate Eiffel Protocol, Emil [Pull request #78](https://github.com/eiffel-community/community/pull/78)~~
+* Update the project lifecycle document to add mail requirement to maillist for increased visibility, Fatih [Pull request #79](https://github.com/eiffel-community/community/pull/79)
+* ~~Update project lifecycle with instructions of adding badges, Mattias [Pull request #76](https://github.com/eiffel-community/community/pull/76)~~
+* ~~Update template repository with default sandbox logo/icon, Henning~~
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+* ~~Create a google group for Eiffel Security, Kristofer [Issue #60](https://github.com/eiffel-community/community/issues/60)~~
+* ~~Axis and Ericsson to drive the ER topic, Tobias & Emil~~
+* Send PRs to repos to apply badges to the repos, Fatih
+* Add link to eiffel-community.github.io for security page, Fredrik
+* Daniel to document Community Vision, Mission, Goals and include it on eiffel-community.github.io
+* Fatih to document election procedure as part of governance
+* Follow up November 23 meeting items since decisions could not be taken. Fatih
+* Eiffel summit next year? Kristofer
 
 ### November 9, 2020
 
@@ -41,14 +105,11 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * David Westberg, present
 * Ewelina Wilkosz, **not present**
 
-**Community Attendees**
-* \<addme\>
-
 #### Agenda and Notes
 * Rollcall, All
-      - Quorum reached
+    * Quorum reached
 * Agenda Bashing, All
-      - Agenda approved
+    * Agenda approved
 * Action Item Review, All
 * [Eiffel Community Security & Vulnerability Process](https://github.com/eiffel-community/community/issues/61), Fredrik & Kristofer
     * PR is open for review: https://github.com/eiffel-community/community/pull/72
