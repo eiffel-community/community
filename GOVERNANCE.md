@@ -17,6 +17,9 @@ The work done within the projects can focus on specific areas such as security, 
 
 The projects that constitute Eiffel Community are self governing, meaning that project related work is done and decisions are taken within the projects.
 
+
+## Project Roles
+
 The projects that take part in Eiffel Community currently have two roles relevant to their governance: contributors and maintainers.
 
 ### Contributors
@@ -41,6 +44,33 @@ Maintainers are eligible to vote on Technical Committee elections. They can be n
 Maintainers have right to nominate contributors to become maintainers and vote on the maintainer promotions for the projects they are maintainers of.
 
 Individuals can be maintainers to multiple Eiffel Community Open Source Projects.
+
+
+## Community Roles
+
+Eiffel Community currently has two roles relevant to community governance and support.
+
+### Election Officers
+
+Eiffel Community Election Officers are the community members who are appointed by Eiffel Technical Committee to conduct community elections.
+
+The term for Election Officers is **one year**.
+
+Responsibilities of Election Officers are
+
+* Determine the list of community members who are eligible to vote and run in community elections.
+* Conduct the elections based on the process documented in [Election Process](#Election-Process).
+* Ensure the elections are done in a transparent way.
+* Guide the Technical Committee and Eiffel Community at large in election matters.
+
+Eiffel Community Election Officers are the individuals listed below:
+
+* TBD
+* TBD
+
+### Security Officers
+
+TBD
 
 ## Technical Committee
 
@@ -68,6 +98,49 @@ Simple majority is required for any decision to be approved. When voting in a me
 The Technical Committee meets regularly and the meetings are intended to be open to the public and can be conducted electronically, via teleconference, or in person.
 Quorum for Technical Committee meetings requires at least a majority of all voting members of the Technical Committee to be present.
 The Technical Committee  may continue to meet if quorum is not met, but will be prevented from making any decisions at the meeting.
+
+### Technical Committee Elections and Voting
+
+Representatives to Eiffel Community Technical Committee are elected by their peers in the Eiffel Community on the basis of merit.
+
+#### Election Rules
+
+Anyone who is a maintainer of one or more projects hosted by Eiffel Community is eligible to run for a seat in Eiffel Technical Committee or nominate another maintainer as a candidate.
+
+Anyone who is a contributor to one or more projects hosted by Eiffel Community is eligible to vote on Technical Committee Elections.
+
+Community elections are overseen by [Election Officers](#Election-Officers).
+
+#### Election Process
+
+The election process consists of 3 phases
+
+* **Preparation Phase**:
+  * Election Officers determine the list of community members who are eligible to **run** in community elections announce this on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+  * Election Officers determine the list community members who are eligible to **vote** in community elections and announce this on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+* **Nomination Phase**:
+  * Once the electorate and candidates are determined and notified, Election Officers start nomination period for Technical Committee elections by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) Nomination period is limited to **one week**.
+  * After the commencement of the nomination phase, eligible candidates who wish to run for a seat in Technical Committee announce their nomination by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). (self-nomination) If community members want to nominate someone else to Technical Committee, they can do so by sending nomination mail to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) but this must then be accepted by the nominated community member by responding to their nomination mail in order for their candidacy to be valid. Only maintainers can self-nominate or nominate other maintainers.
+  * Upon the completion of the nomination phase, Election Officers collate the nominations and announce final list of candidates on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+  * Announcement of candidates ends the nomination phase.
+* **Election Phase**:
+  * Eiffel Community uses Condorcet Internet Voting Service System ([CIVS](https://civs.cs.cornell.edu/)) to hold elections. The instructions to prepare the election poll is available [here](https://wiki.opendaylight.org/display/ODL/CIVS+Voting+System+Information).
+  * Election Officers prepare the election poll on CIVS and enter candidates to ballot.
+  * Election Officers announce the start of election phase on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). Election period is limited to **one week**.
+  * After the announcement, Election Officers send mails to community members who are eligible to vote in the election.
+  * Upon the completion of the election phase, Election Officers announce the result of the election on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+
+Elected members of the Technical Committee assume their seat during the first Technical Committee Meeting following the completion of the election phase.
+
+#### Exceptions
+
+There could be cases where Election Officers may need to follow different processes to ensure the election process can be completed.
+
+One such case is the number of candidates who run for the elections.
+If the number of candidates is less than the number of seats in Technical Committee, Election Officers are authorized to extend the nominated period for one more week. If the number of candidates is still less than the number of seats in Technical Committee, Election Officers are authorized to end the nomination and election process so all the candidates assume their seats without election. The remaining seats are left vacant. The new Technical Committee is responsible to determine if, when, and how to fill the vacant seats.
+If the number of candidates is equal to the number of seats in Technical Committee, Election Officers are authorized to end the nomination and election process so all the candidates assume their seats without election.
+
+In addition to handling exceptions that may occur during community elections, Election Officers are responsible to guide the Technical Committee and Eiffel Community at large in case someone resigns from the Technical Committee or is impeached. Technical Committee is responsible of determining how to fill vacant seat and special elections can be held if the committee deems it necessary. Otherwise, the seat can be left vacant or a community member can be appointed by the committee.
 
 ### Technical Committee Members
 
