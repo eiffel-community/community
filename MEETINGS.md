@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2020-12-07 Meeting](#December-7-2020)
     * [2020-11-23 Meeting](#November-23-2020)
     * [2020-11-09 Meeting](#November-9-2020)
     * [2020-10-26 Meeting](#October-26-2020)
@@ -23,6 +24,78 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### December 7, 2020
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, present/**not present**
+* Raja Maragani, Ericsson/TCS, present
+* Henning Roos, Ericsson, present/**not present**
+* Ola Söder, Axis, present
+* Daniel Ståhl, present
+* David Westberg, present
+* Ewelina Wilkosz, present/**not present**
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum reached
+* Agenda Bashing, All
+    * Agenda approved
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * Close to be accepted - missing 1 approval **WIP:** Security/Vulnerability reporting and response processes *(PRs available)* [PR72](https://github.com/eiffel-community/community/pull/72) and [PR15](https://github.com/eiffel-community/eiffel-community.github.io/pull/15)
+    * **WIP:** Community Vision, Mission, Goals *(PR available)* [PR80](https://github.com/eiffel-community/community/pull/80) and [PR17](https://github.com/eiffel-community/eiffel-community.github.io/pull/17)
+    * **WIP:** Election procedure *(PR available)* [PR82](https://github.com/eiffel-community/community/pull/82)
+* Date for Next Meeting?
+    * Agreed: January 18th is the next meeting date
+* Formation of TC - part of TC charter, All
+    * No of members in TC: BTC had 5 meetings with average attendance of 8 from TC members 
+    * Company cap: This is a common practice applied by the communities to ensure diversity. We could start with something and then we expect to lower it over time. (start with 3 for example and reduce to 2 over time)
+    * Company Cap: Representing a certain company regardless of affiliation?
+    * Question: What happens a TC member changes employment? Will the person need to step down from TC?
+    * Question: Having company cap my prevent representation from a company with fewer voters.
+    * Question: Why do we need company cap (diversity, etc) needs to be documented?
+    * Agreed: Update the governance document and incldue 8 as no of TC members and 3 as the company/affiliation cap.
+* How to handle approvals to community processes?, All
+    * Currently the changes could come in in the form of issue and/or PR which is time consuming.
+    * Should we use PRs solely to remove an extra step?
+    * For the things that do not result in PRs, they could be included in TC meeting and decisions could be taken quickly? (can consider silence as +1)
+    * Proposal (can't take decisions this meeting): Use issues to describe the problem. Issues do not have to be approved. Create PRs to describe solutions.
+    * It is better to look at actual solution rather than the issue.
+    * Agreed: Issues will continue to be used but no approval should be expected for them. The PR implementing what is documented in the issue is what gets reviewed/approved/declined.
+    * Question: What to do with the issues where the corresponding PRs are not accepted? Who marks the issues as invalid or close with no action?
+* Eiffel summit next year, Kristofer
+    * The last event happened in May 2020.
+    * Should we plan something for new year?
+    * Software Center, CDF, and other communities can be invited to the event.
+* Eiffel Protocol Graduation needs approval: https://github.com/eiffel-community/community/pull/78, https://github.com/eiffel-community/eiffel/pull/247
+* Meeting with Scania on Eiffel
+    * Reach out to Kristofer and Emil if you want to be part of the discussion
+* Eiffel Lucia/Fika
+    * 14th of December. The invitation is on Slack.
+* \<addme\>
+
+#### Action Items
+* Kristofer to drive planning for Eiffel Summit 2021
+* Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik
+* Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+* Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9
+* Update the project lifecycle document to add mail requirement to maillist for increased visibility, Fatih [PR79](https://github.com/eiffel-community/community/pull/79)
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+* Send PRs to repos to apply badges to the repos, Fatih
+* ~~Add link to eiffel-community.github.io for security page, Fredrik~~
+* ~~Daniel to document Community Vision, Mission, Goals and include it on eiffel-community.github.io [PR80](https://github.com/eiffel-community/community/pull/80) and [PR17](https://github.com/eiffel-community/eiffel-community.github.io/pull/17)~~
+* ~~Fatih to document election procedure as part of governance [PR82](https://github.com/eiffel-community/community/pull/82)~~
+~~* Follow up November 23 meeting items since decisions could not be taken. Fatih
+* Eiffel summit next year? Kristofer
 
 ### November 23, 2020
 
