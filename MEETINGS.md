@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-01-28 Meeting](#January-28-2021)
     * [2020-12-07 Meeting](#December-7-2020)
     * [2020-11-23 Meeting](#November-23-2020)
     * [2020-11-09 Meeting](#November-9-2020)
@@ -16,14 +17,101 @@
 
 ## Logistics
 
-* **When:** 13:00 - 14:00, every even week on Mondays
-* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/dl/launcher/launcher.html?type=meetup-join&deeplinkId=1c9bfefb-8d6f-434f-a73b-db1e3ed439ef&directDl=true&msLaunch=true&enableMobilePage=true&url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MDE5ZDNjYTYtYjQ4MC00NDEyLTk2NGItMTE4NTdmYjE3OTZk@thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522d2585e63-66b9-44b6-a76e-4f4b217d97fd%2522%252c%2522Oid%2522%253a%2522b5142d0f-6dad-4704-99f5-29b74621c34a%2522%257d%26anon%3Dtrue&suppressPrompt=true)
+* **When:** 13:00 - 14:00, every even week on Thursdays
+* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDljZGI1ZDEtOGRhYS00NzlmLTlkZTgtNTM4OGMwNmU3ZTVh%40thread.v2/0?context=%7b%22Tid%22%3a%22d2585e63-66b9-44b6-a76e-4f4b217d97fd%22%2c%22Oid%22%3a%22b5142d0f-6dad-4704-99f5-29b74621c34a%22%7d)
 * **Meeting Agenda and Minutes:** https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ
 * **Community Repo:** https://github.com/eiffel-community/community
 
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### January 28, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, Ericsson, present
+* David Westberg, Volvo, **not present**
+* Ewelina Wilkosz, Eficode, **not present**
+
+**Community Attendees**
+* Magnus Bäck, Axis Communications
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum reached
+* Agenda Bashing, All
+    * Agenda approved
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * EB: Concern: [Meeting poll](https://doodle.com/poll/hrcvgz8uiggwneda?utm_source=poll&utm_medium=link) answered by 5 BTC members only, and community PRs take long to get reviewed. What could we do to increase the level of commitment? Emil
+    * FD: We need to continuously monitor the health of the community and act if things need improvement.
+* [Eiffel Protocol Graduation](https://github.com/eiffel-community/community/pull/78) is still not approved? Emil
+    * Agree: Eiffel Protocol is approved to be moved to graduated stage.
+* Info/discussion: A [new Eiffel protocol release - Agen-2](https://github.com/eiffel-community/eiffel/pull/253) is about to be released, Emil
+    * EB: The proposal is to release Agen as a patch release since there are few/small changes.
+    * DS: We had version policy.
+    * EB: We shouldn't take up a new revision for bugfix releases but there isn't a clear process around this.
+    * EB: Things are released at will. Should we have some structure with regards to releases in general - e.g., twice a year?
+    * DS: Suggestion is to just stick with the names. If it is about the new event versions, we step.
+    * DS: The current process around versioning, naming, editions is documented on https://github.com/eiffel-community/eiffel/blob/master/eiffel-syntax-and-usage/versioning.md
+    * EB: We could take the next name.
+* Discussion: How can we establish a standard for RabbitMQ topics for Eiffel exchanges to improve interoperability between producers and consumers ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1611324003004100)) Magnus
+    * MB: Right now there is no standard around topics, causing difficulties for filtering.
+    * MB: RemREM has something for this but it is not very well documented which requires you to dive into code deeper.
+    * MB: It would be beneficial to have some kind of standard around this and documented.
+    * MB: This is not part of the Eiffel Protocol so where/how should we deal with this?
+    * DS: This could be in "infrastructure configuration reporitory", proposing canonical configuration, essentially saying this is adviced way of configuring it.
+    * HR: Sepia was created for this purpose?
+    * FF: There was a discussion around having best practices documented/good to know.
+    * MB: That kind of repository could contain information about other practices as well such as different repositories.
+    * EB: Examples in protocol could be renamed to best practices perhaps. (e.g., what is a good way to link series of events)
+    * MB: Concurs - examples could be renamed to recommendations. Examples talk about how the events look like but not much about how to use them for.
+    * EB: [All Sepia maintainers](https://github.com/orgs/eiffel-community/teams/eiffel-sepia-maintainers/members) are from a single company and it would be good to broaden maintainers list with more people from different companies.
+* Discussion: The question of a standard API for event repositories was brought up at a previous TC meeting and an action was given to Emil and Tobias, but this was dropped. Let's try again? ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1603952501067200)) Magnus
+    * MB: The event repository implementation is not public and everyone has their own event repository.
+    * MB: How should we have some progress on this topic to start discussions?
+* Events in CI/CD Workstream in CDF SIG Interoperability, Emil
+    * EB: It was proposed to make Events in CI/CD a top level SIG. A PR is currently being worked on to propose the SIG.
+    * EB: Draft charter for the SIG was brought up to CDF Technical Oversight Committee and the feedback was very good.
+    * ML: Cloudevents is something the group is looking into as well.
+* Open PRs, All
+    * Agree: This PR can be merged: https://github.com/eiffel-community/community/pull/80
+
+#### Action Items
+* Mattias to send a PR to Sepia to add ER Swagger specification
+* Magnus to call meeting to discuss ER with Emil, Mattias, Kristofer, Fredrik, Tobias
+* Magnus to update https://github.com/eiffel-community/eiffel/pull/253 with name Paris
+* Magnus to file a PR to Sepia for best practices
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices
+* ~~Kristofer to drive planning for Eiffel Summit 2021~~
+* ~~Send mail to Eiffel maillist, pointing the inclusive language initiative, Fredrik~~
+* Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+* ~~Conclude the badging discussion and then start applying badges, https://github.com/eiffel-community/eiffel-repository-template/issues/9~~
+* Update the project lifecycle document to add mail requirement to maillist for increased visibility, Fatih [PR79](https://github.com/eiffel-community/community/pull/79)
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+* Send PRs to repos to apply badges to the repos, Fatih
+    * eiffel-community/eiffel - being graduated so sandbox badge won't be applied
+    * The repos below either have non-standard readmes or no readmes at all. Readmes will be created using readme from the template repository which contains the sandbox badge as well.
+        * eiffel-community/eiffel-persistence-technology-evaluation
+        * eiffel-community/eiffelactory
+        * eiffel-community/ml-jmespath-generator
+        * eiffel-community/eiffel-jira-plugin
+        * eiffel-community/simple-event-sender
+        * eiffel-community/eiffel-easy2use
+        * eiffel-community/eiffel-store
+        * eiffel-community/eiffel-playground
 
 ### December 7, 2020
 
@@ -35,13 +123,13 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Fredrik Fristedt, present
 * Kristofer Hallén, Ericsson, present
 * Mattias Linnèr, Ericsson, present
-* Christian Madsen, Grundfos, present/**not present**
+* Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, present
-* Henning Roos, Ericsson, present/**not present**
+* Henning Roos, Ericsson, **not present**
 * Ola Söder, Axis, present
 * Daniel Ståhl, present
 * David Westberg, present
-* Ewelina Wilkosz, present/**not present**
+* Ewelina Wilkosz, **not present**
 
 #### Agenda and Notes
 * Rollcall, All
@@ -95,7 +183,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * ~~Daniel to document Community Vision, Mission, Goals and include it on eiffel-community.github.io [PR80](https://github.com/eiffel-community/community/pull/80) and [PR17](https://github.com/eiffel-community/eiffel-community.github.io/pull/17)~~
 * ~~Fatih to document election procedure as part of governance [PR82](https://github.com/eiffel-community/community/pull/82)~~
 ~~* Follow up November 23 meeting items since decisions could not be taken. Fatih
-* Eiffel summit next year? Kristofer
+* ~~Eiffel summit next year? Kristofer~~
 
 ### November 23, 2020
 
