@@ -47,7 +47,7 @@ Regarding project naming conventions, the Eiffel Community enforces no name conv
 names are encouraged.
 
 Projects that are already hosted within Eiffel Community but willing to move to a different stage are also
-expected to follow same process as project creation by formally submitting their request on GitHub Eiffel
+expected to follow same process as project creation by formally submitting their request on Eiffel
 Community repository by creating an issue. Similar to proposing new projects, proposals to move projects
 to different lifecycle stage should also be announced on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
 by sending an email for increased visibility.
