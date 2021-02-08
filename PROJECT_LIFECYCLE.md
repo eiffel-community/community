@@ -38,12 +38,19 @@ their ability.
 - names of initial maintainers
 - infrastructure needs such as Git repositories
 
+In addition to formally proposing the project on GitHub, community members proposing the new project are expected
+to announce the project proposal on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) by
+sending an email in order to increase the visibility. The email should contain the same information as the proposal
+itself.
+
 Regarding project naming conventions, the Eiffel Community enforces no name convention but meaningful descriptive
 names are encouraged.
 
 Projects that are already hosted within Eiffel Community but willing to move to a different stage are also
-expected to follow same process as project creation by formally submitting their request on GitHub Eiffel
-Community repository by creating an issue.
+expected to follow same process as project creation by formally submitting their request on Eiffel
+Community repository by creating an issue. Similar to proposing new projects, proposals to move projects
+to different lifecycle stage should also be announced on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
+by sending an email for increased visibility.
 
 ### Project Acceptance Process
 
@@ -56,6 +63,9 @@ Simple majority of Eiffel Community Maintainers is required for a project to be 
 Project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) by sending a pull request to community
 repository and include an entry for their project. Project creation is concluded upon acceptance of the pull
 request.
+
+Upon completion of the project creation process, TC Chair sends an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
+in order to announce the creation of the project to the broader community for increased visibility.
 
 ## Project Lifecycle Stages
 
@@ -76,6 +86,9 @@ easier for potential users to see where the project is in its lifecycle. In addi
 stage listed on the project repositories, project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) via
 a pull request to community repository, updating the stage of their project for broader visibility. Project review
 is concluded upon acceptance of the pull request.
+
+Upon completion of the project lifecycle process, TC Chair sends an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
+in order to announce the changes to project lifecycle stage to the broader community for increased visibility.
 
 ### Stage: Sandbox
 
