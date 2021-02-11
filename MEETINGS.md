@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-02-11 Meeting](#February-11-2021)
     * [2021-01-28 Meeting](#January-28-2021)
     * [2020-12-07 Meeting](#December-7-2020)
     * [2020-11-23 Meeting](#November-23-2020)
@@ -17,7 +18,7 @@
 
 ## Logistics
 
-* **When:** 13:00 - 14:00, every even week on Thursdays
+* **When:** 13:00 - 14:00 CET, every even week on Thursdays
 * **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDljZGI1ZDEtOGRhYS00NzlmLTlkZTgtNTM4OGMwNmU3ZTVh%40thread.v2/0?context=%7b%22Tid%22%3a%22d2585e63-66b9-44b6-a76e-4f4b217d97fd%22%2c%22Oid%22%3a%22b5142d0f-6dad-4704-99f5-29b74621c34a%22%7d)
 * **Meeting Agenda and Minutes:** https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ
 * **Community Repo:** https://github.com/eiffel-community/community
@@ -25,6 +26,74 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### February 11, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, **not present**
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, present
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, Ericsson, present
+* David Westberg, Volvo, present
+* Ewelina Wilkosz, Eficode, **not present**
+
+**Community Attendees**
+* Magnus Bäck, Axis Communications
+
+#### Agenda and Notes
+* Rollcall, All
+* Agenda Bashing, All
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * Election Process: https://github.com/eiffel-community/community/pull/82 
+    * [Fatih] Will amend the PR and update based on comments received. If you haven't reviewed yet please do so their comments could be taken into account when the work proceeds.
+    * Some comments remain to be answered/finished and more reviews are needed.
+* Open PRs, All
+    * [github.com/eiffel-community/eiffel#254](https://github.com/eiffel-community/eiffel/pull/254): three maintainer approvals; merge?
+        * Merged
+    * [github.com/eiffel-community/eiffel#253](https://github.com/eiffel-community/eiffel/pull/253): release of Paris edition
+        * Waiting for reviews
+    * [github.com/eiffel-community/eiffel-community.github.io#18](https://github.com/eiffel-community/eiffel-community.github.io/pull/18): messed up github.io headers
+        * Merged
+* Copyright headers in project files. See http://www.apache.org/licenses/LICENSE-2.0 and https://github.com/eiffel-community/eiffel-repository-template/issues/14. Henning and Mattias.
+    * Consensus on that the template should not say Ericsson (and not a specific year either)
+    * Should license statement be added to all files, including README files etc? Ericsson people should check with Gunnar Nilsson on how to handle this from Ericsson perspective. Daniel has added a comment in the ticket.
+
+#### Action Items
+  * ~~Mattias to send a PR to Sepia to add ER Swagger specification[github.com/eiffel-community/eiffel-event-repository#11](https://github.com/eiffel-community/eiffel-event-repository/pull/11)~~
+* Magnus to call meeting to discuss ER with Emil, Mattias, Kristofer, Fredrik, Tobias
+* ~~Magnus to update https://github.com/eiffel-community/eiffel/pull/253 with name Paris~~
+* Magnus to file a PR to Sepia for best practices for routing key. 
+     * [Issue created](https://github.com/eiffel-community/eiffel-sepia/issues/8), but no PR yet.
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* ~~Fredrik to propose an update to README.md in community repo and governance document about how one can join to the community as member. Closing as no work was needed~~
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* ~~Update the project lifecycle document to add mail requirement to maillist for increased visibility, Fatih [PR79](https://github.com/eiffel-community/community/pull/79)
+    [Fatih] **This AP can be closed.** PR merged.~~ 
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as possible.
+* ~~Send PRs to repos to apply badges to the repos, Fatih [Fatih] **This AP can be closed.** I believe most of the PRs applying badges have been merged.For the ones that are still open or the repos that miss the badge can be fixed when we notice them.~~
+    * eiffel-community/eiffel - being graduated so sandbox badge won't be applied
+    * The repos below either have non-standard readmes or no readmes at all. Readmes will be created using readme from the template repository which contains the sandbox badge as well.
+        * eiffel-community/eiffel-persistence-technology-evaluation
+        * eiffel-community/eiffelactory
+        * eiffel-community/ml-jmespath-generator
+        * eiffel-community/eiffel-jira-plugin
+        * eiffel-community/simple-event-sender
+        * eiffel-community/eiffel-easy2use
+        * eiffel-community/eiffel-store
+        * eiffel-community/eiffel-playground
+* Mattias: Look into if all files need a copyright/license statement or not, inline with this comment: https://github.com/eiffel-community/eiffel-repository-template/issues/14#issuecomment-777427403
 
 ### January 28, 2021
 
