@@ -6,6 +6,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-03-11 Meeting](#March-11-2021)
+    * [2021-02-25 Meeting](#February-25-2021)
     * [2021-02-11 Meeting](#February-11-2021)
     * [2021-01-28 Meeting](#January-28-2021)
     * [2020-12-07 Meeting](#December-7-2020)
@@ -26,6 +28,76 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+
+### March 11, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, **not present**
+* Kristofer Hallén, Ericsson, **not present**
+* Mattias Linnèr, Ericsson, **not present**
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, present
+* Daniel Ståhl, Ericsson, present
+* David Westberg, Volvo, **not present**
+* Ewelina Wilkosz, Eficode, **not present**
+
+**Community Attendees**
+* \<addme\>
+
+#### Agenda and Notes
+* Rollcall, All
+* Agenda Bashing, All
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * Election Process: https://github.com/eiffel-community/community/pull/82 
+    * [Fatih] Will amend the PR and update based on comments received. If you haven't reviewed yet please do so their comments could be taken into account when the work proceeds.
+    * Some comments remain to be answered/finished and more reviews are needed.
+* Community Election Timeline, All
+    * TC Election
+        * The aim is to have the election process PR merged by March 25th
+        * The candidate list gets published on March 29th
+        * Nomination period is between April 1st-9th
+        * The vote mail is sent to Eiffel Group on Google April 12th
+        * Voting period is between April 12th-20th
+        * The new TC assumes their seats by the TC meeting on April 22nd
+    * TC Chair Election
+        * TC Chair nomination period is April 22nd-28th
+        * TC Chair election period is April 29th-May 5th
+        * The new TC chair assumes her/his seat by the TC meeting on May 6th
+* CDF SIG Events, Emil Bäckmark
+    * CDF SIG Interoperability Events Workstream was proposed to become a Special Interest Group (SIG) named SIG Events
+    * SIG Events repo: https://github.com/cdfoundation/sig-events
+* \<addme\>
+
+#### Action Items
+~~* Magnus to call meeting to discuss ER with Emil, Mattias, Kristofer, Fredrik, Tobias~~
+    * Outcome of the meeting was to publish API for ER by Mattias which resulted in the AP below
+* Mattias to publish API for ER
+* Magnus to file a PR to Sepia for best practices for routing key. 
+     * [Issue created](https://github.com/eiffel-community/eiffel-sepia/issues/8), but no PR yet.
+     * FD - a PR exists so this action item will be discussed and closed during the next meeting
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as possible.
+* Mattias: Look into if all files need a copyright/license statement or not, inline with this comment: https://github.com/eiffel-community/eiffel-repository-template/issues/14#issuecomment-777427403
+* Fatih to include exception process as well as what to do when there is a tie
+* Fatih to document TC Chair election process
+    * could be as simple as an agree within the first TC meeting where new TC assumes their seats assuming the TC meeting has a quorum
+    * if there are multiple candidates, TC goes for an election within its members
+
+### February 25, 2021
+
+This meeting was cancelled due to public holidays.
 
 ### February 11, 2021
 
