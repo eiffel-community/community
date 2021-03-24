@@ -115,6 +115,9 @@ Anyone who is a member to [Eiffel Community Maillist](https://groups.google.com/
 
 Community elections are overseen by [Election Officers](#Election-Officers).
 
+The members of Technical Committee are elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
+If there is a tie resulting in more candidates to be elected than stated in the charter, it is responsibility of the presiding Technical Committee to determine the tie-breaking rules.
+
 #### Election Process
 
 The election process consists of 3 phases
@@ -156,6 +159,9 @@ Anyone who is a member to Eiffel Technical Committee is eligible to run for Eiff
 Anyone who is a member to Eiffel Technical Committee is eligible to vote on Eiffel Technical Committeee Chair election.
 
 Chair elections are overseen by [Election Officers](#Election-Officers).
+
+The Chair of Technical Committee is elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
+If there is a tie, it is responsibility of the incoming Technical Committee to determine the tie-breaking rules.
 
 #### Election Process
 
