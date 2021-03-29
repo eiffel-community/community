@@ -107,6 +107,8 @@ The Technical Committee  may continue to meet if quorum is not met, but will be 
 
 Representatives to Eiffel Community Technical Committee are elected by their peers in the Eiffel Community on the basis of merit.
 
+Information related to conducted and ongoing elections are kept in [ELECTIONS.md](./ELECTIONS.md) document.
+
 #### Election Rules
 
 Anyone who is a maintainer of one or more projects hosted by Eiffel Community is eligible to run for a seat in Eiffel Technical Committee or nominate another maintainer as a candidate.
@@ -151,6 +153,8 @@ In addition to handling exceptions that may occur during community elections, El
 ### Technical Committee Chair Elections and Voting
 
 Chair of the Eiffel Community Technical Committee is elected from within the members of Eiffel Technical Committee.
+
+Information related to conducted and ongoing elections are kept in [ELECTIONS.md](./ELECTIONS.md) document.
 
 #### Election Rules
 
