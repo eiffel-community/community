@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-03-25 Meeting](#March-25-2021)
     * [2021-03-11 Meeting](#March-11-2021)
     * [2021-02-25 Meeting](#February-25-2021)
     * [2021-02-11 Meeting](#February-11-2021)
@@ -29,6 +30,106 @@
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
 
+### March 25, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, present/**not present**
+* Raja Maragani, Ericsson/TCS, present/**not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, present/**not present**
+* Daniel Ståhl, Ericsson, present
+* David Westberg, Volvo, present/**not present**
+* Ewelina Wilkosz, Eficode, present/**not present**
+
+**Community Attendees**
+* \<addme\>
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum is reached
+* Approval of Previous Minutes, All
+    * Magnus highlighted that there is a PR for best practices for routing key. Minutes of previous meeting needs to be updated.
+* Agenda Bashing, All
+* Action Item Review, All
+* Status of Community Governance Documentation, All
+    * Election Process: https://github.com/eiffel-community/community/pull/82 --> replaced by https://github.com/eiffel-community/community/pull/86
+    * [Fatih] Will amend the PR and update based on comments received. If you haven't reviewed yet please do so their comments could be taken into account when the work proceeds.
+    * Some comments remain to be answered/finished and more reviews are needed.
+    * Could/should Eiffel TC adapt co-chair setup?
+* Community Election Process Updates/Open Questions, All
+    * No of TC Members
+        * Documented as **7**
+    * Company Cap
+        * Documented as **2**
+        * Updates: https://github.com/eiffel-community/community/blob/243bb51167c075dd92ddd20af8ab860cfbddb5d9/GOVERNANCE.md#election-officers
+    * Determining Election Officers
+        * As documented in governance, we need to determine 2 election officers to conduct elections
+        * **Agree**: Fatih and Daniel to serve as election officers (if someone else volunteers from a different company, that person becomes the second election officer, replacing Daniel)
+* Election Medium
+        * Even though CIVS is still the suggested tool to use, it is now left to election officers to choose the medium
+        * Updates: https://github.com/eiffel-community/community/blob/243bb51167c075dd92ddd20af8ab860cfbddb5d9/GOVERNANCE.md#election-process
+    * Technical Committee Chair Elections and Voting
+        * New chapter added: https://github.com/eiffel-community/community/blob/243bb51167c075dd92ddd20af8ab860cfbddb5d9/GOVERNANCE.md#technical-committee-chair-elections-and-voting
+    * Voting Rules
+        * Ranked Voting
+    * Tie Breaking
+        * In the case of TC Member election, it is the responsibility of presiding TC
+        * In the case of TC Chair election, it is the responsibility of incoming TC
+    * Vacancies in Technical Committee
+        * New chapter added: https://github.com/eiffel-community/community/blob/243bb51167c075dd92ddd20af8ab860cfbddb5d9/GOVERNANCE.md#vacancies-in-technical-committee
+* Issue with governance document, Henning 
+* Recording/Documenting Community Elections
+    * A new document specific to 2021 TC and Chair elections: https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw 
+* Community Election Timeline, All
+    * TC Election
+        * The aim is to have the election process PR merged by March 25th
+        * **Agree**: TC agrees to merge PR #86 as is.
+        * The candidate list gets published on March 29th
+        * Nomination period is between April 1st-9th
+        * The vote mail is sent to Eiffel Group on Google April 12th
+        * Voting period is between April 12th-20th
+        * The new TC assumes their seats by the TC meeting on April 22nd
+        * **Agree**: TC agrees to election timeline.
+    * TC Chair Election
+        * TC Chair nomination period is April 22nd-28th
+        * TC Chair election period is April 29th-May 5th
+        * The new TC chair assumes her/his seat by the TC meeting on May 6th
+* [Eiffel Protocol issue](https://github.com/eiffel-community/eiffel/issues/256) on centralized meta object definition, Emil
+    * Emil to discuss this with Daniel S
+    * Fredrik to discuss this with Sven
+
+#### Action Items
+* TC to discuss whether to adapt co-chair setup after the new TC is seated, TC
+* Fatih to send mail to Eiffel Maillist asking for election officer nominations
+* Mattias to publish API for ER
+* ~~Magnus to file a PR to Sepia for best practices for routing key~~. 
+     * [Issue created](https://github.com/eiffel-community/eiffel-sepia/issues/8), but no PR yet.
+     * FD - a PR exists so this action item will be discussed and closed during the next meeting
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+     * Fatih to check with Magnus if there is a PR for this
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* Document the term and the process to appoint security officers as part of TC creation, Fatih
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as possible.
+* ~~Mattias: Look into if all files need a copyright/license statement or not, inline with this comment: https://github.com/eiffel-community/eiffel-repository-template/issues/14#issuecomment-777427403~~
+    *  Response from Gunnar Nilsson
+    >   Hi Mattias,
+    Think it very much is up to each and every open source project to decide. However if you have many different individuals/companies doing contributions the files soon become cluttered with copyright statements so one might wan to find other solutions. This blog from LF touches on the subject; https://www.linuxfoundation.org/en/blog/copyright-notices-in-open-source-software-projects/ 
+
+    > The readme file does not need a copyright statement as I see it. The indication of license should suffice.
+
+* ~~Fatih to include exception process as well as what to do when there is a tie~~
+* ~~Fatih to document TC Chair election process~~
+    * could be as simple as an agree within the first TC meeting where new TC assumes their seats assuming the TC meeting has a quorum
+    * if there are multiple candidates, TC goes for an election within its members
 
 ### March 11, 2021
 
@@ -74,7 +175,6 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * CDF SIG Events, Emil Bäckmark
     * CDF SIG Interoperability Events Workstream was proposed to become a Special Interest Group (SIG) named SIG Events
     * SIG Events repo: https://github.com/cdfoundation/sig-events
-* \<addme\>
 
 #### Action Items
 ~~* Magnus to call meeting to discuss ER with Emil, Mattias, Kristofer, Fredrik, Tobias~~
