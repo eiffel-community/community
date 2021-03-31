@@ -67,8 +67,8 @@ Eiffel Community is served by **2** election officers.
 
 Eiffel Community Election Officers are the individuals listed below:
 
-* TBD
-* TBD
+* Daniel Ståhl, Ericsson
+* Fatih Degirmenci, Ericsson Software Technology
 
 ### Security Officers
 
