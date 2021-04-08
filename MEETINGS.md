@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-04-08 Meeting](#April-8-2021)
     * [2021-03-25 Meeting](#March-25-2021)
     * [2021-03-11 Meeting](#March-11-2021)
     * [2021-02-25 Meeting](#February-25-2021)
@@ -29,6 +30,57 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### April 8, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, present
+* Henning Roos, Ericsson, **not present**
+* Ola Söder, Axis, present
+* Daniel Ståhl, Ericsson, **not present**
+* David Westberg, Volvo, **not present**
+* Ewelina Wilkosz, Eficode, **not present**
+
+**Community Attendees**
+* \<addme\>
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum is reached
+* Approval of Previous Minutes, All
+    * Minutes are approved
+* Agenda Bashing, All
+* Action Item Review, All
+* Election Update, Daniel Ståhl, Fatih Degirmenci
+    * [Document to record elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view)
+    * Agree: If no of candidates is less than no of seats (7) by end of the nomination period (April 9, 2021), the BTC agrees extending the nomination period 1 more week.
+* Open issues and PRs, All
+    * Issue: [Update of governance document and removal of bootstrap process](https://github.com/eiffel-community/community/issues/90)
+    * PR: [ELECTIONS.md document](https://github.com/eiffel-community/community/pull/88)
+        * Agreed to merge the PR, stroing elections document in community repo.
+    * PR: [Document security officers, role, and responsibilities](https://github.com/eiffel-community/community/pull/92)
+* Issue with governance document, Henning Roos
+    * CODEOWNERS in project repositories vs maintainers groups
+
+#### Action Items
+* Henning and Fatih to work on clarifying how the eligibility is determined in governance document, CODEOWNERS vs mainateiners groups
+* TC to discuss whether to adapt co-chair setup after the new TC is seated
+* ~~Fatih to send mail to Eiffel Maillist asking for election officer nominations~~
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* ~~Document the term and the process to appoint security officers as part of TC creation, Fatih~~
+    * ~~[Fatih] PR is open for review: https://github.com/eiffel-community/community/pull/92~~
 
 ### March 25, 2021
 
