@@ -43,7 +43,7 @@ Contributors are eligible to vote on Technical Committee elections. Contributors
 
 Being contributor is a prerequisite for becoming a maintainer to the projects they are contributing to.
 In order for a contributor to become a maintainer, the individual must be nominated by one of the existing maintainers with a reference to the individual's history of contributions to the project.
-The nomination is discussed and voted on in the maintainer discussion channel. If approved, the nominated contributor should be added to the maintainer list.
+The nomination is discussed and voted on in the maintainer discussion channel. If approved, the nominated contributor must be added to the maintainer list.
 
 ### Maintainers
 
