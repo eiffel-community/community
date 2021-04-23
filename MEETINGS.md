@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-04-22 Meeting](#April-22-2021)
     * [2021-04-08 Meeting](#April-8-2021)
     * [2021-03-25 Meeting](#March-25-2021)
     * [2021-03-11 Meeting](#March-11-2021)
@@ -30,6 +31,68 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### April 22, 2021
+
+#### Participants
+
+**TC Attendees**
+* Emil Bäckmark, Ericsson, present
+* Fatih Degirmenci, Ericsson Software Technology, present
+* Fredrik Fristedt, Axis, present
+* Kristofer Hallén, Ericsson, present
+* Mattias Linnèr, Ericsson, present
+* Christian Madsen, Grundfos, **not present**
+* Raja Maragani, Ericsson/TCS, **not present**
+* Henning Roos, Ericsson, present
+* Ola Söder, Axis, **not present**
+* Daniel Ståhl, Ericsson, **not present**
+* David Westberg, Volvo, present
+* Ewelina Wilkosz, Eficode, **not present**
+
+**Community Attendees**
+* \<addme\>
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum is reached
+* Approval of Previous Minutes, All
+    * Minutes are TBD
+* Agenda Bashing, All
+* Action Item Review, All
+* Exception for late candidacy of David Westberg, All
+    * David Westberg's nomination: https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/3yTETny6AQAJ
+    * Agree: Eiffel BTC grants exception for late candidacy of David Westberg
+* 2021 TC Elections, All
+    * [Document to record elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view)
+    * Agree: The Eiffel BTC closes the nomination period for Eifffel TC 2021 Elections
+    * Agree: The Eiffel BTC agrees to not conduct elections due to lack of candidates and [all the nominees listed on the elections document] (https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view#Candidates-for-Technical-Committee-Election) assume their seats in Eiffel TC on April 23rd
+        * Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/UyDurlJZCwAJ)
+        * Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/TtcH4JQWDQAJ)
+        * Tobias Persson, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/xKfNCM0gDQAJ)
+        * Mattias Linner, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/kx61KQFnCgAJ)
+        * David Westberg, Volvo - [Link to nomination](https://groups.google.com/g/eiffel-community/c/mEEZyV3VTgM/m/3yTETny6AQAJ)
+    * Agree: The determination of what to do with the remaining seats will be done by the newly elected Eiffel TC
+* 2021 TC Chair Election, All
+    * Agree: The topic to determine the TC Chair for elected TC will be discussed during the next Eiffel TC Meeting - TBD by new TC
+* \<addme\>
+
+#### Action Items
+* New Eiffel TC to decide who should be owners of Eiffel Community on GitHub - https://github.com/orgs/eiffel-community/people?query=role%3Aowner
+* Emil to update the governance document and list the elected TC members
+~~* Henning to update eiffel-community maintainers list on Eiffel Community organization on April 23rd and add elected TC Members.~~ Edit by Henning 2021-04-23: Done!
+* Fatih to remove bootstrap process - https://github.com/eiffel-community/community/issues/90 on April 23rd
+* Fatih to send mail to Eiffel Maillist, announcing the new TC with the date the TC assume their seats
+* Fatih to close election process on GitHub - https://github.com/eiffel-community/community/issues/87
+* Fatih to add the elected TC to Eiffel HackMD team
+* Emil to send invitation for the next Eiffel TC Meeting if a better time is determined
+* Henning and Fatih to work on clarifying how the eligibility is determined in governance document, CODEOWNERS vs mainateiners groups. Edit by Henning 2021-04-23: PR submitted for review (https://github.com/eiffel-community/community/pull/94)
+* TC to discuss whether to adapt co-chair setup after the new TC is seated
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
 
 ### April 8, 2021
 
