@@ -236,11 +236,11 @@ Members of the Technical Committee will be granted access to the repositories li
 
 ### Technical Committee Chair
 
-The committee elects a Technical Committee Chair from within members, who will preside over meetings of the committee and will serve until their resignation or replacement by the committee.
+The committee elects two Technical Committee Chairs from within members, who will preside over meetings of the committee and will serve until their resignation or replacement by the committee.
 
 The goal of this position is servant leadership for the Eiffel Community, projects that take part in Eiffel Community, commitee and stakeholders.
 
-Chair MUST ensure that
+The chairs MUST ensure that
 
 * the community processes are being adhered to
 * the committee meetings are scheduled and minutes are kept
