@@ -1,5 +1,15 @@
 # Eiffel Community Governance
 
+## Quick Links
+
+* [Introduction](#introduction)
+* [Projects](#projects)
+* [Project Roles](#project-Roles)
+* [Community Roles](#community-roles)
+* [Technical Committee](#technical-committee)
+
+## Introduction
+
 Eiffel is a protocol for technology agnostic machine-to-machine communication in continuous integration and delivery pipelines, aimed at securing scalability, flexibility and traceability.
 Eiffel is based on the concept of decentralized real time messaging, both to drive the continuous integration and delivery system and to document it.
 
