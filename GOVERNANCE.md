@@ -113,6 +113,8 @@ The Technical Committee meets regularly and the meetings are intended to be open
 Quorum for Technical Committee meetings requires at least a majority of all voting members of the Technical Committee to be present.
 The Technical Committee  may continue to meet if quorum is not met, but will be prevented from making any decisions at the meeting.
 
+Eiffel Committee was served by Bootstrap Technical Committee between September 2020 and April 2021 based on the process documented [here](https://github.com/eiffel-community/community/blob/0c880e483723c75024ce4d477f32a9f1691e9170/GOVERNANCE.md#community-bootstrap-process).
+
 ### Technical Committee Elections and Voting
 
 Representatives to Eiffel Community Technical Committee are elected by their peers in the Eiffel Community on the basis of merit.
