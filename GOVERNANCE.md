@@ -212,23 +212,15 @@ If the number of candidates is one and their candidacy is unchallenged, Election
 Members of the Technical Committee are appointed via community elections. Project maintainers are eligible to run as candidates for the Technical Committee in elections.
 Maintainers and contributors are eligible to vote in elections.
 
-As documented in [Community Bootstrap Process](#Community-Bootstrap-Process), Eiffel Community will be served by Bootstrap Technical Committee (BTC) for a maximum term of **one year**.
-The members of the BTC are seated on an appointment basis. The chair of the BTC is appointed by the committee members from within the BTC.
+Members of the Technical Committee are the individuals listed below:
 
-Members of the BTC are the individuals listed below:
-
-* [Emil Bäckmark](https://github.com/e-backmark-ericsson), Ericsson
-* [Fatih Degirmenci](https://github.com/fdegir), Ericsson Software Technology, *chair*
-* [Fredrik Fristedt](https://github.com/fredjn), Axis
-* [Kristofer Hallén](https://github.com/k-hallen-ericsson), Ericsson
-* [Mattias Linnèr](https://github.com/m-linner-ericsson), Ericsson
-* [Christian Madsen](https://github.com/chr-madsen), Grundfos
-* [Raja Maragani](https://github.com/raja-maragani), Ericsson/TCS
-* [Henning Roos](https://github.com/henning-roos), Ericsson
-* [Ola Söder](https://github.com/sodero), Axis
-* [Daniel Ståhl](https://github.com/d-stahl-ericsson), Ericsson
-* [David Westberg](https://github.com/t031276), Volvo
-* [Ewelina Wilkosz](https://github.com/ewelinawilkosz), Eficode
+Full Name         | Company   | GitHub                                                       | Elected On  | Until
+------------------|:---------:|--------------------------------------------------------------|-------------|-----------
+David Westberg    | Volvo     | [t031276](https://github.com/t031276)                        | April 2021  | April 2022
+Emil Bäckmark     | Ericsson  | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| April 2021  | April 2022
+Magnus Bäck       | Axis      | [magnusbaeck](https://github.com/magnusbaeck)                | April 2021  | April 2022
+Mattias Linnèr    | Ericsson  | [m-linner-ericsson](https://github.com/m-linner-ericsson)    | April 2021  | April 2022
+Tobias Persson    | Axis      | [t-persson](https://github.com/t-persson)                    | April 2021  | April 2022
 
 The technical committee members will strive to
 
