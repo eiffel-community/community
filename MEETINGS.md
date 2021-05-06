@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-22 Meeting](#April-22-2021)
     * [2021-04-08 Meeting](#April-8-2021)
     * [2021-03-25 Meeting](#March-25-2021)
@@ -31,6 +32,81 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### May 6, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linner, present
+* Tobias Persson, present
+
+**Community Attendees**
+* Fatih Degirmenci
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have Quorum
+* Approval of Previous Minutes, All
+    * Minutes are approved
+* Agenda Bashing, All
+* Action Item Review, All
+    * New Eiffel TC to decide who should be owners of Eiffel Community on GitHub - https://github.com/orgs/eiffel-community/people?query=role%3Aowner
+        * Proposal: All in Eiffel Community TC should be the owners
+        * Decision: Add TC members. Keep current members as owners except for inactive owners who has not been active lately.
+* 2021 TC Chair Election, All
+    * Agree: The topic to determine the TC Chair for elected TC will be discussed during the next Eiffel TC Meeting - TBD by new TC
+    * Two equal chairs is wanted. Update to Governance document is needed.
+    * Decision: Magnus Bäck and Emil Bäckmark are the TC chairs.
+* Next meeting time
+    * Frequency
+        * Decision: TC meetings are held every two weeks
+    * Date/time for next meeting
+        * Decision: Keep every second Thursday at 13.00 CE(S)T. Next meeting on May 20th.
+* Are these meetings open to all? If so how do we spread the word? - Mattias
+    * Yes, they are open to all community member
+    * Informed through mail from TC chairs a few days in advance of each TC meeting
+* Are issues always needed for PRs in Eiffel repos?
+    * To be discussed next meeting
+* Eiffel protocol workshop to be held
+    * May 27th. A mail has been sent out to the community about it.
+
+#### Action Items
+* ~~New Eiffel TC to decide who should be owners of Eiffel Community on GitHub~~ - ~~https://github.com/orgs/eiffel-community/people?query=role%3Aowner~~
+    * ~~Moved to today's agenda~~~~
+* ~~Emil to update the governance document and list the elected TC members~~
+    * ~~DONE: Update is done as part of https://github.com/eiffel-community/community/pull/95 as suggested on https://github.com/eiffel-community/community/issues/90#issuecomment-824774647~~
+    * ~~PR exists~~
+* ~~Henning to update eiffel-community maintainers list on Eiffel Community organization on April 23rd and add elected TC Members.~~ ~~Edit by Henning 2021-04-23: Done!~~
+* Mattias to update GOVERNANCE.md to state that a majority of maintainers for the community repo needs to approve any PR in that repo.
+    * [Mattias] - https://github.com/eiffel-community/community/pull/96
+* ~~Fatih to remove bootstrap process - https://github.com/eiffel-community/community/issues/90 on April 23rd~~
+    * ~~DONE: PR opened: https://github.com/eiffel-community/community/pull/95~~
+* ~~Fatih to send mail to Eiffel Maillist, announcing the new TC with the date the TC assume their seats~~
+    * ~~DONE: Mail sent: https://groups.google.com/g/eiffel-community/c/G6uDgkwurdE/m/wnQfGDzHAQAJ~~
+* ~~Fatih to close election process on GitHub - https://github.com/eiffel-community/community/issues/87~~
+    * ~~DONE: Issue closed: https://github.com/eiffel-community/community/issues/87~~
+* Fatih to add the elected TC to Eiffel HackMD team
+    * DONE: https://hackmd.io/team/eiffel-community/manage#members
+    * David is not yet a member
+* ~~Emil to send invitation for the next Eiffel TC Meeting if a better time is determined.~~
+* ~~Henning and Fatih to work on clarifying how the eligibility is determined in governance document, CODEOWNERS vs mainateiners groups. Edit by Henning 2021-04-23: PR submitted for review (https://github.com/eiffel-community/community/pull/94)~~
+* ~~TC to discuss whether to adapt co-chair setup after the new TC is seated. Part of the agenda for today~~
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* Mattias: Update Governance document to state that two equal chairs are heading the TC. Make this PR separate from the other one Mattias
+    * [Mattias] - https://github.com/eiffel-community/community/pull/97
+* TC Chairs: Mail the outcome of this TC meeting to the community
+* TC Chairs: PR on GOVERNANCE.md to state the new chairs of the TC
+* Emil: Send meeting invite to TC meetings
+* Update community owners list https://github.com/orgs/eiffel-community/people?query=role%3Aowner as decided
 
 ### April 22, 2021
 
@@ -80,7 +156,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Action Items
 * New Eiffel TC to decide who should be owners of Eiffel Community on GitHub - https://github.com/orgs/eiffel-community/people?query=role%3Aowner
 * Emil to update the governance document and list the elected TC members
-~~* Henning to update eiffel-community maintainers list on Eiffel Community organization on April 23rd and add elected TC Members.~~ Edit by Henning 2021-04-23: Done!
+* ~~Henning to update eiffel-community maintainers list on Eiffel Community organization on April 23rd and add elected TC Members.~~ Edit by Henning 2021-04-23: Done!
 * Fatih to remove bootstrap process - https://github.com/eiffel-community/community/issues/90 on April 23rd
 * Fatih to send mail to Eiffel Maillist, announcing the new TC with the date the TC assume their seats
 * Fatih to close election process on GitHub - https://github.com/eiffel-community/community/issues/87
