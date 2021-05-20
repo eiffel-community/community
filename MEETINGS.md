@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-05-20 Meeting](#May-20-2021)
     * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-22 Meeting](#April-22-2021)
     * [2021-04-08 Meeting](#April-8-2021)
@@ -32,6 +33,83 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### May 20, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linner, present
+* Tobias Persson, present
+
+**Community Attendees**
+* \<add me\>
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have Quorum
+* Approval of Previous Minutes, All
+    * Minutes are approved
+    * Restructure meetings documents
+        * Create community/docs for meeting docs and link them from top level MEETINGS.md?
+        * We didn't conclude the next step for this
+        * TC Chair: Make a suggestion to next TC meeting
+* Agenda Bashing, All
+* Action Item Review, All
+* Who are we in the TC, and how do we use Eiffel today? All
+    * Add a few sentences to some public document describing each one of us?
+        * Decision: We don't write any such document yet. We have more important things to document.
+* https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ is writable for everyone even non signed in persons. Should we at least update the note so that you have to be signed in to edit it?
+    * Emil: I already made this update. Ok that all signed in users can edit?
+    * Done
+* The TC currently has filled 5 of the 7 seats. Do we want to try to get more people on the TC?
+    * No action: We don't see the possibility to find people from more companies for the moment.
+* Eiffel summit autumn 2021?
+    * Yes, we want to setup a summit. Preferrably physical, but we might not be able to make that.
+    * For the future we see that we would like to have 2 summits per year - one physical and one digital
+    * And recurring meetings to discuss top topics (Issues/PRs, etc)
+    * Suggested setup for 2021 autumn summit:
+        * Virtual
+        * 2 days?
+        * 1st day for all interested in Eiffel, with high level presentations
+        * 2nd day for current users, with in-depth discussions/presentations on Eiffel topics
+        * September?
+        * Magnus: Start planning for this before next TC meeting
+    * Plan for a physical summit early 2022?
+* Presentations on coming TC meetings, or outside TC meetings?
+    * Not discussed, postponed to next meeting
+* Are there any examples of using Eiffel to actually orchestrate a pipeline execution rather than just observing the results? (Magnus)
+    * Not discussed, postponed to next meeting
+* We don't have comprehensive Eiffel event data type libraries in any language, i.e. data types that not only make it easy to produce correct events (we have those for at least Python and Java) but also allows deserialization of events received on the bus. Should we work out recommendations for the interfaces of such libraries? For example, how should we handle deserializing different major versions of events? (Magnus)
+    * Not discussed, postponed to next meeting
+* Community [PRs](https://github.com/eiffel-community/community/pulls) and [Issues](https://github.com/eiffel-community/community/issues)
+    * Not discussed, postponed to next meeting
+* \<add item\>
+
+#### Action Items
+* ~~Mattias to update GOVERNANCE.md to state that a majority of maintainers for the community repo needs to approve any PR in that repo.~~
+    * ~~[Mattias] - https://github.com/eiffel-community/community/pull/96~~
+* Mattias to help David to be part of the HackMD team
+    * https://hackmd.io/team/eiffel-community/manage#members
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* ~~Mattias: Update Governance document to state that two equal chairs are heading the TC. Make this PR separate from the other one MattiasMattias: Update Governance document to state that two equal chairs are heading the TC. Make this PR separate from the other one Mattias~~
+    * ~~[Mattias] - https://github.com/eiffel-community/community/pull/97~~
+* ~~TC Chairs: Mail the outcome of this TC meeting to the community~~
+* TC Chairs: PR on GOVERNANCE.md to state the new chairs of the TC
+* ~~Emil: Send meeting invite to TC meetings~~
+* Update community owners list https://github.com/orgs/eiffel-community/people?query=role%3Aowner as decided
+    * Decision: Add TC members. Keep current members as owners except for inactive owners who has not been active lately.
+* Chair: Prepare suggestion on how to restructure meetings documents
+* Magnus: Prepare proposal for Eiffel summit autumn 2021
+
 
 ### May 6, 2021
 
