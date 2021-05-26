@@ -238,7 +238,14 @@ Members of the Technical Committee will be granted access to the repositories li
 
 The committee elects two Technical Committee Chairs from within members, who will preside over meetings of the committee and will serve until their resignation or replacement by the committee.
 
-The goal of this position is servant leadership for the Eiffel Community, projects that take part in Eiffel Community, commitee and stakeholders.
+The goal of this position is servant leadership for the Eiffel Community, projects that take part in Eiffel Community, committee and stakeholders.
+
+Current Technical Committee chairs are:
+
+Full Name         | Company   | GitHub                                                       | Elected On  | Until
+------------------|:---------:|--------------------------------------------------------------|-------------|-----------
+Emil Bäckmark     | Ericsson  | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| May 2021  | April 2022
+Magnus Bäck       | Axis      | [magnusbaeck](https://github.com/magnusbaeck)                | May 2021  | April 2022
 
 The chairs MUST ensure that
 
