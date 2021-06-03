@@ -1,11 +1,12 @@
 # Technical Committee Meetings
 
-[![HacmKD documents](https://hackmd.io/badge.svg)](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ)
+[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ)
 
 ## Quick links
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-06-03 Meeting](#June-3-2021)
     * [2021-05-20 Meeting](#May-20-2021)
     * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-22 Meeting](#April-22-2021)
@@ -33,6 +34,69 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### June 3, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, not present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Eiffel summit autumn 2021
+    * Proposed days for all-remote summit: September 29–30
+        * Not weekend-adjacent to decrease risk of people being on vacation.
+        * Near the end of the month to give prep time after the summer vacations.
+        * Hopefully sufficiently late after the start of school semesters to minimize risk of illness among attendees or their children.
+    * Proposed dates collide with DevOps World. How about September 22–23 instead?
+        * Yes, suggest to community.
+        * Action: Emil to send invite.
+        * Action: Emil/Mattias to send PR for updating eiffel-community.github.io.
+        * Action: Magnus to update next meeting's agenda with item about discussing the content of the summit.
+* Presentations on coming TC meetings, or outside TC meetings?
+    * Decision: Monthly meeting the same time as the TC meeting. Can be used for e.g. presentations or workshops. Bring up at next meeting to finalize.
+* Are there any examples of using Eiffel to actually orchestrate a pipeline execution rather than just observing the results? (Magnus)
+    * Yes, Ericsson does this with a Jenkins plugin that can trigger builds based on events.
+* We don't have comprehensive Eiffel event data type libraries in any language, i.e. data types that not only make it easy to produce correct events (we have those for at least Python and Java) but also allows deserialization of events received on the bus. Should we work out recommendations for the interfaces of such libraries? For example, how should we handle deserializing different major versions of events? (Magnus)
+    * Action: Magnus to present Go package when it's available and we'll see if there are ideas that can be applied to libraries for other languages.
+* Eiffel protocol workshop outcome (Magnus)
+    * The workshop was appreciated and should be repeated when necessary.
+* Community [PRs](https://github.com/eiffel-community/community/pulls) and [Issues](https://github.com/eiffel-community/community/issues)
+    * [github.com/eiffel-community/community#101](https://github.com/eiffel-community/community/issues/101) was met with general approval. Unclear how the introduction of a new-style template in the community repo will interact with the legacy templates in the .github repo.
+    * Reviews of [github.com/eiffel-community/community#99](https://github.com/eiffel-community/community/issues/99) and [github.com/eiffel-community/community#102](https://github.com/eiffel-community/community/issues/102) are encouraged.
+* New [project-lifecycle label](https://github.com/eiffel-community/community/issues?q=label%3Aproject-lifecycle) in the [community repository](https://github.com/eiffel-community/community) (Magnus)
+    * The new label met general approval.
+
+#### Action Items
+* ~~Mattias to help David to be part of the HackMD team~~
+    * ~~https://hackmd.io/team/eiffel-community/manage#members~~
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* ~~TC Chairs: PR on GOVERNANCE.md to state the new chairs of the TC~~
+* ~~Update community owners list https://github.com/orgs/eiffel-community/people?query=role%3Aowner as decided~~
+    * ~~Decision: Add TC members. Keep current members as owners except for inactive owners who has not been active lately.~~
+* ~~Chair: Prepare suggestion on how to restructure meetings documents~~
+    * ~~PR exists: https://github.com/eiffel-community/community/pull/100~~
+* ~~Magnus: Prepare proposal for Eiffel summit autumn 2021~~
+    * ~~Done, included in this meeting's agenda.~~
+* Magnus: Present Go package when it's available.
+* Emil/Mattias: Send PR for updating eiffel-community.github.io with information about the September summit.
+* Magnus: Update next meeting's agenda with item about discussing the content of the summit.
 
 ### May 20, 2021
 
