@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-06-17 Meeting](#June-17-2021)
     * [2021-06-03 Meeting](#June-3-2021)
     * [2021-05-20 Meeting](#May-20-2021)
     * [2021-05-06 Meeting](#May-6-2021)
@@ -20,6 +21,59 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### June 17, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * All present, we have quorum
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* TC meetings during the summer
+    * Last TC meeting before vacations on July 1.
+    * Reconvene on August 12.
+* [Restructuring of meeting minutes PR](https://github.com/eiffel-community/community/pull/100)
+    * Approved, will be merged shortly.
+* Updates from CDF sig-events
+    * New protocol being designed within the SIG.
+    * Aims to produce PoC prior to cdCon so that Keptn and Tekton can communicate.
+    * Emil speaks at cdCon on June 23. There's also a BoF session that he co-chairs. There are few other sessions directly related to events.
+* Contents of Eiffel Summit 2021.1
+    * We should have a session to describe the Eiffel landscape, possibly based on Sepia or the [CDF landscape](https://landscape.cd.foundation/images/landscape.png).
+* [Proposed routing key schema](https://github.com/eiffel-community/eiffel-sepia/issues/8)
+    * No conclusion. Continue discussion on GitHub and on next TC meeting.
+* Monthly Eiffel meetings
+    * Follow-up of last meeting's discussion about having a monthly meeting for presentations, discussions, or workshops.
+    * First meeting will be August 19, focusing on setting the agenda of the summit.
+    * Emil/Mattias to send invite to mailing list.
+* Community [PRs](https://github.com/eiffel-community/community/pulls) and [Issues](https://github.com/eiffel-community/community/issues)
+    * New repos proposed in [github.com/eiffel-community/community#99](https://github.com/eiffel-community/community/issues/99) and [github.com/eiffel-community/community#102](https://github.com/eiffel-community/community/issues/102). Both have been announced on the mailing list and are ready for review.
+    * The proposed new issue template for lifecycle changes ([github.com/eiffel-community/community#101](https://github.com/eiffel-community/community/issues/101)) will require duplicatation of the template in the .github repo. A PR has been sent to migrate said repo to support multiple templates ([github.com/eiffel-community/.github#8](https://github.com/eiffel-community/.github/issues/8)).
+
+#### Action Items
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* Magnus: Present Go package when it's available.
+* ~~Emil/Mattias: Send PR for updating eiffel-community.github.io with information about the September summit.~~
+    * ~~https://github.com/eiffel-community/eiffel-community.github.io/pull/20~~
+* ~~Magnus: Update next meeting's agenda with item about discussing the content of the summit.~~
+* Emil/Mattias: Send invite to August 19 summit planning.
 
 ### June 3, 2021
 
