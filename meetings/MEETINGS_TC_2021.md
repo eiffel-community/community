@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-07-01 Meeting](#July-1-2021)
     * [2021-06-17 Meeting](#June-17-2021)
     * [2021-06-03 Meeting](#June-3-2021)
     * [2021-05-20 Meeting](#May-20-2021)
@@ -21,6 +22,60 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### July 1, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, not present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Updates from CDF sig-events and cdCon
+    * 4000 had signed up for cdCon.
+    * PoC of new event protocol not available as a demo. Should be available later.
+    * Some recordings available but so far basically just keynotes.
+    * Recommended: https://www.youtube.com/watch?v=U9H--2G-yNM
+* Which repositories should be handled in the TC meetings? To which extent should maintainership of repos be coupled to the TC members?
+    * Candidates:
+        * eiffel-sepia
+        * community
+        * .github
+        * eiffel-community.github.io
+    * We should be maintainers of all community-tagged repos under github.com/eiffel-community.
+    * In addition to the community repos we should keep a close eye on the key repos eiffel and eiffel-sepia.
+    * Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* PRs and issues
+    * [Proposed routing key schema](https://github.com/eiffel-community/eiffel-sepia/issues/8) was discussed but without conclusion. 
+        * Magnus: Look into what limitations RabbitMQ has on the length of a routing key and the number of bindings for a queue.
+* Contents of Eiffel Summit 2021.1
+    * Add wanted topics to https://hackmd.io/1rcrNty5RFWVhoeV2isdXA.
+* Gather list of suitable summer tasks when we have partially overlapping vacations
+    * [SPDX](https://spdx.dev/) has Eiffel-adjacent features and it would useful to look into it to see if we can interoperate with them.
+    * Otherwise no particular tasks were identified.
+
+#### Action Items
+* Mattias to publish API for ER
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+* Magnus: Present Go package when it's available.
+* ~~Emil/Mattias: Send invite to August 19 summit planning.~~
+* Magnus: Add discussion item about the maintainership role in the agenda for an upcoming TC meeting.
+* Magnus: Check max length of routing key for RabbitMQ queue bindings and max number of bindings for a queue. Add findings to the [Proposed routing key schema](https://github.com/eiffel-community/eiffel-sepia/issues/8) issue.
 
 ### June 17, 2021
 
