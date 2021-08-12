@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-08-12 Meeting](#August-12-2021)
     * [2021-07-01 Meeting](#July-1-2021)
     * [2021-06-17 Meeting](#June-17-2021)
     * [2021-06-03 Meeting](#June-3-2021)
@@ -22,6 +23,53 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### August 12, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+* Approval of Previous Minutes, All
+* Agenda Bashing, All
+* Action Item Review, All
+* Updates from CDF sig-events
+    * A PoC exists with event communication between Keptn and Tekton
+    * Naming discussion ongoing for the new protocol
+* Preparing for the [Lyon edition](https://github.com/eiffel-community/eiffel/milestone/6)
+    * Intention is to present both Paris and Lyon on the upcoming Eiffel Summit
+* Maintainer role
+    * This is a carry-over item form the July 1 meeting. It's not entirely clear what we intended to discuss at this meeting :-/
+    * Proposed to be discussed further on the summit
+    * Action created to check possibility to restrict access for TC board members to some repos
+* The [Proposed routing key schema](https://github.com/eiffel-community/eiffel-sepia/issues/8) issue has a concrete suggestion on how to move forward.
+    * We seem to be aligned with Magnus last comment. The PR will be updated. Family will be a free text field.
+* How do we handle images? Should we upload originals or just the svg?
+    * We should ask if anyone in the community has any input to this. Which format to use/save, and should we inline svg data in html files or not? Action: Mattias
+* PRs and issues
+
+#### Action Items
+* ~~Mattias to publish API for ER~~
+    * ~~[Eiffel event repository #12](https://github.com/eiffel-community/eiffel-event-repository/pull/12) (to see it rendered checkout the preview link in the PR) - Done~~
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+* Magnus: Present Go package when it's available.
+* ~~Magnus: Add discussion item about the maintainership role in the agenda for an upcoming TC meeting.~~
+* ~~Magnus: Check max length of routing key for RabbitMQ queue bindings and max number of bindings for a queue. Add findings to the [Proposed routing key schema](https://github.com/eiffel-community/eiffel-sepia/issues/8) issue.~~
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* Magnus: Check if it is possible to restrict accesses to repos in eiffel community from organization owners. Today we can merge PRs in any repo even if we are not maintainers explicitly.
+* Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)
 
 ### July 1, 2021
 
