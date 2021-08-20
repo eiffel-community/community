@@ -26,6 +26,8 @@ Contact information to maintainers of the Eiffel repositories [are listed here](
 
 ## Eiffel Community Technical Committee
 
-The formation of [Bootstrap Technical Committee](./GOVERNANCE.md#community-bootstrap-process) is in progress and more information will be available near future.
+Eiffel Community Technical Committee is the governing body of the Eiffel Community projects.
+It is an elected group that represents the contributors to the project and has an oversight on governance and technical matters.
+Eiffel Community governance is documented [here](./GOVERNANCE.md).
 
-Agenda and minutes of the past and upcoming Technical Committee Meetings are available in [MEETINGS.md](./MEETINGS.md).
+Agenda and minutes of the past and upcoming Technical Committee Meetings are available [here](./meetings/README.md).
