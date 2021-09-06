@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-08-26 Meeting](#August-26-2021)
     * [2021-08-12 Meeting](#August-12-2021)
     * [2021-07-01 Meeting](#July-1-2021)
     * [2021-06-17 Meeting](#June-17-2021)
@@ -23,6 +24,49 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### August 26, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Update from the interview with The New Stack
+    * Magnus Bäck was interviewed by Joab Jackson on Aug 3. Waiting for article to be published.
+* Updates from CDF sig-events
+    * There have been discussions about whether the new protocol should be a standard or a project. Cloud Events is a project.
+    * How should subscriptions work in a global context? A message broker works within a company but not across the whole internet. Webhooks?
+* Summit preparations status
+    * Emil: Send follow-up meeting next Thursday at 13:00 CET
+    * Mattias's PR that adds the agenda to https://eiffel-community.github.io/summit.html looks generally good and will be published shortly.
+* How do we handle images? Should we upload originals or just the svg?
+    * Moving this topic to next meeting
+* PRs and issues
+    * Landscape PR
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+* Magnus: Present Go package when it's available.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* Magnus: Check if it is possible to restrict accesses to repos in eiffel community from organization owners. Today we can merge PRs in any repo even if we are not maintainers explicitly.
+* Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)
 
 ### August 12, 2021
 
