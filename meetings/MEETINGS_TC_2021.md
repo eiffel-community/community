@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-09-09 Meeting](#September-9-2021)
     * [2021-08-26 Meeting](#August-26-2021)
     * [2021-08-12 Meeting](#August-12-2021)
     * [2021-07-01 Meeting](#July-1-2021)
@@ -24,6 +25,69 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### September 9, 2021
+
+#### Participants
+
+**TC Attendees**
+
+* David Westberg, not present
+* Emil Bäckmark, present
+* Magnus Bäck, present
+* Mattias Linnér, present
+* Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+* Updates from CDF sig-events
+    * Naming discussions about to conclude.
+    * Still unclear where in the Cloud Event fields should be placed (top-level or under the `data` key).
+* Summit preparations status
+    * A #summit Slack channel was set up.
+    * Action Magnus: Do animations work when sharing the PPT?
+    * Action Tobias: Add Slack channel link to summit page.
+    * Try to save the meeting chat history if there's something we might want to publish elsewhere afterwards.
+    * Action Mattias/Emil: Prepare informational chat message that will be pasted at the start of every session.
+* How do we handle images? Should we upload originals or just the svg?
+    * Moving to next meeting.
+* Choice of topic for Eiffel monthly meeting on Sep 16
+    * Open protocol PRs and issues, similar to the protocol workshop in May.
+    * Action Emil: Update meeting invite to include this topic.
+* Promoting Eiffel Summit in CDF slack?
+    * Action Mattias: Announce the summit in the CDF slack.
+* Does the TC own the Youtube channel?
+    * Action Emil: Make sure all TC members can contribute videos.
+    * Action Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).
+* Landscape picture feedback, Mattias
+* PRs and issues
+    * [github.com/eiffel-community/eiffel#269](https://github.com/eiffel-community/eiffel/pull/269) is the last PR up for review to complete the Lyon release.
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Action Emil: Ask Fatih to set up meeting to discuss k8s on Nordix infra.
+* Magnus: Present Go package when it's available.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* ~~Magnus: Check if it is possible to restrict accesses to repos in eiffel community from organization owners. Today we can merge PRs in any repo even if we are not maintainers explicitly.~~
+    * ~~Right now there doesn't appear to be a better way than having multiple GitHub accounts; one owner account and one that's used for everything else.~~
+* Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)
+* Magnus: Do animations work when sharing the PPT?
+* Mattias/Emil: Prepare informational chat message that will be pasted at the start of every session at the summit.
+* Emil: Update meeting invite for the 2021-09-16 monthy meeting to include th chosen topic.
+* Mattias: Announce the summit in the CDF slack.
+* Emil: Make sure all TC members can contribute videos.
+* Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).
+
 
 ### August 26, 2021
 
