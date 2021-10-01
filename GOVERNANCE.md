@@ -89,7 +89,7 @@ The term for Security Officers is **one year**.
 Responsibilities of Security Officers are
 
 * Be the main contact with regards to community vulnerability and security issues including for the issues reported by users or discovered by the community members
-* Be a member to private community mail list eiffel-community-security@googlegroups.com and monitor it actively
+* Be a member of private community mail list eiffel-community-security@googlegroups.com and monitor it actively
 * Ensure the reported issues are acknowledged, analysed, addressed, fixed, released, and responded accordingly
 * Ensure the public disclosure of the issue and required fixes are done in a timely manner
 * Ensure community vulnerability and security reporting and response process is followed by the community
