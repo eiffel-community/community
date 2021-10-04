@@ -82,7 +82,24 @@ Eiffel Community Election Officers are the individuals listed below:
 
 ### Security Officers
 
-TBD
+Eiffel Community Security Officers are the community members who are appointed by Eiffel Technical Committee to oversee [Eiffel Community Vulnerability and Security Reporting and Response process](./SECURITY.md).
+
+The term for Security Officers is **one year**.
+
+Responsibilities of Security Officers are
+
+* Be the main contact with regards to community vulnerability and security issues including for the issues reported by users or discovered by the community members
+* Be a member of private community mail list eiffel-community-security@googlegroups.com and monitor it actively
+* Ensure the reported issues are acknowledged, analysed, addressed, fixed, released, and responded accordingly
+* Ensure the public disclosure of the issue and required fixes are done in a timely manner
+* Ensure community vulnerability and security reporting and response process is followed by the community
+
+Eiffel Community is served by **2** Security Officers.
+
+Eiffel Community Security Officers are the individuals listed below:
+
+* Fredrik Fristedt, Axis Communications
+* Kristofer Hallén, Ericsson
 
 ## Technical Committee
 
