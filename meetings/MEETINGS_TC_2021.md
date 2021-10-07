@@ -6,6 +6,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-10-07 Meeting](#October-7-2021)
     * [2021-09-09 Meeting](#September-9-2021)
     * [2021-08-26 Meeting](#August-26-2021)
     * [2021-08-12 Meeting](#August-12-2021)
@@ -25,6 +26,71 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### October 7, 2021
+
+#### Participants
+
+* TC Attendees
+    * David Westberg, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Updates from CDF sig-events
+    * The new protocol has a name - "CD Events"
+    * GitHub organization has been allocated and domain name discussions are ongoing.
+    * The vocabulary discussions have e.g. concerned whether generic activity events or specific pipeline/build/step events should be used.
+* Summit reflections
+    * [Takeaways](https://hackmd.io/QEwWwRlNQ8mYKXAQKOg16A)
+    * Poll answers (Mattias)
+* Choice of topic for Eiffel monthly meeting on Oct 14
+    * Protocol workshop focusing on [github.com/eiffel-community/eiffel#227](https://github.com/eiffel-community/eiffel/issues/227), i.e. how to express activity relationships, particularly hierarchical ones.
+* PRs and issues
+    * [github.com/eiffel-community/eiffel#277](https://github.com/eiffel-community/eiffel/pull/277) is the last PR up for review to complete the Lyon release.
+* Landscape picture feedback, Mattias
+    * Where in Sepia should this be placed? Any surrounding text needed?
+    * Add landscape image to https://eiffel-community.github.io/community.html instead of the Sepia subpage (hosted in the Sepia repository).
+* How do we deal with the requirement to reference issues in PRs for from-scratch development in a new repository?
+    * We might need to be more pragmatic at times. E.g. when setting up a new repo and when fixing spelling errors.
+    * Not enough time; postponed to next meeting.
+* Anybody know about https://github.com/ItJustWorksTM/EiffelVis
+    * Student project aiming to produce a blazingly fast Eiffel visualizer. Tobias and Ola Söder know more.
+* Should we add the TC mail as the billing mail in https://github.com/organizations/eiffel-community/settings/profile
+    * Not enough time; postponed to next meeting.
+* How do we deal with dead repos, to be deleted or archived
+    * Example: [github.com/eiffel-community/eiffel-remrem-shared#30](https://github.com/eiffel-community/eiffel-remrem-shared/issues/30)
+    * Not enough time; postponed to next meeting.
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * ~~Action Emil: Ask Fatih to set up meeting to discuss k8s on Nordix infra.~~
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+* Magnus: Present Go package when it's available.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)
+* ~~Magnus: Do animations work when sharing the PPT?~~
+* ~~Mattias/Emil: Prepare informational chat message that will be pasted at the start of every session at the summit.~~
+* Emil: Update meeting invite for the 2021-09-16 monthy meeting to include the chosen topic.
+* ~~Mattias: Announce the summit in the CDF slack.~~
+* ~~Emil: Make sure all TC members can contribute videos.~~
+* Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).
+* Emil: Go through the discussions in the summit presentations and see if there are things we should create issues from or have monthly community meetings about.
+* Magnus: Prepare examples, event diagrams etc for the proposed source change events together with Sven Selberg and Tobias. That material can form the basis of source change discussions in an upcoming monthly community meeting.
 
 ### September 9, 2021
 
