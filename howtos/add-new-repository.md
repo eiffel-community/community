@@ -11,7 +11,6 @@ Want to extend the Eiffel community with a new repository?
 1. Read through the [Code of Conduct](https://github.com/eiffel-community/.github/blob/master/CODE_OF_CONDUCT.md) and [contribution guidelines](https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md) for Eiffel Community and understand the content.
 
 1. Decide on a name for the repository. The Eiffel Community enforces no name convention but meaningful descriptive names are encouraged.
-1. Create the repository in the [eiffel-community organization](https://github.com/organizations/eiffel-community/repositories/new). The repository should be public. Do NOT choose "import repository". The reason for this is to maintain a clean git history.
-1. Copy the content of [eiffel-repository-template](https://github.com/eiffel-community/eiffel-repository-template).
+1. Create the repository in the [eiffel-community organization](https://github.com/organizations/eiffel-community) by visiting the [eiffel-repository-template](https://github.com/eiffel-community/eiffel-repository-template) repository and clicking the _Use this template_ button found above the file list. The new repository should be public and the _Include all branches_ option should _not_ be checked. See the [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for details.
 1. Follow the checklist in the repository template to update your repository structure.
 1. (Optional) Spread the word about the new repository, on e.g. Slack!
