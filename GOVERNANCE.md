@@ -55,6 +55,7 @@ Maintainers have right to nominate contributors to become maintainers and vote o
 
 Individuals can be maintainers to multiple Eiffel Community Open Source Projects.
 
+For guidelines how to contribute please see [our contribution guidelines](https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md)
 
 ## Community Roles
 
