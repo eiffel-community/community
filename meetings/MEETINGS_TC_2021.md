@@ -1,3 +1,5 @@
+###### tags: `Technical Committee`
+
 # Technical Committee Meetings 2021
 
 [![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ)
@@ -6,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-10-21 Meeting](#October-21-2021)
     * [2021-10-07 Meeting](#October-7-2021)
     * [2021-09-09 Meeting](#September-9-2021)
     * [2021-08-26 Meeting](#August-26-2021)
@@ -26,6 +29,85 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### October 21, 2021
+
+#### Participants
+
+* TC Attendees
+    * David Westberg, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved after adding "Should we have more frequent TC meetings?" item
+* Action Item Review, All
+* Should we have more frequent TC meetings?
+    * Currently we have TC meetings every two weeks but we often don't have time to cover everything, particularly not issues and PRs.
+    * Decision to use the monthly Thursday 13:00-14:00 slot that remains when regular TC meetings and the monthly community meeting have claimed their time. These meetings can be used to process issues or PRs or discuss other matters. First occasion is next week, Oct 28.
+* Updates from CDF sig-events
+* Summit reflections
+    * [Takeaways](https://hackmd.io/QEwWwRlNQ8mYKXAQKOg16A)
+    * Poll answers (Mattias) - https://hackmd.io/6EK7rwLdQpyxLKqBiU74Yw
+    * Should decide date and form (digital or in person) before the end of the year. Follow up at TC meeting around the end of November.
+* Takeaways from last monthly meeting (Oct 14)
+    * MoM created: https://hackmd.io/jEiLclrrTaG5tPIBvrtRfg?both
+    * How to proceed the discussion on CONTEXT/CAUSE/PRECURSOR?
+* Choice of topic for Eiffel monthly meeting on Nov 11
+    * Finalize CONTEXT/CAUSE/PRECURSOR discussion first hour, meta breakout second hour with coffee break in between.
+    * SDK on Dec 9th, source change events on whatever monthly meeting that follows.
+* Promote the monthly community meeting
+    * Should we announce the monthly community meetings in more ways then just the mail list?
+        * Announce on mailing list, Slack and LinkedIn three weeks ahead.
+        * Post reminder on Slack and see if there's a good way of bumping the LinkedIn post for attention.
+    * Should we document it on https://github.com/eiffel-community/community/tree/master/meetings - Yes
+* How do we handle images? Should we upload originals or just the svg?
+    * Example from CDF - https://github.com/cdfoundation/artwork
+    * Out of time, postponed.
+* How do we deal with the requirement to reference issues in PRs for from-scratch development in a new repository?
+    * We might need to be more pragmatic at times. E.g. when setting up a new repo and when fixing spelling errors.
+    * Out of time, postponed.
+* How many reviewers should be needed per PR? Including author?
+    * Out of time, postponed.
+* Should we add the TC mail as the billing mail in https://github.com/organizations/eiffel-community/settings/profile
+    * Admin access to YouTube channel.
+    * Out of time, postponed.
+* How do we deal with dead repos, to be deleted or archived
+    * Example: [github.com/eiffel-community/eiffel-remrem-shared#30](https://github.com/eiffel-community/eiffel-remrem-shared/issues/30)
+    * Out of time, postponed.
+* PRs and issues
+    * Out of time, postponed.
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * ~~Action Emil: Ask Fatih to set up meeting to discuss k8s on Nordix infra.~~
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+* Magnus: Present Go package when it's available.
+    * PR with the most important functionality has been uploaded. Will present this at a future SDK monthly meeting so this AI will be closed.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)
+* Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).
+* Emil: Go through the discussions in the summit presentations and see if there are things we should create issues from or have monthly community meetings about.
+* Magnus: Prepare examples, event diagrams etc for the proposed source change events together with Sven Selberg and Tobias. That material can form the basis of source change discussions in an upcoming monthly community meeting.
+* Emil: Call for new TC monthly meeting.
+* Emil: Add HackMD document for monthly meetings (proposed topics and links to minutes for each meeting where available) and link to that document from https://github.com/eiffel-community/community/blob/master/meetings/README.md.
+* Emil/Magnus: Add summit planning to future TC meeting agenda.
+* Emil: Upload the PPT from the 2021-10-14 community meeting to the community repo (https://github.com/eiffel-community/community/tree/master/presentations).
+* Emil: Write draft PR for the PRECURSOR addition so that we have a solid base for the discussion so that we can finalize the discussion at the next community meeting.
+* Magnus: Prepare introductory slides to give background on the meta breakout.
+* Emil: Check how CDF's Google Calendar works.
 
 ### October 7, 2021
 
