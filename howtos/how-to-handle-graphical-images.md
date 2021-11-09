@@ -1,7 +1,13 @@
 # How to handle graphical images
 
+This document describes how we handle logos and other graphical images.
+
+## General Recommendations
+When creating an graphical image, for use within the Eiffel community, add the original file to the repository along with any needed format. To help future updates, place a README in the directory explaining any procedures or thought behind the creative process.
+
 ## Logos
-GIMP picture that holds all logos [eiffel-community-logos.xcf](https://github.com/eiffel-community/community/blob/master/resources/eiffel-community-logos.xcf)
+
+We use [GIMP](https://www.gimp.org/) to create our logos. In the community repository the [eiffel-community-logos.xcf](https://github.com/eiffel-community/community/blob/master/resources/eiffel-community-logos.xcf) holds our logos.
 
 Current logos:
 
@@ -21,3 +27,9 @@ Current logos:
 <img alt="eiffel-jenkins-plugin-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-jenkins-plugin/master/images/logo.png" width="350"/>
 <img alt="eiffel-sepia-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-sepia/master/images/logo.png" width="350"/>
 <img alt="eiffel-protocol-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel/master/images/eiffel-protocol-logo.png" width="350"/>
+
+
+## Graphical Images
+
+### SVG images
+Both the Eiffel protocol repository and Sepia have used [Inkscape](https://inkscape.org/). Inkscape saves its images in a variant of SVG that most browsers can render directly. When saving an image you get the choice to save it as "Inkscape SVG" or "Plain SVG". Always add the image as a Inkscape SVG to the repository.
