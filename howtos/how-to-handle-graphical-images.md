@@ -28,8 +28,12 @@ Current logos:
 <img alt="eiffel-sepia-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-sepia/master/images/logo.png" width="350"/>
 <img alt="eiffel-protocol-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel/master/images/eiffel-protocol-logo.png" width="350"/>
 
-
 ## Graphical Images
 
 ### SVG images
 Both the Eiffel protocol repository and Sepia have used [Inkscape](https://inkscape.org/). Inkscape saves its images in a variant of SVG that most browsers can render directly. When saving an image you get the choice to save it as "Inkscape SVG" or "Plain SVG". Always add the image as a Inkscape SVG to the repository.
+
+## Other tools
+
+- [draw.io](https://draw.io) Open source tool for producing diagrams. Available both as an online version and a desktop application.
+- [vis-network](https://github.com/visjs/vis-network) Tool for generating network graphs, see [examples](https://visjs.github.io/vis-network/examples/) for more ideas.
