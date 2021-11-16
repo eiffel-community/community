@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-11-04 Meeting](#November-4-2021)
     * [2021-10-21 Meeting](#October-21-2021)
     * [2021-10-07 Meeting](#October-7-2021)
     * [2021-09-09 Meeting](#September-9-2021)
@@ -29,6 +30,75 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### November 4, 2021
+
+#### Participants
+
+* TC Attendees
+    * David Westberg, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+* Updates from CDF sig-events
+    * Recent meeting had discussions about hierarchical activity events.
+    * Artifact and composition events were also discussed.
+* Next week's monthly community meeting
+    * Feedback on [github.com/eiffel-community#287](https://github.com/eiffel-community/eiffel/pull/287)
+    * Substructure breakout
+    * Replace [github.com/eiffel-community#287](https://github.com/eiffel-community/eiffel/pull/287) discussion with general issue walkthrough.
+* How do we handle images? Should we upload originals or just the svg?
+    * Example from CDF - https://github.com/cdfoundation/artwork
+    * Logos and event graphs and similar block diagrams should be treated separately.
+    * Mattias to continue investigation.
+* How do we deal with the requirement to reference issues in PRs for from-scratch development in a new repository?
+    * We might need to be more pragmatic at times. E.g. when setting up a new repo and when fixing spelling errors.
+    * General agreement that we should loosen the current policy but it wasn't immediately clear what the policy should be.
+    * Magnus: Propose new policy.
+* How many reviewers should be needed per PR? Including author?
+    * Out of time, postponed.
+* Should we add the TC mail as the billing mail in https://github.com/organizations/eiffel-community/settings/profile
+    * Admin access to YouTube channel.
+    * Out of time, postponed.
+* How do we deal with dead repos, to be deleted or archived
+    * Example: [github.com/eiffel-community/eiffel-remrem-shared#30](https://github.com/eiffel-community/eiffel-remrem-shared/issues/30)
+    * Out of time, postponed.
+* PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * ~~Action Emil: Ask Fatih to set up meeting to discuss k8s on Nordix infra.~~
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* ~~Mattias: Ask the community about ways to handle our graphics (in e.g. Sepia and protocol repos)~~
+* Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).
+    * https://github.com/eiffel-community/community/pull/119
+* Emil: Go through the discussions in the summit presentations and see if there are things we should create issues from or have monthly community meetings about.
+* Magnus: Prepare examples, event diagrams etc for the proposed source change events together with Sven Selberg and Tobias. That material can form the basis of source change discussions in an upcoming monthly community meeting.
+* ~~Emil: Add HackMD document for monthly meetings (proposed topics and links to minutes for each meeting where available) and link to that document from https://github.com/eiffel-community/community/blob/master/meetings/README.md.~~
+* Emil/Magnus: Add summit planning to future TC meeting agenda.
+* ~~Emil: Upload the PPT from the 2021-10-14 community meeting to the community repo (https://github.com/eiffel-community/community/tree/master/presentations).~~
+* ~~Emil: Write draft PR for the PRECURSOR addition so that we have a solid base for the discussion so that we can finalize the discussion at the next community meeting.~~
+* Tobias: Add link to mailing list thread for monthly community meeting invite.
+* Magnus: Prepare introductory slides to give background on the meta breakout.
+* Emil: Check how CDF's Google Calendar works.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
 
 ### October 21, 2021
 
