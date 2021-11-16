@@ -7,7 +7,7 @@ When creating an graphical image, for use within the Eiffel community, add the o
 
 ## Logos
 
-We use [GIMP](https://www.gimp.org/) to create our logos. In the community repository the [eiffel-community-logos.xcf](https://github.com/eiffel-community/community/blob/master/resources/eiffel-community-logos.xcf) holds our logos.
+We use [GIMP](https://www.gimp.org/) to create our logos. In the community repository the [eiffel-community-logos.xcf](https://github.com/eiffel-community/community/blob/master/resources/eiffel-community-logos.xcf) holds our logos and the [working with community logos](working_with_community-logos.md) describes the process on how to work with it.
 
 Current logos:
 
