@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-11-18 Meeting](#November-18-2021)
     * [2021-11-04 Meeting](#November-4-2021)
     * [2021-10-21 Meeting](#October-21-2021)
     * [2021-10-07 Meeting](#October-7-2021)
@@ -30,6 +31,89 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### November 18, 2021
+
+#### Participants
+
+* TC Attendees
+    * David Westberg, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+* Approval of Previous Minutes, All
+* Agenda Bashing, All
+* Action Item Review, All
+* Updates from CDF sig-events
+    * CD Events might become a CDF flagship project. Probably launched around Jan/Feb 2022.
+    * Referencing between events is being discussed and will probably be needed in one form or another before the CD Events project launch.
+    * Use Cases for events in CI/CD systems is also being discussed and will help in promoting CD Events as a project
+* Outcome from previous monthly community meeting
+    * Linking ActT to SCC for retriggering put on hold until general activity linking using PRECURSOR is decided.
+    * Meta discussion
+        * Magnus: Process for how to lift event versions when meta object is updated needs to be added to the PR. Ask Sven to do it?
+        * Magnus will check the validity of the proposal using various JSON validators
+* Set and promote topic for next monthly meeting
+    * SDKs!
+    * Magnus: Prepare the Hackmd document including agenda for the meeting
+    * Emil: Update invite after Magnus has written the agenda
+    * Promote the meeting on Slack. After next TC meeting?
+* How many reviewers should be needed per PR? Including author?
+    * https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md#reviewing-and-merging-pull-requests
+        * Two maintainers (or org admin) need to approve a pull request. The author cannot approve it themselves.
+        * Each repo needs at least 3 maintainers to fulfill this
+        * Proposal: Change to something like "1. A Pull Request is recommended to be approved by at least two maintainers (including the one doing the merging). For this to function well, the above point on participation is critical. For graduated projects all PRs shall be approved be at least two maintainers from two different organizations."
+            * Mattias: Prepare a PR for this.
+* Should we add the TC mail as the billing mail in https://github.com/organizations/eiffel-community/settings/profile
+    * Tobias: Yes, try setting the TC mail address (eiffel-tc@googlegroups.com) there, and also on https://github.com/organizations/eiffel-community/settings/billing
+    * Admin access to YouTube channel.
+        * Emil: To check what we can do there. Could all TC members be admins?
+    * 2FA for all owners in the organization?
+        * All TC members: Set this up for yourselves (https://github.com/orgs/eiffel-community/people?query=role%3Aowner)
+* How do we deal with dead repos, to be deleted or archived
+    * Example: [github.com/eiffel-community/eiffel-remrem-shared#30](https://github.com/eiffel-community/eiffel-remrem-shared/issues/30)
+* Mail groups
+    * Should TC members be part owners of all the Google groups mailing lists?
+    * If not how do we see to it that we don't just have one owner who disappears?
+* PR updates and use of force push. Harder to review but easier to merge. What is our take on it?
+* Eiffel Intelligence uses Travis-ci.com to run tests. They now only give open source projects 10000 credits (which you can request more of by mail). Do we have a recommendation on this? Should we announce it to all the community?
+* PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+* Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?
+* ~~Mattias: Create checklists for new or removed TC members (e.g. granting/revoking access).~~
+    * ~~https://github.com/eiffel-community/community/pull/119~~
+* Emil: Go through the discussions in the summit presentations and see if there are things we should create issues from or have monthly community meetings about.
+* Magnus: Prepare examples, event diagrams etc for the proposed source change events together with Sven Selberg and Tobias. That material can form the basis of source change discussions in an upcoming monthly community meeting.
+* Emil/Magnus: Add summit planning to future TC meeting agenda.
+* ~~Tobias: Add link to mailing list thread for monthly community meeting invite.~~
+* ~~Magnus: Prepare introductory slides to give background on the meta breakout.~~
+* Emil: Check how CDF's Google Calendar works.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* ~~Emil: Ask JSON schema knowledgable person to review the meta extraction PR.~~
+* Magnus: Continue examining consequences for JSON validation code when meta is extracted to a separate file.
+* Magnus: Write script for creating single-file schema files from multi-file schemas.
+* ~~Mattias: Add comment to [github.com/eiffel-community/eiffel#246](https://github.com/eiffel-community/eiffel/issues/246) about potential new TRIGGERED_BY link type.~~
+* Magnus: Process for how to lift event versions when meta object is updated needs to be added to the protocol meta PR. Ask Sven to do it?
+* Magnus: Prepare the Hackmd document including agenda for the community meeting on SDKs
+* Emil: Update SDKs community meeting invite after Magnus has written the agenda
+* All? Promote the next community meeting on Slack.
+* Mattias: Prepare a PR for the updated PR review requirements, considering differences for graduated/non-graduated projects and more, as discussed on Nov 18th.
+* Emil: Check admin access to YouTube channel. Could all TC members be admins? Or should we all have access to a (new?) admin Google account?
+* All: Set up 2FA for your account on the GitHub organization, https://github.com/orgs/eiffel-community/people?query=role%3Aowner
+
 
 ### November 4, 2021
 
