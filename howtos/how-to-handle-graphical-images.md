@@ -3,7 +3,7 @@
 This document describes how we handle logos and other graphical images.
 
 ## General Recommendations
-When creating an graphical image, for use within the Eiffel community, add the original file to the repository along with any needed format. To help future updates, place a README in the directory explaining any procedures or thought behind the creative process.
+When creating a graphical image, for use within the Eiffel community, add the original file to the repository along with any needed format. To help future updates, place a README in the directory explaining any procedures or thought behind the creative process.
 
 ## Logos
 
@@ -31,7 +31,7 @@ Current logos:
 ## Graphical Images
 
 ### SVG images
-Both the Eiffel protocol repository and Sepia have used [Inkscape](https://inkscape.org/). Inkscape saves its images in a variant of SVG that most browsers can render directly. When saving an image you get the choice to save it as "Inkscape SVG" or "Plain SVG". Always add the image as a Inkscape SVG to the repository.
+Both the Eiffel protocol repository and Sepia have used [Inkscape](https://inkscape.org/). Inkscape saves its images in a variant of SVG that most browsers can render directly. When saving an image you get the choice to save it as "Inkscape SVG" or "Plain SVG". Always add the image as an Inkscape SVG to the repository.
 
 ## Other tools
 
