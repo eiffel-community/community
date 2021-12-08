@@ -60,9 +60,9 @@ mandatory.
 
 Simple majority of Eiffel Community Maintainers is required for a project to be accepted to Eiffel Community.
 
-Project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) by sending a pull request to community
-repository and include an entry for their project. Project creation is concluded upon acceptance of the pull
-request.
+Project maintainers are expected to update [PROJECTS.md](./PROJECTS.md) and [CONTACTS.md](./CONTACTS.md) by sending a pull request to community
+repository and include an entry for their project. Project acceptance is concluded upon acceptance of the pull
+request. When accepted, the maintainers of the accepted project should create the repository in accordance with the [repository checklist](https://github.com/eiffel-community/eiffel-repository-template/blob/master/repo-checklist.md). When the new repository is created, the Eiffel Community Maintainers will merge the corresponding pull request.
 
 Upon completion of the project creation process, TC Chair sends an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community)
 in order to announce the creation of the project to the broader community for increased visibility.
