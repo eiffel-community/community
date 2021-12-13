@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2021-12-02 Meeting](#December-02-2021)
     * [2021-11-18 Meeting](#November-18-2021)
     * [2021-11-04 Meeting](#November-4-2021)
     * [2021-10-21 Meeting](#October-21-2021)
@@ -31,6 +32,97 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/SCImga0nS1qSh3QvsEOAVQ) in order to prevent notes getting out of sync.
+
+### December 02, 2021
+
+#### Participants
+
+* TC Attendees
+    * David Westberg, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Updates from CDF sig-events
+    * CD Events is now accepted as a CDF Incubating project
+    * Some people of today's SIG Events will be the bootstrap TC for CD Events, preparing for elections of a formal TC
+* All set for next weeks monthly meeting?
+    * Promote on Slack
+    * Emil to send updated invite
+* How do we deal with dead repos, to be deleted or archived
+    * Example: [github.com/eiffel-community/eiffel-remrem-shared#30](https://github.com/eiffel-community/eiffel-remrem-shared/issues/30)
+    * We should archive any dormant repository. After a number of months we can then delete them
+    * Action on archive:
+        * Update projects.md with status archive
+        * Change badge in README and state that project is archived in READMEd text
+        * Close ALL open PRs and issues
+        * Update repo settings since they cannot be changed afterwards. Set them to...? (Find out what by archiving eiffel-remrem-shared)
+        * Archive project
+    * Update instruction in Lifecycle with previous tasks
+* Mail groups
+    * Should TC members be part owners of all the Google groups mailing lists?
+        * Yes. TC members should be individual owners of each Eiffel connected Google group.
+        * Add this to repo checklist https://github.com/eiffel-community/eiffel-repository-template/blob/master/repo-checklist.md
+        * Add all TC members to all existing Eiffel Google groups
+        * Add TC members mail addresses to the GOVERNANCE document (in the table of TC members)
+    * If not how do we see to it that we don't just have one owner who disappears?
+    * Action created and end-of-discussion.
+* The Community Monthly Meeting in January falls on Epiphany (public holiday)
+    * We'll cancel this meeting. Emil will cancel it.
+* Participate in the Python-podcast?
+    * Magnus will participate. Magnus will contact Daniel and Tobias (Python) on that.
+* PR updates and use of force push. Harder to review but easier to merge. What is our take on it?
+    * The larger the PR the more important it is to not use force push (for the sake of the reviewer)
+    * As soon as reviewers are invited to a PR no more force pushes should be done
+    * We should document this as a recommendation on https://github.com/eiffel-community/.github/blob/master/CONTRIBUTING.md
+* Eiffel Intelligence uses Travis-ci.com to run tests. They now only give open source projects 10000 credits (which you can request more of by mail). Do we have a recommendation on this? Should we announce it to all the community?
+    * Should GitHub actions be used instead of Travis CI? See [summit recording](https://www.youtube.com/watch?v=x1P8Cydv_qA) and [mail from Fatih](https://groups.google.com/g/eiffel-community/c/a304uJu8BiY).
+* Deal with [summary/outcome](https://hackmd.io/QEwWwRlNQ8mYKXAQKOg16A#Session-recap) from the summit
+* PRs and issues
+
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+* ~~Emil: See if there's a way to create something dashboard-like to more easily track PRs and issues in sets of projects. Maybe use the [project feature](https://github.com/orgs/eiffel-community/projects/1)?~~
+* Mattias: Define a GitHub "beta project" for TC and add all TC members to it.
+    * https://github.com/orgs/eiffel-community/projects/3/views/1
+* Emil: Go through the discussions in the summit presentations and see if there are things we should create issues from or have monthly community meetings about.
+* Magnus: Prepare examples, event diagrams etc for the proposed source change events together with Sven Selberg and Tobias. That material can form the basis of source change discussions in an upcoming monthly community meeting.
+* ~~Emil/Magnus: Add summit planning to future TC meeting agenda.~~
+* Emil: Check how CDF's Google Calendar works.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* Magnus: Continue examining consequences for JSON validation code when meta is extracted to a separate file.
+* Magnus: Write script for creating single-file schema files from multi-file schemas.
+* Magnus: Process for how to lift event versions when meta object is updated needs to be added to the protocol meta PR. Ask Sven to do it?
+* ~~Magnus: Prepare the Hackmd document including agenda for the community meeting on SDKs~~
+* Emil: Update SDKs community meeting invite after Magnus has written the agenda
+* ~~All? Promote the next community meeting on Slack.~~
+* ~~Mattias: Prepare a PR for the updated PR review requirements, considering differences for graduated/non-graduated projects and more, as discussed on Nov 18th.~~
+    * ~~https://github.com/eiffel-community/.github/pull/12~~
+* Emil: Check admin access to YouTube channel. Could all TC members be admins? Or should we all have access to a (new?) admin Google account?
+* Mattias/Emil/David: Set up 2FA for your account on the GitHub organization, https://github.com/orgs/eiffel-community/people?query=role%3Aowner
+* TC: Write about archiving projects and do archive eiffel-remrem-shared
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Amend the repo creation checklist in the eiffel-repository-template repo to state that TC members should be added as owners to any created Google Groups.
+* TC: Add TC members' email addresses to the GOVERNANCE document (in the table of TC members).
+* Magnus: Contact Daniel Ståhl about Python podcast.
+* TC: Add recommendation to not use force pushes to code review guidelines.
 
 ### November 18, 2021
 
@@ -83,6 +175,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Eiffel Intelligence uses Travis-ci.com to run tests. They now only give open source projects 10000 credits (which you can request more of by mail). Do we have a recommendation on this? Should we announce it to all the community?
 * PRs and issues
 
+
 #### Action Items
 * Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
      * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
@@ -111,6 +204,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Emil: Update SDKs community meeting invite after Magnus has written the agenda
 * All? Promote the next community meeting on Slack.
 * Mattias: Prepare a PR for the updated PR review requirements, considering differences for graduated/non-graduated projects and more, as discussed on Nov 18th.
+    * https://github.com/eiffel-community/.github/pull/12
 * Emil: Check admin access to YouTube channel. Could all TC members be admins? Or should we all have access to a (new?) admin Google account?
 * All: Set up 2FA for your account on the GitHub organization, https://github.com/orgs/eiffel-community/people?query=role%3Aowner
 
