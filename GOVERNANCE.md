@@ -236,7 +236,6 @@ Members of the Technical Committee are the individuals listed below:
 
 Full Name         | Company   | GitHub                                                       | Elected On  | Until
 ------------------|:---------:|--------------------------------------------------------------|-------------|-----------
-David Westberg    | Volvo     | [t031276](https://github.com/t031276)                        | April 2021  | April 2022
 Emil Bäckmark     | Ericsson  | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| April 2021  | April 2022
 Magnus Bäck       | Axis      | [magnusbaeck](https://github.com/magnusbaeck)                | April 2021  | April 2022
 Mattias Linnèr    | Ericsson  | [m-linner-ericsson](https://github.com/m-linner-ericsson)    | April 2021  | April 2022
