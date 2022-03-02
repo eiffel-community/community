@@ -15,13 +15,87 @@
 ## Logistics
 
 * **When:** 13:00 - 14:00 CET, every even week on Thursdays
-* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDljZGI1ZDEtOGRhYS00NzlmLTlkZTgtNTM4OGMwNmU3ZTVh%40thread.v2/0?context=%7b%22Tid%22%3a%22d2585e63-66b9-44b6-a76e-4f4b217d97fd%22%2c%22Oid%22%3a%22b5142d0f-6dad-4704-99f5-29b74621c34a%22%7d)
+* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTc1NDIzNTUtYzJiMy00OThiLTkwZDUtYTdkODVhOGNjYzI3%40thread.v2/0?context=%7b%22Tid%22%3a%2292e84ceb-fbfd-47ab-be52-080c6b87953f%22%2c%22Oid%22%3a%2249725723-aa8c-4dcf-b9d0-b974e8a25702%22%7d)
 * **Meeting Agenda and Minutes:** https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg
 * **Community Repo:** https://github.com/eiffel-community/community
 
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+### February 24, 2022
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, not present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+
+#### Agenda and Notes
+* Rollcall, All
+    * 50% presence, quorum situation somewhat unclear. Assuming no quorum.
+    * TC: Sort out the exact requirements.
+* Approval of Previous Minutes, All
+    * No quorum, skipping.
+* Agenda Bashing, All
+    * Approved after postponing "May meeting planning" and "Planning of the next protocol edition" to the next meeting.
+* Action Item Review, All
+* Updates from CDF sig-events, Emil & Mattias
+    * Work on defining event fundamentals and possible link between events is ongoing.
+* Show and explain the current status of misalignment with REMReM. [REMReM semantics pom.xml](https://github.com/eiffel-community/eiffel-remrem-semantics/blob/2.1.1/pom.xml)
+    * eiffel-remrem-semantics v2.1.1 has 2.2.0 in pom.xml, resulting in incorrectly versioned artifacts when building from the v2.1.1 commit. The v2.1.1 unintentionally contains the Paris edition commit that was intended for v2.2.0.
+* PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* ~~Tobias: Amend the repo creation checklist in the eiffel-repository-template repo to state that TC members should be added as owners to any created Google Groups.~~
+    * ~~https://github.com/eiffel-community/eiffel-repository-template/pull/17~~
+* Magnus: Add TC members' email addresses to the GOVERNANCE document (in the table of TC members).
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* Mattias: Figure out how to deal with Eiffel-adjacent repos not in the eiffel-community organization. Should they be made visible? How? Prepare a proposal on this.
+    * To handle repositories not part of the Eiffel community e.g. https://plugins.jenkins.io/eiffel-broadcaster/. Create a fork of the repsitory in the Eiffel community.
+* ~~Magnus: Create issues in all repos with .travisci.yml files to have them change to GitHub Actions.~~
+    * ~~Done, track via the new [Migration from Travis CI to GitHub Actions](https://github.com/orgs/eiffel-community/projects/4/views/4?layout=board) project.~~
+* ~~Tobias: Add an organization README file ([docs](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)).~~
+    * ~~https://github.com/eiffel-community/.github/pull/16~~
+* Fatih: Update timeline based on discussion (move elegible candidate earlier and take Easter into account) and get back to TC via mail for final confirmation.
+* Fatih: Locate script for finding eligible candidates and create PR in the community repo.
+* Magnus: Collect feedback from the interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Mattias: Create proposal for event type categorization.
+* ~~Magnus: Can discussion items be added to a GitHub project (along with PRs and issues)?~~
+    * ~~No, discussion threads can have labels but can't be connected to projects.~~
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Confirm with Henning, Daniel, and Kristofer that it's okay to remove them as GitHub organization owners.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* ~~Tobias: Move SECURITY.md from the community repo to the .github repo.~~
+    * ~~[github.com/eiffel-community/community#128](https://github.com/eiffel-community/community/pull/128)~~
+    * ~~[github.com/eiffel-community/.github#15](https://github.com/eiffel-community/.github/pull/15)~~
+* Mattias: Check Ericsson email thread about which file types require copyright notices.
+    * >Hi Mattias,
+      > 
+      >Think it very much is up to each and every open source project to decide. However if you have many different individuals/companies doing contributions the files soon become cluttered with copyright statements so one might wan to find other solutions. This blog from LF touches on the subject; https://www.linuxfoundation.org/en/blog/copyright-notices-in-open-source-software-projects/ 
+      >
+      >The readme file does not need a copyright statement as I see it. The indication of license should suffice.
+* Magnus: Check within Axis for recommendations on which file types require copyright notices.
+* TC: Propose good dates for the May meetup.
 
 ### February 10, 2022
 
