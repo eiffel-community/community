@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-03-10 Meeting](#March-10-2022)
     * [2022-02-24 Meeting](#February-24-2022)
     * [2022-02-10 Meeting](#February-10-2022)
     * [2022-01-27 Meeting](#January-27-2022)
@@ -23,6 +24,76 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+### March 10, 2022
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+* Updates from CDF sig-events, Emil & Mattias
+* Should we grant access to the eiffel-community organization to graphite.dev? (Tobias)
+    * Yes.
+* Community meeting follow up and plan for next (March 31st)
+    * Event Repository evolution? Interesting but requires a lot of preparations.
+    * Possibly .NET SDK demo?
+    * Protocol workshop and planning of upcoming editions?
+    * Action Mattias: Send email to mailing list and ask for topic proposals.
+    * Final decision on next week's meeting.
+* Fatih will talk about the coming elections (joining at 13:30)
+    * [TC election plan](https://hackmd.io/@eiffel-community/H1Oyst_4u) presented and approved.
+* Out of time, postponed: Should we add the TC mailing list to any of our documents? It's only visible in the summit call.
+* Out of time, postponed: Where should we add the link to the Python.\_\_init\_\_ podcast? Mattias
+* Postponed to next week's meeting: May meeting planning
+* Out of time, postponed: Fork external repos into eiffel-community?
+* Out of time, postponed: Planning of the next protocol edition
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* Magnus: Add TC members' email addresses to the GOVERNANCE document (in the table of TC members).
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* Mattias: Figure out how to deal with Eiffel-adjacent repos not in the eiffel-community organization. Should they be made visible? How? Prepare a proposal on this.
+    * To handle repositories not part of the Eiffel community e.g. https://plugins.jenkins.io/eiffel-broadcaster/. Create a fork of the repsitory in the Eiffel community.
+* ~~Fatih: Update timeline based on discussion (move elegible candidate earlier and take Easter into account) and get back to TC via mail for final confirmation.~~
+* ~~Fatih: Locate script for finding eligible candidates and create PR in the community repo.~~
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Mattias: Create proposal for event type categorization.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Confirm with Henning, Daniel, and Kristofer that it's okay to remove them as GitHub organization owners.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* Magnus: Check within Axis for recommendations on which file types require copyright notices.
+* TC: Propose good dates for the May meetup.
+* ~~TC: Sort out the exact quorum requirements.~~
+* Mattias: Send email to mailing list and ask for topic proposals.
 
 ### February 24, 2022
 
