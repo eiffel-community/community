@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-02-24 Meeting](#February-24-2022)
     * [2022-02-10 Meeting](#February-10-2022)
     * [2022-01-27 Meeting](#January-27-2022)
     * [2022-01-13 Meeting](#January-13-2022)
@@ -88,7 +89,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * ~~Tobias: Move SECURITY.md from the community repo to the .github repo.~~
     * ~~[github.com/eiffel-community/community#128](https://github.com/eiffel-community/community/pull/128)~~
     * ~~[github.com/eiffel-community/.github#15](https://github.com/eiffel-community/.github/pull/15)~~
-* Mattias: Check Ericsson email thread about which file types require copyright notices.
+* ~~Mattias: Check Ericsson email thread about which file types require copyright notices.~~
     * >Hi Mattias,
       > 
       >Think it very much is up to each and every open source project to decide. However if you have many different individuals/companies doing contributions the files soon become cluttered with copyright statements so one might wan to find other solutions. This blog from LF touches on the subject; https://www.linuxfoundation.org/en/blog/copyright-notices-in-open-source-software-projects/ 
@@ -96,6 +97,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
       >The readme file does not need a copyright statement as I see it. The indication of license should suffice.
 * Magnus: Check within Axis for recommendations on which file types require copyright notices.
 * TC: Propose good dates for the May meetup.
+* TC: Sort out the exact quorum requirements.
 
 ### February 10, 2022
 
