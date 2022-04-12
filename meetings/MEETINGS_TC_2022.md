@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-04-07 Meeting](#April-7-2022)
     * [2022-03-24 Meeting](#March-24-2022)
     * [2022-03-10 Meeting](#March-10-2022)
     * [2022-02-24 Meeting](#February-24-2022)
@@ -25,6 +26,77 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+### April 7, 2022
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+* Updates from CDF sig-events, Emil & Mattias
+    * [Bevy portal](https://www.bevy.com/) being used
+* [Meetup planning](https://hackmd.io/@eiffel-community/Hka_ajxf5)
+* [TC elections](https://hackmd.io/@eiffel-community/H1Oyst_4u)
+* Recap of March 31 monthly community meeting
+* Topic for upcoming April 28 monthly community meeting
+    * Maybe cancel? No obvious topics and it's two weeks prior to the meetup.
+* Planning of the next protocol edition
+    * Candidates (added to the [Arica edition milestone](https://github.com/eiffel-community/eiffel/milestone/7)):
+        * [Add missing testCase.version member to TERCC event](https://github.com/eiffel-community/eiffel/issues/288): Already merged
+        * [How to use CAUSE/CONTEXT in a non-event-driven pipeline](https://github.com/eiffel-community/eiffel/issues/227): Implementation-wise fairly clear but documenting the new link type is difficult. Let's talk about it at the meetup and decide afterwards whether to wait for it.
+        * [Add checksum to ArtC's data.fileInformation objects](https://github.com/eiffel-community/eiffel/issues/290): PR remains to be done but should be straight forward.
+* Has anybody experience of https://opensource.guide/
+    * Looks good but no reason to link to it from our repos.
+* Add info about making TC members Super admins on LinkedIn when new TC is elected
+    * TC: Create PR for https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md
+* PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* ~~Magnus: Add TC members' email addresses to the GOVERNANCE document (in the table of TC members).~~
+    * ~~https://github.com/eiffel-community/community/pull/131~~
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* ~~Mattias: Figure out how to deal with Eiffel-adjacent repos not in the eiffel-community organization. Should they be made visible? How? Prepare a proposal on this.~~
+    * ~~To handle repositories not part of the Eiffel community e.g. https://plugins.jenkins.io/eiffel-broadcaster/. Create a fork of the repsitory in the Eiffel community.~~
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* ~~Magnus: Check within Axis for recommendations on which file types require copyright notices.~~
+    * ~~No stated policy. Asked for general guidance in our Teams team for OSS.~~
+    * ~~Discussed on TC meeting. No further action at this point. If we see files in PRs without copyright notices it's fine to comment on it but let's not spend more time on it here.~~
+* Magnus: Convert "Watch the videos" section on https://eiffel-community.github.io/ to "Media" (or similar) and add a link there.
+* Magnus: Is there a LinkedIn post for the podcast episode that we can share with the Eiffel account?
+* Magnus: Announce podcast on mailing list.
+* Mattias: Promote external repos in landscape picture and link to them from https://github.com/eiffel-community. Convert landscape picture to SVG so that we can add clickable links.
+* TC: Add item on https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md to add new TC member as LinkedIn superuser. Also remove billing address item.
 
 ### March 24, 2022
 
@@ -112,6 +184,10 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * ~~(Mattias) First meeting for the new TC is May 5th. Do we want to meet in person then?~~
 * ~~Mattias: Send email to mailing list and ask for topic proposals.~~
     * ~~https://groups.google.com/g/eiffel-community/c/zqvCgHjhiO4~~
+* Magnus: Convert "Watch the videos" section on https://eiffel-community.github.io/ to "Media" (or similar) and add a link there.
+* Magnus: Is there a LinkedIn post for the podcast episode that we can share with the Eiffel account?
+* Magnus: Announce podcast on mailing list.
+* Mattias: Promote external repos in landscape picture and link to them from https://github.com/eiffel-community. Convert landscape picture to SVG so that we can add clickable links.
 
 ### March 10, 2022
 
