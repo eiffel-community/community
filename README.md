@@ -22,7 +22,7 @@ Visit [Eiffel Community](https://eiffel-community.github.io) to get started and 
 New to the community? Got a lot of questions but don't know where to post them? Or just want to catch up on what's happening?
 Join the discussions on [Eiffel Slack](https://join.slack.com/t/eiffel-workspace/shared_invite/enQtOTI3MzEzMzY4Mzg0LTA3NDVmNjgzZjk1YTFjNzk5OWE4MjExYzE1ODU1NzA1YzY5MzhlZmYxZmIwMzhiM2ExOWM4ZGJlYzdkN2M5OTE).
 
-Contact information to maintainers of the Eiffel repositories [are listed here](./CONTACT.md).
+Contact information to maintainers of the Eiffel repositories [are listed here](./PROJECTS.md).
 
 ## Eiffel Community Technical Committee
 
