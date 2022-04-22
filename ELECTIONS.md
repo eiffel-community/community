@@ -51,13 +51,13 @@ Eiffel TC Elections will be conducted according to the process documented in [th
 - [x] Eiffel TC reviews exception requests: March 24, 2022
 - [x] Eiffel TC Election Nomination period starts with an e-mail to Eiffel Google Group: March 30, 2022
 - [x] Eiffel TC Election Nomination Period ends with an e-mail to Eiffel Google Group:  April 11, 2022
-- [ ] If the number of candidates is greater than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
-    - [ ] Elections start: April 12, 2022
-    - [ ] Elections end: April 26, 2022
+- [x] If the number of candidates is greater than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
+    - [x] Elections start: April 12, 2022
+    - [x] Elections end: April 26, 2022
 - [x] If the number of candidates is equal to or less than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
     - [x] All candidates are automatically elected
 - [x] Announce newly elected Eiffel TC Members on Eiffel Google Group: May 2, 2022
-- [x] The new Eiffel TC assume their seats: May 5, 2022
+- [ ] The new Eiffel TC assume their seats: May 5, 2022
 - [ ] Publish candidate list for Eiffel TC Co Chairs on Eiffel Google Group: May 5, 2022 (unless TC decides to agree on appointment of TC members as co-chairs without election)
 
 ## <a id="Eligible-Community-Members-2022"></a>Eligible Community Members
@@ -81,7 +81,6 @@ Commits created in git repositories and issues opened up on the projects are tak
 * Colm Smyth
 * DURGA VARA PRASAD VAKAPALLI
 * Daniel Ståhl
-* Deleted user
 * Denis Konarev
 * Durga Vasaadi
 * Elizaveta Chigrina
@@ -215,7 +214,11 @@ List of community members nominated as candidates for Technical Committee.
 
 **Confirmed Candidates**
 
-TBD
+* Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/1c6Hn5cRCQAJ)
+* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ)
+* Azeem Ahmad, Volvo - [Link to nomination](https://groups.google.com/g/eiffel-community/c/VE0hGRDji1U/m/hT5Xa65PBAAJ)
+* Tobias Persson, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/jn_gQj9cBAAJ)
+* Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/s0boESXABAAJ)
 
 ## <a id="Technical-Committee-Co-Chair-Election-Process-2022"></a>Technical Committee Co Chair Election Process
 
