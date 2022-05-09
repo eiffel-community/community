@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-05-05 Meeting](#May-5-2022)
     * [2022-04-21 Meeting](#April-21-2022)
     * [2022-04-07 Meeting](#April-7-2022)
     * [2022-03-24 Meeting](#March-24-2022)
@@ -27,6 +28,73 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+### May 5, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved
+* Agenda Bashing, All
+    * Approved
+* Action Item Review, All
+* Updates from CDF sig-events, Emil & Mattias
+    * Emil to talk about Eiffel at CDEventsCon, as part of KubeCon.
+* TC introduction for new members
+* Add authorities according to [New TC member checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md)
+    * Action TC: Add new TC member checklist item for adding Slack ownership and TC Tasks board on GitHub.
+    * Action Magnus: Run through checklist for Azeem.
+* TC co-chair election
+    * Decide on meeting or send out for nominations? See [governance process](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-chair-elections-and-voting).
+    * Decision: Skip the TC chair election and use the exceptional process where TC itself decides the chairs.
+    * Emil and Magnus are both willing to continue as chairs. Nobody opposed these nominations.
+    * Decision: Emil and Magnus were elected as chairs.
+* [Meetup planning](https://hackmd.io/@eiffel-community/Hka_ajxf5)
+* Next community meeting
+    * Currently booked at May 26th, but it is public holiday. Cancel or reschedule? June 9th? To be decided on meetup?
+    * Decision: Decide during meetup whether to cancel or postpone to June 9th.
+* PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* Magnus: Convert "Watch the videos" section on https://eiffel-community.github.io/ to "Media" (or similar) and add a link there.
+* Magnus: Is there a LinkedIn post for the podcast episode that we can share with the Eiffel account?
+* Magnus: Announce podcast on mailing list.
+* Mattias: Promote external repos in landscape picture and link to them from https://github.com/eiffel-community. Convert landscape picture to SVG so that we can add clickable links.
+* TC: Add item on https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md to add new TC member as LinkedIn superuser. Also remove billing address item.
+* ~~Emil: Talk to new TC member Azeem about meeting time and make sure he's invited.~~
+* TC: Add new TC member checklist item for adding Slack ownership and TC Tasks board on GitHub.
+* Magnus: Run through checklist for Azeem.
 
 ### April 21, 2022
 
