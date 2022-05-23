@@ -234,12 +234,13 @@ Maintainers and contributors are eligible to vote in elections.
 
 Members of the Technical Committee are the individuals listed below. You can reach all current members with the [eiffel-tc@googlegroups.com](mailto:eiffel-tc@googlegroups.com) mailing list.
 
-Full Name         | Company   | GitHub                                                        | Email Address                                                     | Elected On  | Until
-------------------|:---------:|-------------------------------------------------------------- |-------------------------------------------------------------------|-------------|-----------
-Emil Bäckmark     | Ericsson  | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | April 2021  | April 2022
-Magnus Bäck       | Axis      | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | April 2021  | April 2022
-Mattias Linnèr    | Ericsson  | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | April 2021  | April 2022
-Tobias Persson    | Axis      | [t-persson](https://github.com/t-persson)                     | [tobias.persson@axis.com](mailto:tobias.persson@axis.com)         | April 2021  | April 2022
+Full Name         | Company              | GitHub                                                        | Email Address                                                     | Elected On  | Until
+------------------|:--------------------:|-------------------------------------------------------------- |-------------------------------------------------------------------|-------------|-----------
+Azeem Ahmad       | Volvo Group          | [azeem59](https://github.com/azeem59)                         | [azeem59@gmail.com](mailto:azeem59@gmail.com)                     | May 2022    | May 2023
+Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | May 2022    | May 2023
+Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | May 2022    | May 2023
+Mattias Linnèr    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2022    | May 2023
+Tobias Persson    | Axis Communications  | [t-persson](https://github.com/t-persson)                     | [tobias.persson@axis.com](mailto:tobias.persson@axis.com)         | May 2022    | May 2023
 
 The technical committee members will strive to
 
@@ -259,10 +260,10 @@ The goal of this position is servant leadership for the Eiffel Community, projec
 
 Current Technical Committee chairs are:
 
-Full Name         | Company   | GitHub                                                       | Email Address                                                   | Elected On  | Until
-------------------|:---------:|--------------------------------------------------------------|-----------------------------------------------------------------|-------------|-----------
-Emil Bäckmark     | Ericsson  | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com) | May 2021    | April 2022
-Magnus Bäck       | Axis      | [magnusbaeck](https://github.com/magnusbaeck)                | [magnus.back@axis.com](mailto:magnus.back@axis.com)             | May 2021    | April 2022
+Full Name         | Company              | GitHub                                                       | Email Address                                                   | Elected On  | Until
+------------------|:--------------------:|--------------------------------------------------------------|-----------------------------------------------------------------|-------------|-----------
+Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com) | May 2022    | April 2023
+Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                | [magnus.back@axis.com](mailto:magnus.back@axis.com)             | May 2022    | April 2023
 
 The chairs MUST ensure that
 
