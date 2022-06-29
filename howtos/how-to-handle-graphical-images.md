@@ -15,6 +15,7 @@ Current logos:
 <img alt="community-logo" src="https://raw.githubusercontent.com/eiffel-community/community/master/images/community-logo.png" width="350"/>
 <img alt="eiffel-gerrit-herald-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-gerrit-herald/master/images/logo.png" width="350"/>
 <img alt="eiffel-gerrit-lib-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-gerrit-lib/master/images/logo.png" width="350"/>
+<img alt="etos-logo" src="https://raw.githubusercontent.com/eiffel-community/etos/master/images/etos-logo.png" width="350"/>
 <img alt="eiffel-remrem-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-remrem/master/images/logo.png" width="350"/>
 <img alt="eiffel-gerrit-plugin-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-gerrit-plugin/master/images/eiffel-gerrit-plugin-logo.png" width="350"/>
 <img alt="eiffel-commons-logo" src="https://raw.githubusercontent.com/eiffel-community/eiffel-commons/master/images/logo.png" width="350"/>
