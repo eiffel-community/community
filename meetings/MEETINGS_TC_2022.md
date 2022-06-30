@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-06-30 Meeting](#June-30-2022)
     * [2022-06-16 Meeting](#June-16-2022)
     * [2022-06-02 Meeting](#June-2-2022)
     * [2022-05-19 Meeting](#May-19-2022)
@@ -31,6 +32,92 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+
+### June 30, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+* Updates from CDF sig-events, Emil & Mattias
+* Follow-up from community meeting about deployment events on June 23rd
+    * What's the way forward?
+    * Short minutes available in [github.com/eiffel-community/eiffel#239](https://github.com/eiffel-community/eiffel/issues/239).
+* Next week's extra TC meeting
+    * Discuss deployment events or something else?
+    * Yes, continue deployment event discussion.
+* Summit 2022
+    * Preliminary to be held in Nasdaq's premises in Stockholm in October
+    * https://hackmd.io/MD7RAYeuQH6SJy61jed4ng
+    * Action Emil: Send placeholder calendar invite as soon as dates have been confirmed.
+* ArangoDB PoC
+    * Continuation of https://github.com/eiffel-community/eiffel-persistence-technology-evaluation?
+    * Follow-up called for Sep 6th 2022
+    * To be performed on Nordix?
+    * Action Emil/Mattias: Sort out with Ericsson Software Technology whether Nordix can be used for this evaluation.
+* ER Spec
+    * https://github.com/eiffel-community/eiffel-event-repository/pull/12
+    * Action Magnus: Comment in existing PR which features that aren't necessary in a minimal ER lookup API spec.
+* Next protocol release
+    * https://github.com/eiffel-community/eiffel/milestone/7
+* What projects should be pinned on https://github.com/eiffel-community?
+    * [easy2use](https://github.com/eiffel-community/eiffel-easy2use) no longer pinned.
+    * We should probably have another introductory repo pinned but currently there's no good candidate.
+* Out of time, postponed: Generate HTML pages from our MarkDown files?
+    * CDEvents as an example
+* Out of time, postponed: Graphite.dev
+    * Any good news?
+* Out of time, postponed: Add state "dormant" to project lifecycle stages?
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md
+    * For example Easy2Use, Jira plugin
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.
+     * Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* Magnus: Convert "Watch the videos" section on https://eiffel-community.github.io/ to "Media" (or similar) and add a podcast link there.
+* Magnus: Announce podcast episode on LinkedIn.
+* Mattias: Promote external repos in landscape picture and link to them from https://github.com/eiffel-community. Convert landscape picture to SVG so that we can add clickable links.
+* Magnus: Run through checklist for Azeem.
+    * Almost done; the YouTube ownership invite is still pending.
+* Mattias: Locate good place to post potential master thesis projects.
+* Emil: Send summit placeholder calendar invite as soon as dates have been confirmed.
+* Emil/Mattias: Sort out with Ericsson Software Technology whether Nordix can be used for an ArangoDB evaluation.
+* Magnus: Comment in [existing PR](https://github.com/eiffel-community/eiffel-event-repository/pull/12) which features that aren't necessary in a minimal ER lookup API spec.
 
 ### June 16, 2022
 
