@@ -83,7 +83,7 @@ Eiffel Community Election Officers are the individuals listed below:
 
 ### Security Officers
 
-Eiffel Community Security Officers are the community members who are appointed by Eiffel Technical Committee to oversee [Eiffel Community Vulnerability and Security Reporting and Response process](./SECURITY.md).
+Eiffel Community Security Officers are the community members who are appointed by Eiffel Technical Committee to oversee [Eiffel Community Vulnerability and Security Reporting and Response process](https://github.com/eiffel-community/.github/blob/master/SECURITY.md).
 
 The term for Security Officers is **one year**.
 
