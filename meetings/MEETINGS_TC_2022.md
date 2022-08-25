@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-08-25 Meeting](#August-25-2022)
     * [2022-08-11 Meeting](#August-11-2022)
     * [2022-06-30 Meeting](#June-30-2022)
     * [2022-06-16 Meeting](#June-16-2022)
@@ -33,6 +34,103 @@
 ## Agenda and Notes
 
 Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
+
+### August 25, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
+* Updates from CDF sig-events, Emil & Mattias
+    * Demo on Aug 24 of integration between Eiffel and CDEvents, building upon the old PoC of CDEvents.
+* Appoint Security Officers
+    * Suggestion to appoint past security officers Kristofer Hallén and Fredrik Fristedt to a new term that ends 2023-05-31, i.e. after the next TC has taken its place.
+        * Hereby decided.
+* Summit preparations
+    * First meeting held with Nasdaq on Aug 22. Follow-ups will be held every other Monday. See [summit document](https://hackmd.io/@eiffel-community/H118K7P59).
+* Follow-up from community meeting about deployment events on Aug 18th
+    * No concrete outcome from last meeting.
+    * To make the discussion move forward we should try structuring and scoping things better so we're not talking in circles. Maybe we can try copying CDEvents' deployment events and see if they'd work? Spending maybe on hour on that would probably help follow-up discussions a lot.
+* Next community meeting Sep 15th. What topic?
+    * First half to work on the summit agenda.
+    * Second half to have the meta discussion about deployment events.
+* Next week's extra TC meeting. What to bring up?
+    * Sort out how to handle security alerts. Requires Security Officers to be part of the meeting. Emil will check if they can attend.
+    * Look into the summit agenda.
+    * If there's time, look into the deployment event meta discussion.
+* The Dependabot setting from last TC meeting had no effect, or?
+    * Ask security officers to sort out why maintainers get alert but not organization owners.
+* Out of time, postponed: Do we want a linter for our MarkDown?
+    - https://github.com/eiffel-community/eiffel/pull/304/checks gives a lot of errors
+* Out of time, postponed: New Slack pricing plans
+    - https://slack.com/blog/news/pricing-and-plan-updates
+    - Are there any decent options to Slack?
+* Out of time, postponed: Generate HTML pages from our MarkDown files?
+    * CDEvents as an example
+* Out of time, postponed: Graphite.dev
+    * Any good news?
+* Out of time, postponed: Add state "dormant" to project lifecycle stages?
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md
+    * For example Easy2Use, Jira plugin
+* Out of time, postponed: Eiffel name copyright/trademark, [see mail thread](https://groups.google.com/g/eiffel-tc/c/820cEy2mkKU/m/bXzAs3TOAAAJ?utm_medium=email&utm_source=footer)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* ~~Magnus to file another PR to Eiffel Protocol repo to move from examples to best practices.~~
+     * ~~Issue already exists that could contain this improvement: https://github.com/eiffel-community/eiffel/issues/226, but no PR yet~~
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+* Magnus: Propose new policy of how to deal with the issue requirement for new development.
+* TC: Write issue about describing process for archiving projects and do archive eiffel-remrem-shared
+    * remrem-shared: https://github.com/eiffel-community/eiffel-remrem-shared/issues/30 (library not actually used but there are still references to it)
+    * https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-archived
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the summit.
+* Emil/Mattias: Make sure questions from the CDF summit presentation are taken care of in SIG Events.
+    * This can be transformed into an issue
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Could policies like "repo maintainers should also be watchers" be enforced with e.g. [github.com/github/safe-settings](https://github.com/github/safe-settings) or [github.com/probot/settings](https://github.com/probot/settings)?
+* Magnus: Announce podcast episode on LinkedIn.
+* Magnus: Run through checklist for Azeem.
+    * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
+* Mattias: Locate good place to post potential master thesis projects.
+    - Can we for now create a HackMD document to track ideas on Master Thesis subjects?
+    - We could link to it from the community README.md page. No!
+    - Mattias to create HackMD document and announce it.
+* ~~Emil/Magnus: Set up separate meeting series with Nasdaq to plan summit practicalities.~~
+* ~~Emil: Send meeting invite for the monthly community meetings.~~
+* ~~Magnus: Ask current security officers (Kristofer Hallén, Fredrik Fristedt) if they want to continue.~~
+    * ~~Update 2022-08-25: Questions posed, both candidates accepted.~~
+* ~~Magnus: Create issue to update GOVERNANCE.md with dates of current term of security officers.~~
+    * ~~https://github.com/eiffel-community/community/issues/137~~
+* ~~Tobias: Talk to Fredrik Fristedt about ensuring that the security mailing list accepts messages.~~
+    - ~~Email has been fixed~~
+* ~~TC: Add item on new-TC-member checklist to enable some kind of notification (immediate and/or digest) of Dependabot alerts.~~
+    * ~~Draft task added on https://github.com/orgs/eiffel-community/projects/3/views/4.~~
+* TC: Announce new Dependabot policy on mailing list.
+* Emil: Update invite for next extra TC meeting to include security officers so that we can discuss exactly how to deal with alerts.
 
 ### August 11, 2022
 
