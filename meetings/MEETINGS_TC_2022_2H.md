@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-11-17 Meeting](#November-17-2022)
     * [2022-11-03 Meeting](#November-3-2022)
     * [2022-10-20 Meeting](#October-20-2022)
     * [2022-10-06 Meeting](#October-6-2022)
@@ -32,8 +33,75 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 * June 2023: Elect security officers - https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers
     * This should be covered by a post-election checklist.
-* [Dependabot PRs](https://github.com/pulls?q=is%3Apr+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3Aeiffel-community+dependabot)
+
+### November 17, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
+* Updates from CDF sig-events, Emil & Mattias
+    * Refresh of https://cdevents.dev/ ongoing.
+    * Link discussion still going on.
 * We now have a handle for the Eiffel community `@EiffelCommunity`. You can see it from https://www.youtube.com/handle if you are logged in.
+* Monthly Community meeting
+    * Good attendance on Nov 10th. 14 people from 5 organizations (Axis, Ericsson, EST, LiU, Nasdaq)
+    * Recordings: https://www.youtube.com/playlist?list=PLU5MfFmhN7pz2mHqjBJPASqy_1n4zScG0
+    * Topics for next meeting on Dec 8th?
+        * Proposal documented on HackMD doc
+* New edition of the protocol - Arica
+    * Good to go
+* Review requests
+    * Do we have an issue with our review request process?
+    * Are people using the notification panel or how are review requests tracked?
+    * We're just lazy... We could ping each other on Slack if an urgent review is needed
+* How do we include new people in the Community?
+    * Continue asking people who show interest for more information about the nature of their interest.
+* [Dependabot PRs](https://github.com/pulls?q=is%3Apr+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+user%3Aeiffel-community+dependabot) - What to do about these?
+    * Action Emil: Make sure the maintainer guidelines are updated with the need to act on Dependabot updates/alerts.
+    * Repositories that are de facto inactive and don't update their dependencies should be considered for demotion to dormant.
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+    * Update 2022-09-29: Robert has promised to fix the problem this month.
+    * Update 2022-11-03: Emil and Mattias will talk to Nordix.
+    * Update 2022-11-17: New Nordix contact established.
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* Magnus: Run through checklist for Azeem.
+    * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
+* TC: Announce new Dependabot policy on mailing list.
+* Azeem: Investigate if we can obtain legal assistance from Software Center.
+* Emil: Invite Nasdaq to a follow-up meeting next week.
+* Emil: Make sure the maintainer guidelines are updated with the need to act on Dependabot updates/alerts.
 
 ### November 3, 2022
 
