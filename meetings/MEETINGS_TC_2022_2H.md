@@ -8,6 +8,9 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2022-12-15 Meeting](#December-15-2022)
+    * [2022-12-01 Meeting](#December-1-2022)
+    * [2022-11-24 Meeting](#November-24-2022)
     * [2022-11-17 Meeting](#November-17-2022)
     * [2022-11-03 Meeting](#November-3-2022)
     * [2022-10-20 Meeting](#October-20-2022)
@@ -33,6 +36,164 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 * June 2023: Elect security officers - https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers
     * This should be covered by a post-election checklist.
+
+### December 15, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, present / not present
+    * Emil Bäckmark, present / not present
+    * Magnus Bäck, present / not present
+    * Mattias Linnér, present / not present
+    * Tobias Persson, present / not present
+* Others
+
+#### Agenda and Notes
+
+* Rollcall, All
+* Approval of Previous Minutes, All
+* Agenda Bashing, All
+* Action Item Review, All
+    * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
+* Updates from CDF sig-events, Emil & Mattias
+* Meetings during upcoming holidays
+    * Next weeks extra TC meeting?
+    * Meetings during w52 and 1 canceled
+    * Next ordinary TC meeting on Jan 12th
+* Monthly Community meetings
+    * January meeting postponed to Jan 19th
+    * Topics for Jan 19th: ?
+* https://www.youtube.com/@EiffelCommunity now shows more videos
+* Scope and purpose of security officer issue ([github.com/eiffel-community/community#141](https://github.com/eiffel-community/community/issues/141))
+* Eiffel TC Task board(s)
+    * Add a dedicated protocol board with all protocol issues and clean up the [current TC board](https://github.com/orgs/eiffel-community/projects/3/views/4) to only contain "[community issues](https://github.com/search?l=&p=1&q=state%3Aopen+repo%3Aeiffel-community%2Feiffel-playground+repo%3Aeiffel-community%2Fcommunity+repo%3Aeiffel-community%2Feiffel-repository-template+repo%3Aeiffel-community%2Feiffel-community.github.io+repo%3Aeiffel-community%2F.github&ref=advsearch&type=Issues)"?
+    * Should e.g. [ER PR#12](https://github.com/eiffel-community/eiffel-event-repository/pull/12) really be on the TC board?
+* TC being member of all maintainer Google groups (see AP below)
+    * What role? A group cannot be a manager/owner
+    * ![](https://i.imgur.com/KyFILA2.png)
+    * Suggestion: Add all TC members individually, as owners, to each group
+* Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
+* PRs and issues
+
+#### Action Items
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+    * Update 2022-09-29: Robert has promised to fix the problem this month.
+    * Update 2022-11-03: Emil and Mattias will talk to Nordix.
+    * Update 2022-11-17: New Nordix contact established.
+    * Update 2022-12-01: We now have access to a k8s cluster via a jumphost. No inbound access from the internet though.
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* Magnus: Run through checklist for Azeem.
+    * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
+    * **Update 2022-12-12:** Azeem will leave TC. Should this action be considered done?
+* TC: Announce new Dependabot policy on mailing list.
+    * **Update 2022-12-12:** To be handled through https://github.com/eiffel-community/community/issues/153
+* Azeem: Investigate if we can obtain legal assistance from Software Center.
+    * **Update 2022-12-12:** Someone else to drive this?
+* Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
+    * **Update 2022-12-12:** https://www.when2meet.com/?17987352-Gk4R3
+
+
+### December 1, 2022
+
+#### Participants
+
+* TC Attendees
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+* Others
+    * Per-Arne Landström
+    * Jonathan Dartland
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
+* Updates from CDF sig-events, Emil & Mattias
+    * [cdevents.dev](https://cdevents.dev/) refresh ongoing
+    * Event linking is being discussed again. Link use cases need to be described.
+* Monthly Community meeting
+    * Revisit the topic of the December meeting
+        * Keep previous topics (deployment events, DORA, beta events).
+        * Action Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
+    * Date of the January meeting
+        * Postpone the community meeting series and the extra TC meeting series two weeks, i.e. the January community meeting takes place on January&nbsp;19.
+* Release notes and labels ([github.com/eiffel-community/eiffel#336](https://github.com/eiffel-community/eiffel/pull/336))
+    * Tobias suggested a &lt;details&gt; element for listing all remaining PRs apart from those labeled protocol and protocol-incompat.
+    * Draft issue created to document exactly how the protocol and protocol-incompat labels should be used as that isn't entirely clear.
+* [Usage of EnvironmentDefined](https://github.com/eiffel-community/eiffel/issues/337)
+* Out of time, postponed: https://www.youtube.com/@EiffelCommunity now shows more videos
+* Out of time, postponed: Scope and purpose of security officer issue ([github.com/eiffel-community/community#141](https://github.com/eiffel-community/community/issues/141))
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
+    * [Fatih] Still pending unfortunately. Will come back to this as soon as I get some time.
+    * Update 2021-08-12: Question sent to Fatih but no reply yet.
+    * Update 2021-09-09: Future communication to be done directly with Nordix via their mailing list.
+    * Update 2021-10-07: Cluster running, access control situation unclear.
+    * Update 2021-10-21: Tobias and Mattias have SSH access to one of the hosts but we don't appear to have k8s access.
+    * Update 2022-01-27: Probably simple to fix, Tobias to ping Robert at Nordix.
+    * Update 2022-02-17: Tobias has pinged Robert. Waiting for response.
+    * Update 2022-09-29: Robert has promised to fix the problem this month.
+    * Update 2022-11-03: Emil and Mattias will talk to Nordix.
+    * Update 2022-11-17: New Nordix contact established.
+    * Update 2022-12-01: We now have access to a k8s cluster via a jumphost. No inbound access from the internet though.
+* TC: Add all TC members to all existing Eiffel Google groups
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* Magnus: Run through checklist for Azeem.
+    * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
+* TC: Announce new Dependabot policy on mailing list.
+* Azeem: Investigate if we can obtain legal assistance from Software Center.
+* Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
+
+### November 24, 2022
+
+#### Participants
+* TC Attendees
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+* Others
+    * Claes Richárd, Nasdaq
+    * Jonathan Dartland, Nasdaq
+
+#### Agenda and Notes
+
+- What are the general and specific takeaways from the summit?
+- What support would Nasdaq’s need from Eiffel Community/TC to benefit even more from their Eiffel deployment?
+    - Environment events are of interest.
+    - How does e.g. Eiffel Intelligence respond to protocol changes?
+    - Who/What validates events? Where should it take place?
+- What would Nasdaq like to see happening next in the Eiffel Community, w.r.t. protocol updates, meetups/summits, online discussions, etc.?
 
 ### November 17, 2022
 
@@ -100,8 +261,9 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
 * TC: Announce new Dependabot policy on mailing list.
 * Azeem: Investigate if we can obtain legal assistance from Software Center.
-* Emil: Invite Nasdaq to a follow-up meeting next week.
-* Emil: Make sure the maintainer guidelines are updated with the need to act on Dependabot updates/alerts.
+* ~~Emil: Invite Nasdaq to a follow-up meeting next week.~~
+* ~~Emil: Make sure the maintainer guidelines are updated with the need to act on Dependabot updates/alerts.~~
+    * ~~Draft issue created.~~
 
 ### November 3, 2022
 
