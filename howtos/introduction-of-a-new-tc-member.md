@@ -3,6 +3,7 @@
 Checklist for introducing a new Technical Committee member
 
 ## GitHub
+- Update [TC members table](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members)
 - Become an [owner of Eiffel Community GitHub organization](https://github.com/orgs/eiffel-community/people?query=role%3Aowner)
 - Become a maintainer of eiffel-community-maintainers in the [maintainers list](https://github.com/orgs/eiffel-community/teams/eiffel-community-maintainers/members)
 
