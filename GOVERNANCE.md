@@ -89,11 +89,12 @@ The term for Security Officers is **one year**.
 
 Responsibilities of Security Officers are
 
-* Be the main contact with regards to community vulnerability and security issues including for the issues reported by users or discovered by the community members
-* Be a member of private community mail list eiffel-community-security@googlegroups.com and monitor it actively
-* Ensure the reported issues are acknowledged, analysed, addressed, fixed, released, and responded accordingly
+* Be the main contact with regards to community vulnerability and security issues including for the issues reported by users or discovered by the community members. The security officers do not take responsibility for security issues in individual repositories.
+* Be a member of private community mail list eiffel-community-security@googlegroups.com and monitor it actively.
+* Monitor the community [security advisories](https://github.com/eiffel-community/community/security/advisories). 
+* Inform repository owners of reported issues. Acknowledging, analysing, fixing, and releasing is a responsibility for repository maintainers.
 * Ensure the public disclosure of the issue and required fixes are done in a timely manner
-* Ensure community vulnerability and security reporting and response process is followed by the community
+* Ensure community vulnerability and security reporting and response process is followed by the community. 
 
 Eiffel Community is served by **2** Security Officers.
 
