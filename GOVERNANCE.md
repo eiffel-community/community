@@ -237,7 +237,6 @@ Members of the Technical Committee are the individuals listed below. You can rea
 
 Full Name         | Company              | GitHub                                                        | Email Address                                                     | Elected On  | Until
 ------------------|:--------------------:|-------------------------------------------------------------- |-------------------------------------------------------------------|-------------|-----------
-Azeem Ahmad       | Volvo Group          | [azeem59](https://github.com/azeem59)                         | [azeem59@gmail.com](mailto:azeem59@gmail.com)                     | May 2022    | May 2023
 Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | May 2022    | May 2023
 Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | May 2022    | May 2023
 Mattias Linnèr    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2022    | May 2023
