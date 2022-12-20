@@ -6,7 +6,9 @@ Checklist for introducing a new Technical Committee member
 - Update [TC members table](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members)
 - Become an [owner of Eiffel Community GitHub organization](https://github.com/orgs/eiffel-community/people?query=role%3Aowner)
 - Become a maintainer of eiffel-community-maintainers in the [maintainers list](https://github.com/orgs/eiffel-community/teams/eiffel-community-maintainers/members)
-- Become an Admin in the [TC-managed GitHub projects](https://github.com/orgs/eiffel-community/projects).
+- Become an Admin in the [TC-managed GitHub projects](https://github.com/orgs/eiffel-community/projects)
+- Enable notification (immediate and/or digest) of Dependabot alerts
+
 ## Google Groups
 - Become an owner of Eiffel Community Google Group in the [members list](https://groups.google.com/g/eiffel-community/members)
 - Become an owner of Eiffel Technical Committee Google Group in the [members list](https://groups.google.com/g/eiffel-tc/members)
