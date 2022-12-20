@@ -10,7 +10,6 @@ Checklist for introducing a new Technical Committee member
 ## Google Groups
 - Become an owner of Eiffel Community Google Group in the [members list](https://groups.google.com/g/eiffel-community/members)
 - Become an owner of Eiffel Technical Committee Google Group in the [members list](https://groups.google.com/g/eiffel-tc/members)
-- Become an owner (?) of each maintainer Google Group in the [members list](https://groups.google.com/g/eiffel-.../members)
 
 ## Other Explicit Authorities
 - Become a member of Eiffel Community HackMD team in the [members list](https://hackmd.io/team/eiffel-community/manage#members)
