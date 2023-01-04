@@ -30,52 +30,64 @@
 
 ## Agenda and Notes
 
-Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
-
-### Next
-
-* June 2023: Elect security officers - https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers
-    * This should be covered by a post-election checklist.
+Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/i0Hf5jlySEyIJ8oOuwm2pw) in order to prevent notes getting out of sync.
 
 ### December 15, 2022
 
 #### Participants
 
 * TC Attendees
-    * Azeem Ahmad, present / not present
-    * Emil Bäckmark, present / not present
-    * Magnus Bäck, present / not present
-    * Mattias Linnér, present / not present
-    * Tobias Persson, present / not present
-* Others
+    * Azeem Ahmad, not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
 
 #### Agenda and Notes
 
 * Rollcall, All
+    * We have quorum.
 * Approval of Previous Minutes, All
+    * Approved.
 * Agenda Bashing, All
+    * Approved.
 * Action Item Review, All
     * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
 * Updates from CDF sig-events, Emil & Mattias
+    * 0.2 scoping in progress with a Feb 2023 target. 0.3 targeted for April/May 2023.
 * Meetings during upcoming holidays
-    * Next weeks extra TC meeting?
+    * Next weeks extra TC meeting? Canceled
     * Meetings during w52 and 1 canceled
     * Next ordinary TC meeting on Jan 12th
 * Monthly Community meetings
     * January meeting postponed to Jan 19th
-    * Topics for Jan 19th: ?
+    * Topic for Jan 19th: Protocol issue backlog cleanup
+    * Action Emil: Update meeting invite to state the topic. On the Jan 12 TC meeting we'll decide which issues to actually talk about.
+        * Done
+    * Action Emil: Create a project board for the protocol to handle priorities for the protocol issues. Readable by all in the community and writeable by protocol maintainers.
+        * Done: https://github.com/orgs/eiffel-community/projects/6/views/1
+* Update to TC members list
+    * Azeem will leave the TC now due to overbooked seats from Ericsson.
+    * Action Magnus: Follow [checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md) to revert Azeems's authorities etc
 * https://www.youtube.com/@EiffelCommunity now shows more videos
 * Scope and purpose of security officer issue ([github.com/eiffel-community/community#141](https://github.com/eiffel-community/community/issues/141))
+    * Initial PR merged, still work TBD regarding maintainers' responsibilities and Dependabot.
 * Eiffel TC Task board(s)
     * Add a dedicated protocol board with all protocol issues and clean up the [current TC board](https://github.com/orgs/eiffel-community/projects/3/views/4) to only contain "[community issues](https://github.com/search?l=&p=1&q=state%3Aopen+repo%3Aeiffel-community%2Feiffel-playground+repo%3Aeiffel-community%2Fcommunity+repo%3Aeiffel-community%2Feiffel-repository-template+repo%3Aeiffel-community%2Feiffel-community.github.io+repo%3Aeiffel-community%2F.github&ref=advsearch&type=Issues)"?
+        * We'll add a new public board for protocol issues but more to prioritize them, e.g. for protocol workshops.
+        * The existing TC board shouldn't get all protocol issues but rather those with a community impact, e.g. the YAML conversion, experimental versions, etc, but _not_ straight-up protocol changes like "add link type X to event Y".
     * Should e.g. [ER PR#12](https://github.com/eiffel-community/eiffel-event-repository/pull/12) really be on the TC board?
+        * Maybe not, but let's keep it for now.
 * TC being member of all maintainer Google groups (see AP below)
     * What role? A group cannot be a manager/owner
     * ![](https://i.imgur.com/KyFILA2.png)
     * Suggestion: Add all TC members individually, as owners, to each group
-* Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
-* [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
-* PRs and issues
+        * Yes. But no. See next point.
+    * What about synch between the Google group and corresponding GitHub group? Could we script the updates of google groups?
+        * Decision: Deprecate mailing lists in favor of GitHub discussions/issues/PRs. They're hardly used and mostly created administrative overhead. Draft issue created.
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
+* Out of time, postponed: PRs and issues
 
 #### Action Items
 * Tobias: Fatih to get Tobias and Mattias in touch with Nordix for Kubernetes cluster installation
@@ -91,20 +103,23 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Update 2022-11-17: New Nordix contact established.
     * Update 2022-12-01: We now have access to a k8s cluster via a jumphost. No inbound access from the internet though.
 * TC: Add all TC members to all existing Eiffel Google groups
+    * **Update 2022-12-12:** With what role? See also https://github.com/eiffel-community/community/pull/155
 * TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
 * Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
 * Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
 * Magnus: Announce podcast episode on LinkedIn.
-* Magnus: Run through checklist for Azeem.
-    * 2022-08-08: Almost done; the YouTube ownership invite is still pending.
-    * **Update 2022-12-12:** Azeem will leave TC. Should this action be considered done?
-* TC: Announce new Dependabot policy on mailing list.
-    * **Update 2022-12-12:** To be handled through https://github.com/eiffel-community/community/issues/153
-* Azeem: Investigate if we can obtain legal assistance from Software Center.
-    * **Update 2022-12-12:** Someone else to drive this?
+* ~~Magnus: Run through checklist for Azeem.~~
+    * ~~2022-08-08: Almost done; the YouTube ownership invite is still pending.~~
+    * ~~**Update 2022-12-12:** Azeem will leave TC. Should this action be considered done?~~
+        * ~~Yes.~~
+* ~~TC: Announce new Dependabot policy on mailing list.~~
+    * ~~**Update 2022-12-12:** To be handled through https://github.com/eiffel-community/community/issues/153~~
+* TC: Investigate if we can obtain legal assistance from Software Center.
 * Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
     * **Update 2022-12-12:** https://www.when2meet.com/?17987352-Gk4R3
-
+* Emil: Update Jan 19 community meeting invite to state the topic. On the Jan 12 TC meeting we'll decide which issues to actually talk about.
+* Magnus: Follow [checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md) to revert authorities for Azeem.
+* Emil: Create a project board for the protocol to handle priorities for the protocol issues. Readable by all in the community and writeable by protocol maintainers.
 
 ### December 1, 2022
 
