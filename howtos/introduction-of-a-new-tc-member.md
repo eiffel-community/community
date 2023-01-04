@@ -13,11 +13,15 @@ Checklist for introducing a new Technical Committee member
 - Become an owner of Eiffel Community Google Group in the [members list](https://groups.google.com/g/eiffel-community/members)
 - Become an owner of Eiffel Technical Committee Google Group in the [members list](https://groups.google.com/g/eiffel-tc/members)
 
+## Slack
+- Become a Workspace Owner in the [Slack workspace](https://eiffel-workspace.slack.com)
+- Add the new member to the private TC Slack channel
+
 ## Other Explicit Authorities
 - Become a member of Eiffel Community HackMD team in the [members list](https://hackmd.io/team/eiffel-community/manage#members)
 - Have an [owner role on the YouTube Brand Account](https://myaccount.google.com/brandaccounts/107441924255935413470/view)
 - Become a superadmin for the [LinkedIn page](https://www.linkedin.com/company/eiffel-community/)
-- Become a Workspace Owner in the [Slack workspace](https://eiffel-workspace.slack.com)
+- Inform the new TC member about all authorities in this list
 
 ## Implicit authorities
 
