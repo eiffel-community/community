@@ -76,7 +76,7 @@ Responsibilities of Election Officers are
 
 Eiffel Community is served by **2** election officers.
 
-Eiffel Community Election Officers are the individuals listed below:
+Eiffel Community Election Officers are the individuals listed below, appointed for a term ending January 27, 2023:
 
 * Daniel Ståhl, Ericsson
 * Fatih Degirmenci, Ericsson Software Technology
@@ -98,7 +98,7 @@ Responsibilities of Security Officers are
 
 Eiffel Community is served by **2** Security Officers.
 
-Eiffel Community Security Officers are the individuals listed below:
+Eiffel Community Security Officers are the individuals listed below, appointed for a term ending May 31, 2023:
 
 * Fredrik Fristedt, Axis Communications
 * Kristofer Hallén, Ericsson
