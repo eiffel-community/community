@@ -49,6 +49,14 @@ The nomination is done as a pull request to the *CODEOWNERS* file in correspondi
 
 Maintainers are active contributors and participants in the projects they are maintainers of. Maintainers have the rights to accept pull requests.
 
+Maintainers have a responsibility towards the code and content of the projects and repositories they maintain. This means the maintainer is expected to enforce the following:
+* Inclusive and non-offensive content
+* Adequate overall code quality
+* Reasonable test coverage
+* Reasonable security and vulnerability scanning
+
+A good default for security and vulnerability scanning is to have [Dependabot Alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts), [Dependabot Security Updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) and [Secret Scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/about-secret-scanning) enabled. All these settings can be found under _Settings -> Code and Security Analysis_
+
 Maintainers are eligible to vote on Technical Committee elections. They can be nominated as members to the Technical Committee during Technical Committee elections.
 
 Maintainers have right to nominate contributors to become maintainers and vote on the maintainer promotions for the projects they are maintainers of.
