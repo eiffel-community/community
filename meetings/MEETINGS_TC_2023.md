@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-02-02 Meeting](#February-02-2023)
+    * [2023-01-25 Meeting](#January-25-2023)
     * [2023-01-11 Meeting](#January-11-2023)
 
 ## Logistics
@@ -23,10 +25,89 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-* June 2023: Elect security officers - https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers
-    * This should be covered by a post-election checklist.
-* Eiffel Summit 2023
-    * Software Center has [Reporting workshop](https://www.software-center.se/event/rws_june2023/) on June 15th in Gothenburg. Should we co-locate an Eiffel Summit on 13–14th in Gothenburg?
+* June 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
+    * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
+
+### February 2, 2023
+
+(Extra TC meeting)
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Appoint election officers
+    - Fatih Degirmenci and Fredrik Fristedt have accepted to be Election Officers for a one-year term ending 2024-02-02.
+    - https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw#Eiffel-Technical-Committee-Elections-2023
+    - Emil: Reach out to them to start by setting the timeline and come back to TC to present it when done
+* https://github.com/eiffel-community/eiffel/pull/343 - Did we say step major version for experimental link types
+    * Mattias will approve it now.
+    * Magnus will consider it one more night before submitting it.
+* Discuss issue Eiffel vision/mission - https://github.com/eiffel-community/eiffel/issues/190
+    * Compare to distributed tracing. Where do we draw the line? Should there be a spanId attribute in one of the activity events? Should we express an opinion on how deep down in the stack Eiffel should be used (build-as-a-service example)?
+    * How far towards the ops space (incidents etc)?
+    * Resource monitoring was used an example of what not to cover, but why not? A possible rule that _might_ work is that events that are _only_ useful outside the pipeline but never within the pipeline shouldn't be part of Eiffel. That at least applies to the resource monitoring example. However, Eiffel can include references to where consumers can find resource usage data.
+    * Eiffel should be used for events/occurences, not "current status/state".
+* Postponed to next weeks TC meeting: Info project now have roadmaps - https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/
+
+
+### January 25, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * The TC GitHub project: https://github.com/orgs/eiffel-community/projects/3/views/4
+* Updates from CDF sig-events, Emil & Mattias
+    * There was a meeting between CDEvents and folks from an interoperabiltiy subgroup of [Value Stream Management Consortium](https://www.vsmconsortium.org/) community. The VSM group will run a meeting series on this topic.
+    * Incident events are being discussed and will probably be included in the next release. This would enable DORA metrics.
+* TC elections
+    * [Elections document](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw) (synced to GitHub)
+    * Election Officers: Emil will ask Fatih. Magnus will ask Fredrik or others at Axis. Next week's extra meeting will appoint the person's we've found.
+    * What should the timeline be?
+        * The newly appointed election officers will be asked to revise the time plan and present it at the Feb 9 TC meeting.
+* What happened with [github.com/eiffel-community/eiffel#190](https://github.com/eiffel-community/eiffel/issues/190)?
+    * Ties in with the mission/vision. Will be discussed at next week's extra TC meeting.
+* Eiffel repo naming regarding 
+[github.com/eiffel-community/community#162](https://github.com/eiffel-community/community/issues/162) and [github.com/eiffel-community/community#161](https://github.com/eiffel-community/community/issues/161)
+    * Relates to the names of SDK repos as well - eiffelevents-sdk-
+    * Currently proposed names (eiffel-demo-cdevents and eiffel-translator-cdevents) were approved.
+    * Emil to create PR to finish the project creation through community repo documents
+* Do we all know about eventcatalog? E.g the part on events https://www.eventcatalog.dev/docs/events/introduction
+    * Might be usable when publishing Eiffel event documentation on github.io.
+* Out of time, postponed: At the summit we talked about describing relationships between artifacts. Was there an issue filed for this? Should there be one?
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: [Common branching strategy?](https://github.com/eiffel-community/community/issues/150)
+* Out of time, postponed: PRs and issues 
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* TC: Investigate if we can obtain legal assistance from Software Center.
+* Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
+    * Update 2022-12-12: https://www.when2meet.com/?17987352-Gk4R3
 
 ### January 11, 2023
 
