@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-02-22 Meeting](#February-22-2023)
+    * [2023-02-09 Meeting](#February-09-2023)
     * [2023-02-02 Meeting](#February-02-2023)
     * [2023-01-25 Meeting](#January-25-2023)
     * [2023-01-11 Meeting](#January-11-2023)
@@ -27,6 +29,124 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 * June 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
     * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
+* Should we have rules for what Java package paths to use in Eiffel Community repos?
+
+
+### February 22, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present / not present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project](https://github.com/orgs/eiffel-community/projects/3/views/4)
+* TC elections
+    * [Elections document](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * We noticed a discrepancy between GOVERNANCE.md and the elections document regarding eligibility. We decided to follow what the former says but to get this decision confirmed with the election officers before proceeding to update the elections document.
+    * Action Magnus: Initiate discussion with election officers.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * Let's nail the dates, location and the high-level focus
+    * Send out invites
+    * Decided on June 13–14 in Gothenburg.
+    * Extra extra TC meeting on Feb 23 to discuss summit topics and agenda. Emil to send invite to TC.
+* Updates from CDF sig-events, Emil & Mattias
+    * There's a proposal from an Apple engineer to use a hybrid solution for links with both something that resembles Eiffel but also support for global IDs.
+    * [CDEvents in tools](https://github.com/orgs/cdevents/projects/4/views/1)
+* Eiffel vision/mission - related to [community issue 190](https://github.com/eiffel-community/eiffel/issues/190)
+    * How to continue from the earlier extra TC meeting?
+    * Emil and Mattias will look at it as time permits.
+* Follow up from last weeks' community meeting
+    * https://hackmd.io/nAfMMmKZRdyzJthWTwtXlg
+* Out of time, postponed: At the summit we talked about describing relationships between artifacts. Was there an issue filed for this? Should there be one?
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: Common [branching strategy](https://github.com/eiffel-community/community/issues/150)?
+* Out of time, postponed: GitHub projects can now define [roadmaps](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) - do we want to use such?
+* Out of time, postponed: Dependabot Alerts for the whole organization
+    * https://github.blog/changelog/2022-02-08-view-dependabot-alerts-across-an-organization/
+    * Could we do something like looping over `curl https://github.com/eiffel-community/<reponame>/security/dependabot`?
+* Out of time, postponed: PRs and issues 
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* ~~Emil: Send invite for separate meeting to discuss event linking vs. CDevents.~~
+    * ~~Discussion held as part of a community meeting on Feb 16th~~
+* ~~Emil: Ask Frank at EST to get an updated list of contributors from EST's Bitergia tool.~~
+    * ~~Information received and documented through the election process on https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw#Eligible-Community-Members~~
+* Magnus: Initiate discussion with election officers.
+
+### February 9, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, not present
+
+* Others
+    * Fatih Degirmenci, Election Officer, present
+    * Fredrik Fristedt, Election Officer, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* TC elections, Fatih & Fredrik
+    * [Elections document](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Action Emil: Ask Frank at EST to get an updated list of contributors from EST's Bitergia tool.
+    * Created draft issue to update GOVERNANCE.md to clearly state how to make exceptions to the election eligibility.
+    * Election timeline approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project](https://github.com/orgs/eiffel-community/projects/3/views/4)
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * What step to take next and when?
+    * Co-location with Software Center reporting workshop still a possibility.
+    * Action Emil: Check with Kristian Sandahl about whether a co-location could be interesting to the Software Center folks.
+    * Action Emil: Check with Erik Sternersson if doWhile can host.
+    * Action Emil: Check with Bo Palmblad if he can help out with hosting at Ericsson Lindholmen.
+    * If Gothenburg doesn't work out let's try to do something in Linköping or Lund instead, in the same timeframe.
+* Updates from CDF sig-events, Emil & Mattias
+    * Incident events will probably be part of the next release (0.2).
+    * Linking being discussed under the "connected events" moniker.
+    * Decision: Next week's community meeting will focus on event linking and CDevents.
+* Out of time, postponed: Eiffel vision/mission - related to [community issue 190](https://github.com/eiffel-community/eiffel/issues/190)
+    * How to continue from last weeks extra TC meeting?
+* Out of time, postponed: At the summit we talked about describing relationships between artifacts. Was there an issue filed for this? Should there be one?
+* Out of time, postponed: Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+* Out of time, postponed: Common [branching strategy](https://github.com/eiffel-community/community/issues/150)?
+* Out of time, postponed: GitHub projects can now define [roadmaps](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) - do we want to use such?
+* Out of time, postponed: PRs and issues 
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Magnus: Announce podcast episode on LinkedIn.
+* ~~TC: Investigate if we can obtain legal assistance from Software Center.~~
+    * ~~Update 2023-02-06: Emil and Mattias might know something more about this now.~~
+    * ~~Update 2023-02-09: We won't pursue this further. Software Center won't be able to offer legal support.~~
+* Emil: Send invite for separate meeting to discuss event linking vs. CDevents.
+* Emil: Ask Frank at EST to get an updated list of contributors from EST's Bitergia tool.
 
 ### February 2, 2023
 
