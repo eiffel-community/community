@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-03-08 Meeting](#March-8-2023)
     * [2023-02-22 Meeting](#February-22-2023)
     * [2023-02-09 Meeting](#February-09-2023)
     * [2023-02-02 Meeting](#February-02-2023)
@@ -27,10 +28,67 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
+* Next community meeting
 * June 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
     * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
-* Should we have rules for what Java package paths to use in Eiffel Community repos?
 
+### March 8, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project](https://github.com/orgs/eiffel-community/projects/3/views/4)
+* Updates from CDF sig-events, Emil & Mattias
+    * Incident events about to be merged into CDevents. Release planned for coming Monday.
+* [TC Elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Candidates to be listed on Friday (March 10th)
+        * List members of all teams that are called "*-maintainers"
+    * List to be published on Monday (March 13th)
+    * Who performs these tasks?
+        * Action Magnus: Create the script and send the list to Election Officers on Monday.
+* Next week's community meeting
+    * No obvious agenda so we'll cancel.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * How to involve doWhile?
+        * Have an early check-in with Erik to see to what extent he wants to be involved and to sort out some practicality questions right away. Emil to set up a meeting with Erik and TC to discuss the way forward.
+    * How should we continue developing the agenda?
+        * Let's see after meeting with Erik.
+    * How to communicate with Software Center?
+        * Let's talk to the respective company representatives (Ericsson's and Axis's) in Software Center.
+* At the summit we talked about describing relationships between artifacts. Was there an issue filed for this? Should there be one?
+    * We'll drop this topic for now as we don't see a sufficiently large need to solve the problem.
+* Reasoning about events as being in the traceability dimension or the activity dimension; should we document this and how?
+    * Draft issue created.
+* Out of time, postponed: Common [branching strategy](https://github.com/eiffel-community/community/issues/150)?
+* Out of time, postponed: GitHub projects can now define [roadmaps](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) - do we want to use such?
+* Out of time, postponed: Dependabot Alerts for the whole organization
+    * https://github.blog/changelog/2022-02-08-view-dependabot-alerts-across-an-organization/
+    * Could we do something like looping over `curl https://github.com/eiffel-community/<reponame>/security/dependabot`?
+* Out of time, postponed: Should we have rules for what Java package paths to use in Eiffel Community repos?
+    * See for example the new repos eiffel-demo-cdevents and eiffel-translator-cdevents
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* ~~Magnus: Announce podcast episode on LinkedIn.~~
+* ~~Magnus: Initiate discussion with election officers.~~
+* Emil: Set up meeting with Erik about Summit planning
 
 ### February 22, 2023
 
@@ -40,7 +98,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Emil Bäckmark, present
     * Magnus Bäck, present
     * Mattias Linnér, present
-    * Tobias Persson, not present / not present
+    * Tobias Persson, partially present
 
 #### Agenda and Notes
 
