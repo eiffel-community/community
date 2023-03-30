@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-03-23 Meeting](#March-23-2023)
     * [2023-03-08 Meeting](#March-8-2023)
     * [2023-02-22 Meeting](#February-22-2023)
     * [2023-02-09 Meeting](#February-09-2023)
@@ -31,6 +32,63 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Next community meeting
 * June 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
     * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
+
+### March 23, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Tobias Persson, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Approval of Previous Minutes, All
+    * Approved.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project](https://github.com/orgs/eiffel-community/projects/3/views/4)
+* [TC Elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Decide on exceptions to the list of eligible people.
+* Updates from CDF sig-events, Emil & Mattias
+    * Version 0.2 released on March 21. Includes incident events.
+    * Work ongoing to update Java, Python, and Go SDKs.
+    * Proposal to add optional objects for links and global context id.
+* Mattias is away April 6 and 20. Emil is away April 20th. Should the extra meetings on March 30 and/or April 27 be turned into ordinary TC meetings so they don't fall too far apart?
+    * April 20th to be canceled?
+    * Yes, cancel meeting on April 6 and 20.
+    * Replace with ordinary meetings on March 30 and April 27.
+* Decide topic for April 13 community meeting? Suggestions:
+    * How to express confidence in an artifact/hardware combination?
+    * Source change events and tags.
+    * Decision: Source change events and tags on April 13, confidence in combinations remains a viable candidate for May 11.
+* Take some action on deploying Eiffel services on Nordix?
+    * Action Emil/Mattias: Talk to the Nordix folks.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * How should we continue developing the agenda?
+* Out of time, postponed: Common [branching strategy](https://github.com/eiffel-community/community/issues/150)?
+* Out of time, postponed: GitHub projects can now define [roadmaps](https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/) - do we want to use such?
+* Out of time, postponed: Dependabot Alerts for the whole organization
+    * https://github.blog/changelog/2022-02-08-view-dependabot-alerts-across-an-organization/
+    * Could we do something like looping over `curl https://github.com/eiffel-community/<reponame>/security/dependabot`?
+* Out of time, postponed: Should we have rules for what Java package paths to use in Eiffel Community repos?
+    * See for example the new repos eiffel-demo-cdevents and eiffel-translator-cdevents
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* ~~Magnus: Announce podcast episode on LinkedIn.~~
+* ~~Magnus: Initiate discussion with election officers.~~
+* ~~Emil: Set up meeting with Erik about Summit planning~~
+* ~~Magnus: Create the script and send the list to Election Officers on Monday.~~
+* Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.
 
 ### March 8, 2023
 
@@ -88,7 +146,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
 * ~~Magnus: Announce podcast episode on LinkedIn.~~
 * ~~Magnus: Initiate discussion with election officers.~~
-* Emil: Set up meeting with Erik about Summit planning
+* ~~Emil: Set up meeting with Erik about Summit planning~~
+* ~~Magnus: Create the script and send the list to Election Officers on Monday.~~
 
 ### February 22, 2023
 
