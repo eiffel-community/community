@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-05-04 Meeting](#May-4-2023)
     * [2023-04-27 Meeting](#April-27-2023)
     * [2023-03-30 Meeting](#March-30-2023)
     * [2023-03-23 Meeting](#March-23-2023)
@@ -34,6 +35,59 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * May 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
     * Current term ends at May 31st
     * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
+
+### May 4, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present 
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+        * Action Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * 0.3 release this week, probably. Will include a revamp of test events and a new "artifact signed" event.
+* New TC, including co-chair election
+    * Action Emil: Go through the [TC member checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md) to remove Tobias.
+    * Emil and Magnus appointed as co-chairs.
+    * Action Emil: Announce the co-chair appointment to the mailing list.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+* Can we complete the [Orizaba edition](https://github.com/eiffel-community/eiffel/milestone/8) before the summit?
+    * We populated the milestone with a number of issues that would be realistic to include in the Orizaba edition. Let's aim to have them ready by June 1.
+* How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+    * Discussed but no conclusion.
+* Out of time, postponed: Should we have rules for what Java package paths to use in Eiffel Community repos?
+    * See for example the new repos eiffel-demo-cdevents and eiffel-translator-cdevents
+* Out of time, postponed: [OWASP Top 10 CI/CD Security risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+* Out of time, postponed: Removing links to GitHub pages (https://github.com/eiffel-community/eiffel-remrem-publish/pull/264 for example). Should we also remove the gh-pages branch?
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.
+    * Agreed to not shut down the cluster
+    * No action on Eiffel TC, but EST/Nordix will try to find time/resources to deploy on the cluster.
+    * Information to be updated on https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ
+    * New action: Emil & Mattias to follow up with Nordix next time we meet them
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* ~~Magnus: Update the summit page with more details on the themes and a link to the registration form.~~
+* ~~Magnus: Send When2Meet to Emil and Erik S to talk about topics and the agenda.~~
+* ~~Emil: Send an email to Software Center and the community mailing list when the summit page has been updated with themes and a link to the sign-up form.~~
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Emil: Go through the [TC member checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md) to remove Tobias.
+* Emil: Announce the co-chair appointment to the mailing list.
 
 ### April 27, 2023
 
