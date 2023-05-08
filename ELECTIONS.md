@@ -3,6 +3,13 @@
 # Eiffel Community Technical Committee Elections
 
 * [Introduction](#Introduction)
+* [Eiffel Technical Committee Elections 2023](#Eiffel-Technical-Committee-Elections-2023)
+    * [Election Officers](#Election-Officers-2023)
+    * [Technical Committee Election Process](#Technical-Committee-Election-Process-2023)
+    * [Election Timeline](#Election-Timeline-2023)
+    * [Eligible Community Members](#Eligible-Community-Members-2023)
+    * [Candidates for Technical Committee Election](#Candidates-for-Technical-Committee-Election-2023)
+    * [Technical Committee Co Chair Election Process](#Technical-Committee-Co-Chair-Election-Process-2023)
 * [Eiffel Technical Committee Elections 2022](#Eiffel-Technical-Committee-Elections-2022)
     * [Election Officers](#Election-Officers-2022)
     * [Technical Committee Election Process](#Technical-Committee-Election-Process-2022)
@@ -23,6 +30,114 @@
 This document is used for recording information about Eiffel Community Technical Committee Elections.
 
 Please do not update the document directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view) in order to prevent document getting out of sync.
+
+# Eiffel Technical Committee Elections 2023
+
+The members of the Technical Committee serving Eiffel Community can be seen from [here](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members). The members are elected to serve for one year.
+
+## <a id="Election-Officers-2023"></a>Election Officers
+
+As documented in the governance, Eiffel TC and TC Chair elections will be conducted by the individuals who are appointed as Election Officers by the Eiffel TC.
+
+Eiffel TC Committee [agreed](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg?view#February-2-2023) the individuals listed below to continue as election officers for 2023 Eiffel TC elections.
+
+* Fatih Degirmenci, The Linux Foundation
+* Fredrik Fristedt, Axis Communications AB
+
+
+## <a id="Technical-Committee-Election-Process-2023"></a>Technical Committee Election Process
+
+Eiffel TC Elections will be conducted according to the process documented in [the governance](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-elections-and-voting).
+
+## <a id="Election-Timeline-2023"></a>Election Timeline
+
+- [x] Election Officers are appointed: Fatih Degirmenci and Fredrik Fristedt to serve as election officers for 2023 Eiffel TC elections
+- [x] Present 2023 Eiffel TC Election Process to Eiffel TC: February 9th, 2023
+- [x] Get a snapshot of eligible candidates: March 10th, 2023
+- [x] Publish 2023 Eiffel TC eligible community member list on Eiffel Google Group: March 13, 2023
+- [x] Publish 2023 Eiffel TC eligible community member list on Eiffel LinkedIn Group: March 13, 2023
+- [x] Present 2023 Eiffel TC eligible community members list to Eiffel TC for potential exception requests: March 23, 2023
+- [x] Eiffel TC reviews exception requests: March 23, 2023
+- [x] Eiffel TC Election Nomination period starts with an e-mail to Eiffel Google Group: March 27, 2023
+- [x] Eiffel TC Election Nomination Period ends with an e-mail to Eiffel Google Group:  April 11, 2023
+- [x] ~~If the number of candidates is greater than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):~~
+    - [x] ~~Elections start: April 12, 2023~~
+    - [x] ~~Elections end: April 24, 2023~~
+- [x] If the number of candidates is equal to or less than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
+    - [x] All candidates are automatically elected
+- [x] Announce newly elected Eiffel TC Members on Eiffel Google Group: May 2, 2023
+- [x] The new Eiffel TC assume their seats: May 4, 2023
+- [x] Publish candidate list for Eiffel TC Co Chairs on Eiffel Google Group: May 4, 2023 (unless TC decides to agree on appointment of TC members as co-chairs without election)
+
+## <a id="Eligible-Community-Members-2023"></a>Eligible Community Members
+
+The list below contains the eligible community members who are eligible to nominate themselves or be nominated by other maintainers.
+
+The eligibility is determined based on the contributors maintainer status and only the maintainers of the  projects hosted in [Eiffel Community GitHub Organization](https://github.com/eiffel-community) are eligible.
+
+1. alionski Alena Hramyka
+1. andjoe-axis 
+1. azeem59 
+1. BrandonRudiselNDSU 
+1. Brett-Knecht Brett Knecht
+1. chrillebile Christian Bilevits
+1. Christoffer-Cortes Christoffer Cortes Sjöwall
+1. d-stahl-ericsson Daniel Ståhl
+1. e-backmark-ericsson Emil Bäckmark
+1. elebroerik 
+1. emichaf Michael Frick
+1. e-pettersson-ericsson 
+1. erkist Erik Sternerson
+1. fdegir Fatih Degirmenci
+1. felixhall Felix Hall
+1. fredjn Fredrik Fristedt
+1. hartig Olaf Hartig
+1. Jack0076 
+1. jaden-young Jaden Young
+1. jainadc9 
+1. JonasAlfredsson Jonas Alfredsson
+1. jonathanwahlund Jonathan Wahlund
+1. k-hallen-ericsson Kristofer Hallén
+1. magnusbaeck Magnus Bäck
+1. m-linner-ericsson Mattias Linnér
+1. olale Ola Leifler
+1. raja-maragani Raja Maragani
+1. RajuBeemreddy1 
+1. rjalander Jalander Ramagiri
+1. saif-ericsson SAIF
+1. SantoshNC68 santosh nc
+1. tobiasake t-akervik-ericsson
+1. t-persson Tobias Persson
+1. vrpanchal 
+1. z-sztrom 
+
+
+### Bitergia
+The list of eligible community members where previously extracted using EST (Ericsson Software Technology) Bitergia Dashboard. For more information, see the [Ericsson Specific Notes](https://hackmd.io/SETUZeTJTYCAR1Usc8yRPg#Bitergia).
+
+## <a id="Candidates-for-Technical-Committee-Election-2023"></a>Candidates for 2023 Eiffel Technical Committee Election
+
+List of community members nominated as candidates for Technical Committee.
+
+**Confirmed Candidates**
+
+* Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/Meo-7uTwAAAJ)
+* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/3U7hGPvwAAAJ)
+* Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/U69CMm66AAAJ)
+
+
+## <a id="Technical-Committee-Co-Chair-Election-Process-2023"></a>Technical Committee Co Chair Election Process
+
+### Timeline
+
+TBD
+
+### Eligible Community Members
+
+Eligibility will be determined after TC Elections are conducted.
+
+<hr>
+
 
 # Eiffel Technical Committee Elections 2022
 
@@ -57,8 +172,8 @@ Eiffel TC Elections will be conducted according to the process documented in [th
 - [x] If the number of candidates is equal to or less than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
     - [x] All candidates are automatically elected
 - [x] Announce newly elected Eiffel TC Members on Eiffel Google Group: May 2, 2022
-- [ ] The new Eiffel TC assume their seats: May 5, 2022
-- [ ] Publish candidate list for Eiffel TC Co Chairs on Eiffel Google Group: May 5, 2022 (unless TC decides to agree on appointment of TC members as co-chairs without election)
+- [x] The new Eiffel TC assume their seats: May 5, 2022
+- [x] Publish candidate list for Eiffel TC Co Chairs on Eiffel Google Group: May 5, 2022 (unless TC decides to agree on appointment of TC members as co-chairs without election)
 
 ## <a id="Eligible-Community-Members-2022"></a>Eligible Community Members
 
