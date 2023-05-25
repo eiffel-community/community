@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-05-17 Meeting](#May-17-2023)
     * [2023-05-04 Meeting](#May-4-2023)
     * [2023-04-27 Meeting](#April-27-2023)
     * [2023-03-30 Meeting](#March-30-2023)
@@ -32,9 +33,57 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-* May 2023: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
-    * Current term ends at May 31st
-    * This should be covered by a [post-election checklist](https://github.com/eiffel-community/community/issues/146)
+- Vacation plans for TC members.
+- Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+
+### May 17, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+* Recap of [May 11 community meeting about source change events](https://hackmd.io/fYFr6BIgTE-o2_49T7RDUQ)
+    * Home work for both Axis and Ericsson to prepare arguments and counter arguments.
+* [Orizaba edition](https://github.com/eiffel-community/eiffel/milestone/8)
+* Out of time, postponed: Should we have rules for what Java package paths to use in Eiffel Community repos?
+    * See for example the new repos eiffel-demo-cdevents and eiffel-translator-cdevents
+* Out of time, postponed: [OWASP Top 10 CI/CD Security risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+* Out of time, postponed: Removing links to GitHub pages (https://github.com/eiffel-community/eiffel-remrem-publish/pull/264 for example). Should we also remove the gh-pages branch?
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Postponed: Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
+    * The term of the current officers, Kristofer H and Fredrik F, ends on May 31st.
+    * During the meeting it wasn't clear whether both would like to continue so this will be added to the agenda of the next meeting.
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.
+    * Agreed to not shut down the cluster
+    * No action on Eiffel TC, but EST/Nordix will try to find time/resources to deploy on the cluster.
+    * Information to be updated on https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ
+    * Emil & Mattias to follow up with Nordix next time we meet them
+    * *NEW* Panos will make an attempt to deploy Easy2Use on Nordix. Aims to be presented on Eiffel summit.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* ~~Emil: Go through the [TC member checklist](https://github.com/eiffel-community/community/blob/master/howtos/introduction-of-a-new-tc-member.md) to remove Tobias.~~
+* ~~Emil: Announce the co-chair appointment to the mailing list.~~
 
 ### May 4, 2023
 
