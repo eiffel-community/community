@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-05-25 Meeting](#May-25-2023)
     * [2023-05-17 Meeting](#May-17-2023)
     * [2023-05-04 Meeting](#May-4-2023)
     * [2023-04-27 Meeting](#April-27-2023)
@@ -33,8 +34,68 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-- Vacation plans for TC members.
-- Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+...
+
+### May 25, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+* Elect [security officers](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#security-officers)
+    * The term of the current officers, Kristofer H and Fredrik F, ends on May 31st. Both have accepted to continue for another year.
+    * Decision: Kristofer Hallén and Fredrik Fristedt are appointed to a new term as security officers. Their new term ends 2024-05-31.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * Magnus will try to have meeting with Erik on May 26.
+    * Emil and Magnus (and maybe Mattias) will meet next week.
+* [Orizaba edition](https://github.com/eiffel-community/eiffel/milestone/8)
+* Vacation plans for TC members
+    * Emil: w27–31
+    * Magnus: w28–31
+    * Mattias: w25
+    * Last TC meeting before summer hiatus will be June 29. Next TC meeting w 32, August 10.
+    * Action Emil: Cancel the meetings during the vacations.
+* June 8 community meeting
+    * Cancelled. Will be replaced with a summit preparation meeting together with Erik.
+    * Action Emil: Cancel community meeting and book summit instead in its place.
+* Should we have rules for what Java package paths to use in Eiffel Community repos?
+    * See for example the new repos eiffel-demo-cdevents and eiffel-translator-cdevents
+    * The original contributor chooses the Java package name, typically based on the contributing organization's domain name. Draft issue to document this has been created.
+* [OWASP Top 10 CI/CD Security risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+    * Interesting compilation but nobody has time to document Eiffel's applicability for addressing the risks.
+* Out of time, postponed: Removing links to GitHub pages (https://github.com/eiffel-community/eiffel-remrem-publish/pull/264 for example). Should we also remove the gh-pages branch?
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Out of time, postponed: Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.
+    * Agreed to not shut down the cluster
+    * No action on Eiffel TC, but EST/Nordix will try to find time/resources to deploy on the cluster.
+    * Information to be updated on https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ
+    * Emil & Mattias to follow up with Nordix next time we meet them
+    * Panos will make an attempt to deploy Easy2Use on Nordix. Aims to be presented on Eiffel summit.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Emil: Cancel the meetings during the vacations.
+* Emil: Cancel community meeting and book summit instead in its place.
 
 ### May 17, 2023
 
