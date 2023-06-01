@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-06-01 Meeting](#June-1-2023)
     * [2023-05-25 Meeting](#May-25-2023)
     * [2023-05-17 Meeting](#May-17-2023)
     * [2023-05-04 Meeting](#May-4-2023)
@@ -35,6 +36,57 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 ### Next
 
 ...
+
+### June 1, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * There was a meeting with JFrog about possibly adding CDEvents support to Artifactory.
+    * There's a [draft PR](https://github.com/cdevents/spec/pull/139) for adding link support to CDEvents.
+* Issues for all PRs?
+    * Draft issue created.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * Action Emil: Close the registration form since we're more or less out of seats.
+    * Action Emil: Send email to everyone who's registered.
+* [Orizaba edition](https://github.com/eiffel-community/eiffel/milestone/8)
+* Removing links to GitHub pages (https://github.com/eiffel-community/eiffel-remrem-publish/pull/264 for example). Should we also remove the gh-pages branch?
+    * We should clear out the contents of deprecated gh-pages branches but keep the branches themselves so that the data stays accessible. Draft issue created.
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Out of time, postponed: Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.
+    * Agreed to not shut down the cluster
+    * No action on Eiffel TC, but EST/Nordix will try to find time/resources to deploy on the cluster.
+    * Information to be updated on https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ
+    * Emil & Mattias to follow up with Nordix next time we meet them
+    * Panos will make an attempt to deploy Easy2Use on Nordix. Aims to be presented on Eiffel summit.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* ~~Emil: Cancel the meetings during the vacations.~~
+* ~~Emil: Cancel community meeting and book summit instead in its place.~~
+* Emil: Close the registration form since we're more or less out of seats.
+* Emil: Send email to everyone who's registered.
 
 ### May 25, 2023
 
