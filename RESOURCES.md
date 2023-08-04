@@ -1,6 +1,10 @@
 # Resources used by the Eiffel Community
 
-This files tries to track the resources used by the Eiffel Community including the main contact person. When wanting let the Eiffel Community use a new resource add the resource to this file via a Pull Request.
+This file tries to track the resources used by the Eiffel Community,
+including the main contact person.
+To suggest the Eiffel Community to use a new resource,
+you can contribute by adding the resource to this file through a Pull Request.
+
 
 ## Various resources
 
@@ -26,23 +30,17 @@ This files tries to track the resources used by the Eiffel Community including t
 | [eiffel-commons-maintainers](mailto:eiffel-commons-maintainers@googlegroups.com)                         | ?                                                                                                         |                         
 | [eiffel-easy2use-repository-maintainers](mailto:eiffel-easy2use-repository-maintainers@googlegroups.com) | ?                                                                                                         |
 | [etos-maintainers](mailto:etos-maintainers@googlegroups.com)                                             | Tobias Persson                                                                                                         |                                             
-
 | [eiffel-event-repository-maintainers](mailto:eiffel-event-repository-maintainers@googlegroups.com)       | ?                                                                                                         |       
 | [eiffelevents-sdk-go-maintainers](mailto:eiffelevents-sdk-go-maintainers@googlegroups.com)               | Magnus Bäck                                                                                                         |               
-
 | [eiffelevents-sdk-dotnet-maintainers](mailto:eiffelevents-sdk-dotnet-maintainers@googlegroups.com)       | ?                                                                                                         |       
 | [eiffel-gerrit-plugin-maintainers](mailto:eiffel-gerrit-plugin-maintainers@googlegroups.com)             | Santosh NC                                                                                                |             
 | [eiffel-goer-maintainers](mailto:eiffel-goer-maintainers@googlegroups.com)                               | Tobias Persson                                                                                                         |                               
-
 | [eiffel-graphql-api-maintainers](mailto:eiffel-graphql-api-maintainers@googlegroups.com)                 | Tobias Persson                                                                                                         |                 
-
 | [eiffel-intelligence-maintainers](mailto:eiffel-intelligence-maintainers@googlegroups.com)               | Daniel Ståhl                                                                                              |               
 | [eiffel-jenkins-plugin-maintainers](mailto:eiffel-jenkins-plugin-maintainers@googlegroups.com)           | ?                                                                                                         |           
 | [eiffel-playground-maintainers](mailto:eiffel-playground-maintainers@googlegroups.com)                   | [TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members) |                   
 | [eiffel-pythonlib-maintainers](mailto:eiffel-pythonlib-maintainers@googlegroups.com)                     | Tobias Persson                                                                                                         |                     
-
 | [eiffel-remrem-maintainers](mailto:eiffel-remrem-maintainers@googlegroups.com)                           | ?                                                                                                         |                           
 | [eiffel-community-maintainers](mailto:eiffel-community-maintainers@googlegroups.com)                     | ?                                                                                                         |                     
 | [eiffel-sepia-maintainers](mailto:eiffel-sepia-maintainers@googlegroups.com)                             | ?                                                                                                         |                             
 | [eiffel-vici-maintainers](mailto:eiffel-vici-maintainers@googlegroups.com)                               | ?                                                                                                         |
-
