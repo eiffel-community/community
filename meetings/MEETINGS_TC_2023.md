@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-08-09 Meeting](#Aug-9-2023)
+    * [2023-06-29 Meeting](#June-29-2023)
     * [2023-06-01 Meeting](#June-1-2023)
     * [2023-05-25 Meeting](#May-25-2023)
     * [2023-05-17 Meeting](#May-17-2023)
@@ -35,7 +37,132 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-...
+- We have a board to follow-up on the protocol issues. How do we follow up on community issues e.g. the newly created https://github.com/eiffel-community/community/issues/175 (that was closed as it was a duplication, but it serves as an example)?
+- Info: https://github.com/k8up-io/k8up/security/advisories/new uses issues to send security advisories. Maybe there is some update that allows this to be bettered handled now.
+- Could we close?
+    - https://github.com/eiffel-community/community/issues/44
+    - https://github.com/eiffel-community/community/issues/4
+    - https://github.com/eiffel-community/community/issues/10
+    - https://github.com/eiffel-community/community/issues/47
+    - https://github.com/orgs/eiffel-community/projects/3/views/4?pane=issue&itemId=9276722 isn't it there in https://github.com/eiffel-community/community/blob/master/howtos/update-tc-members.md
+- Could we merge?
+    - https://github.com/eiffel-community/eiffel-jira-plugin/pull/33
+    - https://github.com/eiffel-community/ml-jmespath-generator/pull/1
+- Vici has serveral [Dependabot PRs](https://github.com/eiffel-community/eiffel-vici/pulls) should we just merge them for security reasons even if they could render Vici unsuable because of breaking changes in the dependent API?
+    - Or should Vici be set to dormant? https://github.com/eiffel-community/community/issues/156
+- In https://github.com/eiffel-community/eiffel/tree/master/eiffel-syntax-and-usage we have both PNG and SVG files, but in https://github.com/eiffel-community/eiffel/tree/master/usage-examples we only have SVG. 
+    - Have we agreed and documented(where?) to have both PNG and SVG?
+    - Should we document howto/tips and tricks for InkScape (to ease for new people trying to update/create a event graph)
+    - See also https://github.com/eiffel-community/community/blob/master/howtos/how-to-handle-graphical-images.md
+- Do we want to introduce checks for grammar within our pipelines or as a tox target? We have for example
+    - https://github.com/marketplace/actions/vale-linter
+    - https://github.com/marketplace/actions/github-spellcheck-action
+    - https://github.com/reviewdog/action-languagetool
+- Do we use Travis CI anymore or should we remove it from https://github.com/organizations/eiffel-community/settings/oauth_application_policy? We might have tokens left.
+- Physical/virtual meetup during the autumn
+
+
+### Aug 9, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Connected events discussions continue.
+    * Also source change events. [Issues](https://github.com/cdevents/spec/issues) have been created.
+* Post-summit survey
+    * Still not done. Magnus will make a proposal and post on Slack.
+* Physical/virtual meetup during the autumn
+    * Possibly a virtual meetup during the autumn, but we'll punt on it and talk about it later. We'll probably have a summit in April or May.
+* Is this interesting? https://killercoda.com/about
+    * Interesting, but not something we have time for right now.
+* Given the comments in https://github.com/eiffel-community/eiffel/pull/367 should we have a dependabot best practice for the community?
+    * Yes, we shoud have a best practices document where e.g. this is documented. Draft issue created.
+* Converting draft issues to real issues, with template. Try this workaround: https://github.com/orgs/community/discussions/14010#discussioncomment-6123115
+    - Yes it works!
+* How to relate to OpenTelemetry? A community meeting about it to start with? See https://github.com/open-telemetry/oteps/pull/223#discussion_r1196347548
+    * We need to learn more about traces before we can talk about this topic. Perhaps we could invite an external party? Or just wait until one of us has used it?
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Out of time, postponed: Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+    * Solvable with [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151)?
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.
+
+
+### June 29, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * There will be a discussion tomorrow about a proposal for event correlation/linking.
+    * JFrog seems to be interested in supporting CDEvents.
+* Discuss [github.com/eiffel-community/eiffel#354](https://github.com/eiffel-community/eiffel/pull/354)
+    * PR approved.
+* [Eiffel Summit 2023](https://hackmd.io/_uJkbcSWR0aSaYDE0TRPqg)
+    * Action Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.
+* [Orizaba edition](https://github.com/eiffel-community/eiffel/milestone/8)
+* Out of time, postponed: Physical/virtual meetup during the autumn
+* Out of time, postponed: Is this interesting? https://killercoda.com/about
+* Out of time, postponed: How to relate to OpenTelemetry? A community meeting about it to start with? See https://github.com/open-telemetry/oteps/pull/223#discussion_r1196347548
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Out of time, postponed: Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+    * Solvable with [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151)?
+* PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* ~~Emil/Mattias: Talk to the Nordix folks about the future of the k8s cluster.~~
+    * ~~Agreed to not shut down the cluster~~
+    * ~~No action on Eiffel TC, but EST/Nordix will try to find time/resources to deploy on the cluster.~~
+    * ~~Information to be updated on https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ~~
+    * ~~Emil & Mattias to follow up with Nordix next time we meet them~~
+    * ~~Panos will make an attempt to deploy Easy2Use on Nordix. Aims to be presented on Eiffel summit.~~
+    * ~~Presented on summit. Next step is to continue setting up stuff towards Eiffel 4 Eiffel on Nordix. This is handled in one of the GitHub project boards.~~
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* ~~Emil: Cancel the meetings during the vacations.~~
+* ~~Emil: Cancel community meeting and book summit instead in its place.~~
+* ~~Emil: Close the registration form since we're more or less out of seats.~~
+* ~~Emil: Send email to everyone who's registered.~~
+* Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.
 
 ### June 1, 2023
 
@@ -85,8 +212,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
 * ~~Emil: Cancel the meetings during the vacations.~~
 * ~~Emil: Cancel community meeting and book summit instead in its place.~~
-* Emil: Close the registration form since we're more or less out of seats.
-* Emil: Send email to everyone who's registered.
+* ~~Emil: Close the registration form since we're more or less out of seats.~~
+* ~~Emil: Send email to everyone who's registered.~~
 
 ### May 25, 2023
 
