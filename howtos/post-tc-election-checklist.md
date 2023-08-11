@@ -1,4 +1,5 @@
-# Post Technical Election Checklist
+# Post Technical Committee Election Checklist
+
 
 After an election of the Technical Committee (TC) perform the following:
 
