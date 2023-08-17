@@ -60,6 +60,32 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     - https://github.com/reviewdog/action-languagetool
 - Do we use Travis CI anymore or should we remove it from https://github.com/organizations/eiffel-community/settings/oauth_application_policy? We might have tokens left.
 - Physical/virtual meetup during the autumn
+- Do we feel we capture all initiatives or should we use something like https://allcontributors.org/docs/en/overview?
+
+
+### Aug 17, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+- When should we step versions of our events. As per https://github.com/eiffel-community/eiffel/pull/366#pullrequestreview-1573957182
+    - We decided to try to be ultra strict - any change in a yaml file will result in the version stepped on the event, regardless of if it is just a spelling error or other.
+* Community meeting in two weeks
+    * Topic decided. See community meeting HackMd Doc.
+- How should we handle email adresses? Should we display them as in https://github.com/eiffel-community/community/pull/179 or should we link to the GitHub profile instead so that the persons can decide it themselves?
+    - Should we also update the list of TC members ([TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members))? (And maybe require a TC to have a public email in its profile)
+    - Decided to move the maintainers rows in the Google group table to the issue about removing Google groups
+    - Decided to replace all individual mail links with links to their Github profiles
+* Out of time, postponed: How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+* Out of time, postponed: Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+    * Solvable with [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151)?
+* Out of time, postponed: PRs and issues
+
 
 
 ### Aug 9, 2023
