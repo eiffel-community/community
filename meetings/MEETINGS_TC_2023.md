@@ -8,7 +8,9 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
-    * [2023-08-09 Meeting](#Aug-9-2023)
+    * [2023-08-24 Meeting](#August-24-2023)
+    * [2023-08-17 Meeting](#August-17-2023)
+    * [2023-08-09 Meeting](#August-9-2023)
     * [2023-06-29 Meeting](#June-29-2023)
     * [2023-06-01 Meeting](#June-1-2023)
     * [2023-05-25 Meeting](#May-25-2023)
@@ -37,17 +39,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-- We have a board to follow-up on the protocol issues. How do we follow up on community issues e.g. the newly created https://github.com/eiffel-community/community/issues/175 (that was closed as it was a duplication, but it serves as an example)?
 - Info: https://github.com/k8up-io/k8up/security/advisories/new uses issues to send security advisories. Maybe there is some update that allows this to be bettered handled now.
-- Could we close?
-    - https://github.com/eiffel-community/community/issues/44
-    - https://github.com/eiffel-community/community/issues/4
-    - https://github.com/eiffel-community/community/issues/10
-    - https://github.com/eiffel-community/community/issues/47
-    - https://github.com/orgs/eiffel-community/projects/3/views/4?pane=issue&itemId=9276722 isn't it there in https://github.com/eiffel-community/community/blob/master/howtos/update-tc-members.md
-- Could we merge?
-    - https://github.com/eiffel-community/eiffel-jira-plugin/pull/33
-    - https://github.com/eiffel-community/ml-jmespath-generator/pull/1
 - Vici has serveral [Dependabot PRs](https://github.com/eiffel-community/eiffel-vici/pulls) should we just merge them for security reasons even if they could render Vici unsuable because of breaking changes in the dependent API?
     - Or should Vici be set to dormant? https://github.com/eiffel-community/community/issues/156
 - In https://github.com/eiffel-community/eiffel/tree/master/eiffel-syntax-and-usage we have both PNG and SVG files, but in https://github.com/eiffel-community/eiffel/tree/master/usage-examples we only have SVG. 
@@ -62,8 +54,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 - Physical/virtual meetup during the autumn
 - Do we feel we capture all initiatives or should we use something like https://allcontributors.org/docs/en/overview?
 
-
-### Aug 17, 2023
+### August 24, 2023
 
 #### Participants
 
@@ -73,11 +64,69 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Mattias Linnér, present
 
 #### Agenda and Notes
-- When should we step versions of our events. As per https://github.com/eiffel-community/eiffel/pull/366#pullrequestreview-1573957182
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Connected events discussion still ongoing. Mostly causality links in scope right now.
+    * Ericsson is a member in CDF End user council. There is a high interest in that group to have event-driven CI/CD.
+* Post-summit survey
+    * Approved the curent survey with a few updates. Magnus will send the survey to the attendants.
+* Could we close?
+    - https://github.com/eiffel-community/community/issues/44
+        - Emil will close issue.
+    - https://github.com/eiffel-community/community/issues/4
+        - Emil will close issue.
+    - https://github.com/eiffel-community/community/issues/10
+        - Mattias will close issue.
+    - https://github.com/eiffel-community/community/issues/47
+        - Magnus will look into the issue and see if it's okay to close.
+    - https://github.com/orgs/eiffel-community/projects/3/views/4?pane=issue&itemId=9276722 isn't it there in https://github.com/eiffel-community/community/blob/master/howtos/update-tc-members.md
+        - That draft issue was archived during the meeting
+* Could we merge?
+    - https://github.com/eiffel-community/eiffel-jira-plugin/pull/33
+        - Emil: Yes, merge PR.
+    - https://github.com/eiffel-community/ml-jmespath-generator/pull/1
+        - Emil: Yes, merge PR and close referenced issue.
+* Enforce GitHub Codescanning, secret scanning, dependabot PRs, Dependabot Alerts (https://github.com/organizations/eiffel-community/settings/security_analysis)
+    * Solvable with [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151)?
+    * Action Magnus: Enable everything globally from the organization and send email to the mailing list about this change.
+* We have a board to follow-up on the protocol issues. How do we follow up on community issues e.g. the newly created https://github.com/eiffel-community/community/issues/175 (that was closed as it was a duplication, but it serves as an example)?
+    * Could we set up a GH action to add new issues to a project board? Yes, [github.com/eiffel-community/community#182](https://github.com/eiffel-community/community/issues/182) created. Should cover both community repos and the protocol repo.
+    * Additionally, existing issues should be added to the TC or protocol boards. Magnus already has a tracked action for this.
+* How can we get some progress with all the [open documentation issues in the protocol repo](https://github.com/eiffel-community/eiffel/issues)?
+    * Use next extra TC meeting for prioritizing the protocol issues, including documentation issues. Emil will update the invite to include the other protocol maintainers.
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+
+### August 17, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* When should we step versions of our events. As per https://github.com/eiffel-community/eiffel/pull/366#pullrequestreview-1573957182
     - We decided to try to be ultra strict - any change in a yaml file will result in the version stepped on the event, regardless of if it is just a spelling error or other.
 * Community meeting in two weeks
     * Topic decided. See community meeting HackMd Doc.
-- How should we handle email adresses? Should we display them as in https://github.com/eiffel-community/community/pull/179 or should we link to the GitHub profile instead so that the persons can decide it themselves?
+* How should we handle email adresses? Should we display them as in https://github.com/eiffel-community/community/pull/179 or should we link to the GitHub profile instead so that the persons can decide it themselves?
     - Should we also update the list of TC members ([TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members))? (And maybe require a TC to have a public email in its profile)
     - Decided to move the maintainers rows in the Google group table to the issue about removing Google groups
     - Decided to replace all individual mail links with links to their Github profiles
@@ -86,9 +135,16 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Solvable with [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151)?
 * Out of time, postponed: PRs and issues
 
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Check if Jonathan would be interested in being a TC member.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.
 
-
-### Aug 9, 2023
+### August 9, 2023
 
 #### Participants
 
