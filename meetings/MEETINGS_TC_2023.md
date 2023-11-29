@@ -8,6 +8,13 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-11-29 Meeting](#November-29-2023)
+    * [2023-11-16 Meeting](#November-16-2023)
+    * [2023-11-01 Meeting](#November-1-2023)
+    * [2023-10-12 Meeting](#October-12-2023)
+    * [2023-10-05 Meeting](#October-5-2023)
+    * [2023-09-21 Meeting](#September-21-2023)
+    * [2023-09-07 Meeting](#September-7-2023)
     * [2023-08-24 Meeting](#August-24-2023)
     * [2023-08-17 Meeting](#August-17-2023)
     * [2023-08-09 Meeting](#August-9-2023)
@@ -39,20 +46,359 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 
 ### Next
 
-- Info: https://github.com/k8up-io/k8up/security/advisories/new uses issues to send security advisories. Maybe there is some update that allows this to be bettered handled now.
-- Vici has serveral [Dependabot PRs](https://github.com/eiffel-community/eiffel-vici/pulls) should we just merge them for security reasons even if they could render Vici unsuable because of breaking changes in the dependent API?
-    - Or should Vici be set to dormant? https://github.com/eiffel-community/community/issues/156
-- In https://github.com/eiffel-community/eiffel/tree/master/eiffel-syntax-and-usage we have both PNG and SVG files, but in https://github.com/eiffel-community/eiffel/tree/master/usage-examples we only have SVG. 
-    - Have we agreed and documented(where?) to have both PNG and SVG?
-    - Should we document howto/tips and tricks for InkScape (to ease for new people trying to update/create a event graph)
-    - See also https://github.com/eiffel-community/community/blob/master/howtos/how-to-handle-graphical-images.md
-- Do we want to introduce checks for grammar within our pipelines or as a tox target? We have for example
-    - https://github.com/marketplace/actions/vale-linter
-    - https://github.com/marketplace/actions/github-spellcheck-action
-    - https://github.com/reviewdog/action-languagetool
-- Do we use Travis CI anymore or should we remove it from https://github.com/organizations/eiffel-community/settings/oauth_application_policy? We might have tokens left.
-- Physical/virtual meetup during the autumn
-- Do we feel we capture all initiatives or should we use something like https://allcontributors.org/docs/en/overview?
+* Should we evaluate Eiffel against the [OpenSSF Security Scorecard](https://github.com/ossf/scorecard) and/or the [OpenSSF Best Practices](https://www.bestpractices.dev/en)?
+* Should we enable Code scanning for all repos. See https://github.com/eiffel-community/eiffel-remrem-publish/security/code-scanning for an example.
+    * Set via https://github.com/eiffel-community/eiffel-remrem-publish/settings/security_analysis
+    * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
+    * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
+    * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+
+
+### November 29, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Election to the CDEvents governing board will probably be held in December.
+    * Event linking PR still ongoing.
+    * SBOM reference to be added to artifact.packaged event.
+* Join OTel discussions about observability in CI/CD?
+    * Meeting to be held on Dec 7 (?). See [this comment](https://github.com/open-telemetry/oteps/pull/223#issuecomment-1829753863) for more information.
+    * Action: Magnus send email to eiffel-community group to solicit participants in the new working group.
+    * Magnus will likely join the working group himself.
+* Should Sepia graduate?
+    * Yes. It fulfills the graduation requirements. Draft issue for updating the README file and the landscape picture created.
+    * Also, should the commnity repos that de facto are outside the normal project lifecycle be marked as such in the landscape picture? Draft issue created.
+* Info: Event signing updates
+    * Event signing implementation for the Go SDK is ongoing ([github.com/eiffel-community/eiffelevents-sdk-go#9](https://github.com/eiffel-community/eiffelevents-sdk-go/issues/9)). Will be followed by a Java implementation in the eiffel-broadcaster plugin for Jenkins.
+* Info: Eiffel Collector status
+    * Increased Ericsson-internal priority. Official development will start and will hopefully be approved for open sourcing.
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+    * We'll merge the Dependabot PRs now.
+    * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* ~~Magnus: Send email to eiffel-community group to solicit participants in the new working group.~~
+
+### November 16, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * Quorum reached
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Link discussion ongoing.
+* Should we keep the not-yet-introduced dormant state?
+    * No, we don't need it. Let's stick with the archived state. We can always open up a repository again if needed.
+    * Close [github.com/eiffel-community/community#156](https://github.com/eiffel-community/community/issues/156) with an explanation of why we don't need the state.
+    * Update [github.com/eiffel-community/community#148](https://github.com/eiffel-community/community/issues/148) to mention that we should inform on mailing list & Slack some time before archiving. The Jenkins community's process for taking over an abandoned plugin can be used as an inspiration.
+* JSON Schema deprecation support - https://json-schema.org/draft/2020-12/draft-bhutton-json-schema-validation-00#rfc.section.9.3. Do we want to use it?
+    * Yes, possibly. We need to upgrade the JSON Schema version before we can use the deprecation attribute. We currently don't have any fields that need to be deprecated so there's no rush.
+* Should the ER lookup spec ([PR](https://github.com/eiffel-community/eiffel-event-repository/pull/12)) include references to link types?
+    * No, allow any UPPERCASE_WITH_UNDERSCORES strings, including the magic "ALL" value. The help text can still contain a list of all link types. By doing this we allow custom events to be used and the API spec won't be as dependent on the events.
+    * We'll write an issue in the protocol repo to add an autogenerated documentation page containing all link types.
+* Out of time, postponed: Should Sepia graduate?
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+    * We'll merge the Dependabot PRs now.
+    * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ~~Emil: Update agenda of Nov 9 extra TC meeting to cover CDEvents and linking.~~
+* ~~Emil: Update the meeting invite for Nov 23 community meeting.~~
+
+### November 1, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Nothing in particular.
+* Extra TC meeting Nov 9
+    * Introduction to and discussion about how to connect events in CDEvents.
+    * Action Emil: Update agenda to cover this topic.
+* Meetup/summit
+    * Next community meeting Nov 23
+    * Summit
+    * Meetup or community meeting about source change events during autumn?
+        * What are the source change events used for? To trigger CI pipelines, or to show a correct/current view of objects referenced? Observability and/or interoperability
+        * How are stacked changes handled in GitHub (stacked PRs)?
+        * What about triggering pipelines on "Approved" and/or "Submittable" states?
+        * Yes, action for Emil to update the meeting invite.
+* Out of time, postponed: Should we keep the not-yet-introduced dormant state?
+* Out of time, postponed: JSON Schema deprecation support - https://json-schema.org/draft/2020-12/draft-bhutton-json-schema-validation-00#rfc.section.9.3. Do we want to use it?
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+    * We'll merge the Dependabot PRs now.
+    * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
+* ~~Magnus: Check with Tobias what the point of the dormant state actually is.~~
+* ~~Emil: Send cancellation for Oct 26 community meeting.~~
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* Emil: Update agenda of Nov 9 extra TC meeting to cover CDEvents and linking.
+* Emil: Update the meeting invite for Nov 23 community meeting.
+
+### October 12, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Nothing in particular.
+* Next community meeting October 26
+    * No topic so we'll cancel.
+    * Action Emil: Send cancellation.
+* Meetup about source change events during autumn?
+    * Depends on proposal from Emil & Mattias
+    * Since it'll be a light-weight meetup we can start planning it when Emil & Mattias have something that's at least half-ready.
+    * Nothing that's ready to share yet.
+* Add OpenSSF Security Scorecard to our projects?
+    * https://github.com/ossf/scorecard
+    * Currently (Sep 2023) scans 1M projects nightly
+    * [Instructions](https://securityscorecards.dev/)
+    * Decision: We'll evaluate the three key TC repos to see what score we'd get and decide further actions based on that. Magnus will look at the eiffel repo, Emil the community repo, and Mattias the eiffel-sepia repo.
+* Add OpenSSF Best Practices badge?
+    * Currently (Sep 2023) 6k projects participating, 1k passing
+    * https://www.bestpractices.dev/en
+    * Decision: Same thing as the OpenSSF scorecard, above.
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* ~~Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.~~
+    * ~~It's not clear exactly what this action was about. Almost two years have passed anyway. Closing.~~
+* ~~Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.~~
+    * ~~Effectively done.~~
+* ~~Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.~~
+    * ~~Replaced by [github.com/eiffel-community/community#182](https://github.com/eiffel-community/community/issues/182).~~
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+    * We'll merge the Dependabot PRs now.
+    * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
+* Magnus: Check with Tobias what the point of the dormant state actually is.
+* Emil: Send cancellation for Oct 26 community meeting.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+
+### October 5, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Connected events continue to be discussed.
+    * Ticket events, i.e. equivalent to EiffelIssueDefinedEvent, have also been discussed.
+* Next community meeting October 26
+    * See mail from Nasdaq
+    * No obvious topic and we'll probably cancel, but keeping the meeting for now.
+* Meetup about source change events during autumn?
+    * Depends on proposal from Emil & Mattias
+    * Since it'll be a light-weight meetup we can start planning it when Emil & Mattias have something that's at least half-ready.
+* Why did we want a dormant state https://github.com/eiffel-community/community/issues/15? To keep it lightweight maybe we should only have archived (as the Community can bring back archived projects)
+    * Action: Magnus: Check with Tobias what the point of the dormant state actually is.
+* In https://github.com/eiffel-community/eiffel/tree/master/eiffel-syntax-and-usage we have both PNG and SVG files, but in https://github.com/eiffel-community/eiffel/tree/master/usage-examples we only have SVG. 
+    * Have we agreed and documented (where?) to have both PNG and SVG?
+    * Should we document howto/tips and tricks for InkScape (to ease for new people trying to update/create a event graph)
+    * See also https://github.com/eiffel-community/community/blob/master/howtos/how-to-handle-graphical-images.md
+* Do we want to introduce checks for grammar within our pipelines or as a tox target? We have for example
+    * https://github.com/marketplace/actions/vale-linter
+    * https://github.com/marketplace/actions/github-spellcheck-action
+    * https://github.com/reviewdog/action-languagetool
+* Out of time, postponed: Add OpenSSF Security Scorecard to our projects?
+    * https://github.com/ossf/scorecard
+    * Currently (Sept 2023) scans 1M projects nightly
+    * [Instructions](https://securityscorecards.dev/)
+* Out of time, postponed: Add OpenSSF Best Practices badge?
+    * Currently (Sept 2023) 6k projects participating, 1k passing
+    * https://www.bestpractices.dev/en
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* ~~Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.~~
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* ~~Emil: Contact Volvo AB and Nasdaq to check if they have any topics for the next community meeting.~~
+* Action security officers: Ask them to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+* Magnus: Check with Tobias what the point of the dormant state actually is.
+
+### September 21, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * Presentation of how to integrate OpenTelemetry and CDEvents ([pull request and more info](https://hackmd.io/2FRGlw9fTMmKN1OQUVvguA#Sep-19-2023)).
+* Next community meeting September 28
+    * No topic, cancelling meeting.
+* Current status on Nordix work
+    * https://hackmd.io/X3Nrxe4MRdSJI_lsTkSwiQ?view#September-8-2023
+* Should we close https://github.com/orgs/eiffel-community/projects/4 as all tasks are now done?
+    * Yes, project closed.
+* Vici has several [Dependabot PRs](https://github.com/eiffel-community/eiffel-vici/pulls) should we just merge them for security reasons even if they could render Vici unusable because of breaking changes in the dependent API?
+    * Or should Vici be set to dormant?https://github.com/eiffel-community/community/issues/156
+    * No, not yet anyway.
+    * Action Emil: Talk to Panos about this. TC recommends merging as many PRs as possible.
+* Out of time, postponed: In https://github.com/eiffel-community/eiffel/tree/master/eiffel-syntax-and-usage we have both PNG and SVG files, but in https://github.com/eiffel-community/eiffel/tree/master/usage-examples we only have SVG. 
+    * Have we agreed and documented(where?) to have both PNG and SVG?
+    * Should we document howto/tips and tricks for InkScape (to ease for new people trying to update/create a event graph)
+    * See also https://github.com/eiffel-community/community/blob/master/howtos/how-to-handle-graphical-images.md
+* Out of time, postponed: Do we want to introduce checks for grammar within our pipelines or as a tox target? We have for example
+    * https://github.com/marketplace/actions/vale-linter
+    * https://github.com/marketplace/actions/github-spellcheck-action
+    * https://github.com/reviewdog/action-languagetool
+* Out of time, postponed: Add OpenSSF Security Scorecard to our projects?
+    * https://github.com/ossf/scorecard
+    * Currently (Sept 2023) scans 1M projects nightly
+    * [Instructions](https://securityscorecards.dev/)
+* Out of time, postponed: Add OpenSSF Best Practices badge?
+    * Currently (Sept 2023) 6k projects participating, 1k passing
+    * https://www.bestpractices.dev/en
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* Emil: Contact Volvo AB and Nasdaq to check if they have any topics for the next community meeting.
+* Action security officers: Ask them to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+
+### September 7, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDF sig-events, Emil & Mattias
+    * The CDEvents PR concerned with links ([github.com/cdevents/spec#139](https://github.com/cdevents/spec/pull/139)) doesn't include links in the protocol but rather have the relations stored by a separate service.
+    * CDEvents will participate in Hacktoberfest.
+* Post-summit survey
+    * Interesting parts of the responses collected in https://hackmd.io/6v4hYbmMRPSk2OHz3dIT-g.
+* Next community meeting September 28
+    * Action Emil: Contact Volvo AB and Nasdaq to check if they have any topics for the next community meeting.
+* Physical/virtual meetup during the autumn?
+    * Possibly physical meetup to discuss source change events during Q4, depending on if Emil will complete the counterproposal for new source change events.
+* Do we use Travis CI anymore or should we remove it from https://github.com/organizations/eiffel-community/settings/oauth_application_policy? We might have tokens left.
+    * Let's get rid of it. Draft issue created.
+* Do we feel we capture all initiatives or should we use something like https://allcontributors.org/docs/en/overview?
+    * No, not at this moment.
+* Info: https://github.com/k8up-io/k8up/security/advisories/new uses issues to send security advisories. Maybe there is some update that allows this to be bettered handled now.
+    * Action security officers: Ask them to try out the private vulnerability reporting feature.
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* TC: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Collect feedback from the Python Podcast.\_\_init\_\_ interview to see if there are concrete steps we can take to improve how things are presented or explained.
+* Magnus: Go through current action list and suggest which should be migrated to issues in the community repo.
+* ~~Emil: Check if Jonathan would be interested in being a TC member. Doesn't seem like a valid Action anymore~~
+* Emil: Ask Nasdaq is they have any topic they would like to discuss at a community meeting.
+* Magnus: Go through repos under TC's purview and make sure all issues are added to the TC board.
+* ~~Magnus: Create post-summit survey and send for internal review. Use [previous survey](https://docs.google.com/forms/d/1jGZyMAyHVYNedHAcY98YV_nMB6qECpYsptL0w_3Z-gI/edit) for inspiration.~~
+* Magnus: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* Emil: Contact Volvo AB and Nasdaq to check if they have any topics for the next community meeting.
+* Action security officers: Ask them to try out the private vulnerability reporting feature.
 
 ### August 24, 2023
 
@@ -75,7 +421,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Connected events discussion still ongoing. Mostly causality links in scope right now.
     * Ericsson is a member in CDF End user council. There is a high interest in that group to have event-driven CI/CD.
 * Post-summit survey
-    * Approved the curent survey with a few updates. Magnus will send the survey to the attendants.
+    * Approved the current survey with a few updates. Magnus will send the survey to the attendants.
 * Could we close?
     - https://github.com/eiffel-community/community/issues/44
         - Emil will close issue.
