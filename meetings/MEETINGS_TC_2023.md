@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2023-12-14 Meeting](#December-14-2023)
     * [2023-11-29 Meeting](#November-29-2023)
     * [2023-11-16 Meeting](#November-16-2023)
     * [2023-11-01 Meeting](#November-1-2023)
@@ -52,7 +53,49 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
     * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* Should we propose to add event triggered updates to Renovate?
+    * Note: Renovate has support for Gerrit now: https://github.com/renovatebot/renovate/releases/tag/37.112.0
+* Initiate TC elections by electing Election Officers
+    * https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#election-officers
 
+### December 14, 2023
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents, Emil
+    * CDEvents governing board election will most likely be pushed to January.
+* Updates from OTel CI/CD semantic conventions kick-off meeting
+    * The [github.com/open-telemetry/community#1822](https://github.com/open-telemetry/community/pull/1822) PR is the basis for the formation of the working group. See the [minutes](https://docs.google.com/document/d/1zlBtUs8Kk15MJP3LFvJ6mi59nNF2UOPxuA4w2t0N23k/edit) from the first meeting for details.
+* Meetings during and after the holidays
+    * Canceling meetings Dec 21 and 28.
+    * Keeping the extra TC meeting Jan 4 in the calendar for now.
+    * A possible topic for the community meeting on Jan 18 is OTel and how it might integrate with Eiffel (and vice versa). If we're not ready for that discussion by Jan 11 we'll cancel.
+* [Key distribution when signing events](https://groups.google.com/g/eiffel-community/c/Yu-yDytXjnQ/m/FuF3FqqWAQAJ)
+    * Magnus will look into FRSCA, Sigstore, and related pieces of the new supply chain ecosystem to see if any of them fit in.
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* Emil: Talk to Panos about Vici's Dependabot PRs.
+    * We'll merge the Dependabot PRs now.
+    * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* ~~Magnus: Send email to eiffel-community group to solicit participants in the new OTel working group.~~
 
 ### November 29, 2023
 
