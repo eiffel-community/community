@@ -34,10 +34,6 @@ The list of eligible community members can be extracted using EST (Ericsson Soft
 
 ## <a id="Eligible-Community-Members-2024"></a>Eligible Community Members
 
-The list below contains the eligible community members who are eligible to nominate themselves or be nominated by other maintainers.
-
-The eligibility is determined based on the contributors maintainer status and only the maintainers of the  projects hosted in [Eiffel Community GitHub Organization](https://github.com/eiffel-community) are eligible.
-
 *To be added by the Election Officers as a preparation to the elections*
 
 ## <a id="Nominated-Candidates-2024"></a>Nominated Candidates
