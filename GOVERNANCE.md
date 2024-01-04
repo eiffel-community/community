@@ -151,7 +151,7 @@ Information related to conducted and ongoing elections are kept in [ELECTIONS.md
 #### Election Rules
 
 1. Anyone who is a maintainer of one or more projects hosted in the [Eiffel Community GitHub organization](https://github.com/eiffel-community) is eligible to run for a seat in the Eiffel Technical Committee or nominate another maintainer as a candidate. The list of eligible candidates will be sent for review to the Eiffel Community prior to the start of the nomination phase.
-1. Anyone who is a member to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote on Technical Committee Elections.
+1. Anyone who is a member of the [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote on Technical Committee Elections.
 1. Community elections are overseen by [Election Officers](#Election-Officers).
 1. The members of Technical Committee are elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
 If there is a tie resulting in more candidates to be elected than stated in the charter, it is responsibility of the presiding Technical Committee to determine the tie-breaking rules.
@@ -163,7 +163,7 @@ The election process consists of 3 phases
 * **Preparation Phase**:
   * Election Officers prepare the timeline for the elections and get it approved by the Technical Committee.
   * Election Officers determine the list of community members who are eligible to **run** in the Technical Committee elections and announce this on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
-  * The list of eligible members is open for review for one to two weeks. Any changes to this list are managed by the Election Officers and informed to the Technical Committee before the nomination phase starts.
+  * The list of eligible members is open for review for one to two weeks. Any changes to this list are managed by the Election Officers who inform the Technical Committee before the nomination phase starts.
 * **Nomination Phase**:
   * Once the eligible community members are determined, Election Officers start nomination period for Technical Committee elections by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). The nomination period should be between one and two weeks.
   * After the commencement of the nomination phase, eligible candidates who wish to run for a seat in Technical Committee announce their nomination by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). (self-nomination) If community members want to nominate someone else to Technical Committee, they can do so by sending nomination mail to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) but this must then be accepted by the nominated community member by responding to their nomination mail in order for their candidacy to be valid. Only maintainers may nominate candidates.
