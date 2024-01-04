@@ -3,33 +3,54 @@
 # Eiffel Community Technical Committee Elections
 
 * [Introduction](#Introduction)
+* [Eiffel Technical Committee Elections 2024](#Eiffel-Technical-Committee-Elections-2024)
+    * [Election Timeline](#Election-Timeline-2024)
+    * [Eligible Community Members](#Eligible-Community-Members-2024)
+    * [Nominated Candidates](Nominated-Candidates-2024)
+    * [Technical Committee Co Chair Elections](Technical-Committee-Co-Chair-Elections-2024)
 * [Eiffel Technical Committee Elections 2023](#Eiffel-Technical-Committee-Elections-2023)
-    * [Election Officers](#Election-Officers-2023)
-    * [Technical Committee Election Process](#Technical-Committee-Election-Process-2023)
-    * [Election Timeline](#Election-Timeline-2023)
-    * [Eligible Community Members](#Eligible-Community-Members-2023)
-    * [Candidates for Technical Committee Election](#Candidates-for-Technical-Committee-Election-2023)
-    * [Technical Committee Co Chair Election Process](#Technical-Committee-Co-Chair-Election-Process-2023)
 * [Eiffel Technical Committee Elections 2022](#Eiffel-Technical-Committee-Elections-2022)
-    * [Election Officers](#Election-Officers-2022)
-    * [Technical Committee Election Process](#Technical-Committee-Election-Process-2022)
-    * [Election Timeline](#Election-Timeline-2022)
-    * [Eligible Community Members](#Eligible-Community-Members-2022)
-    * [Candidates for Technical Committee Election](#Candidates-for-Technical-Committee-Election-2022)
-    * [Technical Committee Co Chair Election Process](#Technical-Committee-Co-Chair-Election-Process-2022)
 * [Eiffel Technical Committee Elections 2021](#Eiffel-Technical-Committee-Elections-2021)
-    * [Election Officers](#Election-Officers-2021)
-    * [Technical Committee Election Process](#Technical-Committee-Election-Process-2021)
-    * [Election Timeline](#Election-Timeline-2021)
-    * [Eligible Community Members](#Eligible-Community-Members-2021)
-    * [Candidates for Technical Committee Election](#Candidates-for-Technical-Committee-Election-2021)
-    * [Technical Committee Chair Election Process](#Technical-Committee-Chair-Election-Process-2021)
 
 # Introduction
 
-This document is used for recording information about Eiffel Community Technical Committee Elections.
+This document is used for recording information about Eiffel Community Technical Committee elections. Please do not update this on GitHub but instead use the document on [HackMD.io](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view) in order to prevent document getting out of sync.
 
-Please do not update the document directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw?view) in order to prevent document getting out of sync.
+The current members of the Technical Committee serving the Eiffel Community can be seen [here](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members).
+
+The Election Officers currently in charge of elections for the Eiffel Community can be seen [here](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#election-officers).
+
+Eiffel Community Technical Committee elections will be conducted according to the process documented in the governance document found [here](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-elections-and-voting).
+
+The list of eligible community members can be extracted using EST (Ericsson Software Technology) Bitergia Dashboard. For more information, see the [Ericsson Specific Notes](https://hackmd.io/SETUZeTJTYCAR1Usc8yRPg#Bitergia).
+
+# Eiffel Technical Committee Elections 2024
+
+*A reference to the TC decision on Election Officers for the new term to be added here*
+
+## <a id="Election-Timeline-2024"></a>Election Timeline
+
+*To be defined by the Election Officers prior to the start of the election period. See previous years below for reference*
+
+## <a id="Eligible-Community-Members-2024"></a>Eligible Community Members
+
+The list below contains the eligible community members who are eligible to nominate themselves or be nominated by other maintainers.
+
+The eligibility is determined based on the contributors maintainer status and only the maintainers of the  projects hosted in [Eiffel Community GitHub Organization](https://github.com/eiffel-community) are eligible.
+
+*To be added by the Election Officers as a preparation to the elections*
+
+## <a id="Nominated-Candidates-2024"></a>Nominated Candidates
+
+*Confirmed candidates to be added by the Election Officers in the end of the nomination phase*
+
+## <a id="Technical-Committee-Co-Chair-Elections-2024"></a>Technical Committee Co Chair Elections
+
+*Timeline and details to be added by Election Officers*
+
+
+<hr>
+
 
 # Eiffel Technical Committee Elections 2023
 
