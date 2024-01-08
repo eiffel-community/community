@@ -151,7 +151,7 @@ Information related to conducted and ongoing elections are kept in [ELECTIONS.md
 #### Election Rules
 
 1. Anyone who is a maintainer of one or more projects hosted in the [Eiffel Community GitHub organization](https://github.com/eiffel-community) is eligible to run for a seat in the Eiffel Technical Committee or nominate another maintainer as a candidate. The list of eligible candidates will be sent for review to the Eiffel Community prior to the start of the nomination phase. Anyone in the Eiffel Community can request an exemption to add/remove a candidate in that list by replying to the review.
-1. Anyone who is a member of the [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote on Technical Committee Elections.
+1. Anyone who is a member of the [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote in Technical Committee Elections.
 1. Community elections are overseen by [Election Officers](#Election-Officers).
 1. The members of Technical Committee are elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
 If there is a tie resulting in more candidates to be elected than stated in the charter, it is responsibility of the presiding Technical Committee to determine the tie-breaking rules.
