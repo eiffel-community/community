@@ -43,20 +43,7 @@
 
 ## Agenda and Notes
 
-Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
-
-### Next
-
-* Should we evaluate Eiffel against the [OpenSSF Security Scorecard](https://github.com/ossf/scorecard) and/or the [OpenSSF Best Practices](https://www.bestpractices.dev/en)?
-* Should we enable Code scanning for all repos. See https://github.com/eiffel-community/eiffel-remrem-publish/security/code-scanning for an example.
-    * Set via https://github.com/eiffel-community/eiffel-remrem-publish/settings/security_analysis
-    * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
-    * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
-    * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
-* Should we propose to add event triggered updates to Renovate?
-    * Note: Renovate has support for Gerrit now: https://github.com/renovatebot/renovate/releases/tag/37.112.0
-* Initiate TC elections by electing Election Officers
-    * https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#election-officers
+Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/03BGtiW8Qyeqq5Q52BvrMw) in order to prevent notes getting out of sync.
 
 ### December 14, 2023
 
