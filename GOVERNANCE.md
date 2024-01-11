@@ -84,10 +84,10 @@ Responsibilities of Election Officers are
 
 Eiffel Community is served by **2** election officers.
 
-Eiffel Community Election Officers are the individuals listed below, appointed for a term ending January 27, 2023:
+Eiffel Community Election Officers are the individuals listed below, appointed for a term ending January 25, 2024:
 
-* Daniel Ståhl, Ericsson
-* Fatih Degirmenci, Ericsson Software Technology
+* Fatih Degirmenci, Linux Foundation
+* Fredrik Fristedt, Axis Communications AB
 
 ### Security Officers
 
@@ -150,13 +150,10 @@ Information related to conducted and ongoing elections are kept in [ELECTIONS.md
 
 #### Election Rules
 
-Anyone who is a maintainer of one or more projects hosted by Eiffel Community is eligible to run for a seat in Eiffel Technical Committee or nominate another maintainer as a candidate.
-
-Anyone who is a member to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote on Technical Committee Elections.
-
-Community elections are overseen by [Election Officers](#Election-Officers).
-
-The members of Technical Committee are elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
+1. Anyone who is a maintainer of one or more projects hosted in the [Eiffel Community GitHub organization](https://github.com/eiffel-community) is eligible to run for a seat in the Eiffel Technical Committee or nominate another maintainer as a candidate. The list of eligible candidates will be sent for review to the Eiffel Community prior to the start of the nomination phase. Anyone in the Eiffel Community can request an exemption to add/remove a candidate in that list by replying to the review.
+1. Anyone who is a member of the [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) is eligible to vote in Technical Committee Elections.
+1. Community elections are overseen by [Election Officers](#Election-Officers).
+1. The members of Technical Committee are elected using [Ranked Voting](https://en.wikipedia.org/wiki/Ranked_voting).
 If there is a tie resulting in more candidates to be elected than stated in the charter, it is responsibility of the presiding Technical Committee to determine the tie-breaking rules.
 
 #### Election Process
@@ -164,9 +161,11 @@ If there is a tie resulting in more candidates to be elected than stated in the 
 The election process consists of 3 phases
 
 * **Preparation Phase**:
-  * Election Officers determine the list of community members who are eligible to **run** in community elections announce this on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+  * Election Officers prepare the timeline for the elections and get it approved by the Technical Committee.
+  * Election Officers determine the list of community members who are eligible to **run** in the Technical Committee elections and announce this on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
+  * The list of eligible members is open for review for one to two weeks. Any changes to this list are managed by the Election Officers who inform the Technical Committee before the nomination phase starts.
 * **Nomination Phase**:
-  * Once the eligible community members are determined, Election Officers start nomination period for Technical Committee elections by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) Nomination period is limited to **one week**.
+  * Once the eligible community members are determined, Election Officers start nomination period for Technical Committee elections by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). The nomination period should be between one and two weeks.
   * After the commencement of the nomination phase, eligible candidates who wish to run for a seat in Technical Committee announce their nomination by sending an email to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community). (self-nomination) If community members want to nominate someone else to Technical Committee, they can do so by sending nomination mail to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community) but this must then be accepted by the nominated community member by responding to their nomination mail in order for their candidacy to be valid. Only maintainers may nominate candidates.
   * Upon the completion of the nomination phase, Election Officers collate the nominations and announce final list of candidates on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
   * Announcement of candidates ends the nomination phase.
@@ -174,7 +173,7 @@ The election process consists of 3 phases
   * The election medium is selected by Eiffel Community Election Officers.
   * Election Officers prepare the election poll on selected medium and enter candidates to ballot.
   * Election Officers start the election by sending poll link to [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
-  * Election period is limited to **one week**.
+  * Election period should be one to two weeks.
   * Upon the completion of the election phase, Election Officers announce the result of the election on [Eiffel Community Maillist](https://groups.google.com/g/eiffel-community).
 
 Elected members of the Technical Committee assume their seat during the first Technical Committee Meeting following the completion of the election phase.
@@ -187,19 +186,17 @@ One such case is the number of candidates who run for the Technical Committee el
 If the number of candidates is less than the number of seats in Technical Committee, Election Officers are authorized to extend the nomination period for one more week. If the number of candidates is still less than the number of seats in Technical Committee, Election Officers are authorized to end the nomination and election process so all the candidates assume their seats without election. The remaining seats are left vacant. The new Technical Committee is responsible to determine if, when, and how to fill the vacant seats.
 If the number of candidates is equal to the number of seats in Technical Committee, Election Officers are authorized to end the nomination and election process so all the candidates assume their seats without election.
 
-In addition to handling exceptions that may occur during community elections, Election Officers are responsible to guide the Technical Committee and Eiffel Community at large in case someone resigns from the Technical Committee or is impeached. Technical Committee is responsible of determining how to fill vacant seat and special elections can be held if the committee deems it necessary. Otherwise, the seat can be left vacant or a community member can be appointed by the committee.
+In addition to handling exceptions that may occur during community elections, Election Officers are responsible to guide the Technical Committee and Eiffel Community at large in case someone resigns from the Technical Committee or is impeached. Technical Committee is responsible of determining how to fill vacant seat and special elections can be held if the Technical Committee deems it necessary. Otherwise, the seat can be left vacant or a community member can be appointed by the Technical Committee.
 
 ### Technical Committee Chair Elections and Voting
 
 Chair of the Eiffel Community Technical Committee is elected from within the members of Eiffel Technical Committee.
 
-Information related to conducted and ongoing elections are kept in [ELECTIONS.md](./ELECTIONS.md) document.
+Information related to conducted and current elections are kept in the [ELECTIONS.md](./ELECTIONS.md) document.
 
 #### Election Rules
 
-Anyone who is a member to Eiffel Technical Committee is eligible to run for Eiffel Technical Committee Chair.
-
-Anyone who is a member to Eiffel Technical Committee is eligible to vote on Eiffel Technical Committeee Chair election.
+Anyone who is a member of the Eiffel Technical Committee is eligible to run for Eiffel Technical Committee Chair, and eligible to vote in the Eiffel Technical Committee Chair elections.
 
 Chair elections are overseen by [Election Officers](#Election-Officers).
 
