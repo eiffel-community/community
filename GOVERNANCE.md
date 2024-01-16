@@ -41,13 +41,11 @@ Determination of the complete criteria for contributors is the responsibility of
 
 Contributors are eligible to vote on Technical Committee elections. Contributors do not have the rights to accept pull requests.
 
-Being contributor is a prerequisite for becoming a maintainer to the projects they are contributing to.
-In order for a contributor to become a maintainer, the individual must be nominated by one of the existing maintainers with a reference to the individual's history of contributions to the project.
-The nomination is discussed and voted on in the maintainer discussion channel. If approved, the nominated contributor must be added to the maintainer list.
-
 ### Maintainers
 
 Maintainers are active contributors and participants in the projects they are maintainers of. Maintainers have the rights to accept pull requests.
+
+In order for a contributor to become a maintainer for a certain project, the individual must be nominated by one of the existing maintainers of that project with a reference to the individual's history of contributions to the same project. The nomination is discussed and voted on amongst the maintainers. Unless unanimous approval within the maintainers group can be reached, the Technical Committee can be consulted for advice. If approved, the nominated contributor must be added to the maintainer list.
 
 Maintainers have a responsibility towards the code and content of the projects and repositories they maintain. This means the maintainer is expected to enforce the following:
 * Inclusive and non-offensive content
@@ -58,8 +56,6 @@ Maintainers have a responsibility towards the code and content of the projects a
 A good default for security and vulnerability scanning is to have [Dependabot Alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts), [Dependabot Security Updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) and [Secret Scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/about-secret-scanning) enabled. All these settings can be found under _Settings -> Code and Security Analysis_
 
 Maintainers are eligible to vote on Technical Committee elections. They can be nominated as members to the Technical Committee during Technical Committee elections.
-
-Maintainers have right to nominate contributors to become maintainers and vote on the maintainer promotions for the projects they are maintainers of.
 
 Individuals can be maintainers to multiple Eiffel Community Open Source Projects.
 
