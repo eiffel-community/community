@@ -45,7 +45,7 @@ Contributors are eligible to vote on Technical Committee elections. Contributors
 
 Maintainers are active contributors and participants in the projects they are maintainers of. Maintainers have the rights to accept pull requests.
 
-In order for a contributor to become a maintainer for a certain project, the individual must be nominated by one of the existing maintainers of that project with a reference to the individual's history of contributions to the same project. The nomination is discussed and voted on amongst the maintainers. Unless unanimous approval within the maintainers group can be reached, the Technical Committee can be consulted for advice. If approved, the nominated contributor must be added to the maintainer list.
+In order for a contributor to become a maintainer for a certain project, the individual must be nominated by one of the existing maintainers of that project with a reference to the individual's history of contributions to the same project. The nomination is discussed and voted on amongst the maintainers. Unless unanimous approval within the maintainers group can be reached, the Technical Committee can be consulted for advice. If approved, the nominated contributor must be added to the GitHub team for the maintainers of this project.
 
 Maintainers have a responsibility towards the code and content of the projects and repositories they maintain. This means the maintainer is expected to enforce the following:
 * Inclusive and non-offensive content
