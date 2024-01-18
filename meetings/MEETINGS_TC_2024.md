@@ -8,7 +8,9 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-01-18 Meeting](#January-18-2024)
     * [2024-01-11 Meeting](#January-11-2024)
+
 
 ## Logistics
 
@@ -32,31 +34,83 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we propose to add event triggered updates to Renovate?
     * Note: Renovate has support for Gerrit now: https://github.com/renovatebot/renovate/releases/tag/37.112.0
     * Similar issue in CDEvents: https://github.com/cdevents/spec/issues/39
+* Eiffel Summit 2024: Where and when?
+* Should we archive all repos that don't have active maintainers?
+
+### January 18, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents, Emil
+* Initiate TC elections by appointing Election Officers for 2024
+    * https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#election-officers
+    * Decision: Fatih Demirgenci and Fredrik Fristedt are appointed to election officers until Jan 31, 2025.
+    * Action Magnus: Update [GOVERNANCE.md](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md) accordingly. Draft issue created.
+    * Action Emil: Send the appointees an email to announce the appointment and request that they present the election timeline at the Feb 8 TC meeting. Also add them to the meeting invite.
+* When we answer someone who sends a mail via the Community Mailing list they need to be a member to see the response.
+    * Action Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Scope of [Santiago edition](https://github.com/eiffel-community/eiffel/milestone/9)
+    * One issue added to the edition and the due date was updated to 2024-03-15.
+* Can we add a source tag event ([github.com/eiffel-community/eiffel#219](https://github.com/eiffel-community/eiffel/issues/219)) before we're reasonably done with the new source change events?
+    * Action Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* ~~Emil: Talk to Panos about Vici's Dependabot PRs.~~
+    * ~~We'll merge the Dependabot PRs now.~~
+    * ~~Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.~~
+    * ~~Update 2024-01-18: Draft issue for archiving the repository has been created.~~
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* ~~Emil/Magnus: Ask Fatih/Daniel/Kristofer and Fredrik if they're willing to be election officers for the next year.~~
+* Emil: Send the appointed election officers an email to announce the appointment and request that they present the election timeline at the Feb 8 TC meeting. Also add them to the meeting invite.
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 
 ### January 11, 2024
 
 #### Participants
 
 * TC Attendees
-    * Emil Bäckmark, present / not present
-    * Magnus Bäck, present / not present
-    * Mattias Linnér, present / not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall, All
+    * We have quorum.
 * Agenda Bashing, All
+    * Approved.
 * Action Item Review, All
     * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
     * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
 * Updates from CDEvents, Emil
-* Initiate TC elections by electing Election Officers for 2024
+    * Nothing in particular.
+* Initiate TC elections by appointing Election Officers for 2024
     * https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#election-officers
+    * Action: Ask Fatih/Daniel/Kristofer and Fredrik if they're willing to be election officers for the next year.
 * Jan 18 community meeting
     * A possible topic for the community meeting on Jan 18 is OTel and how it might integrate with Eiffel (and vice versa). If we're not ready for that discussion by Jan 11 we'll cancel.
+    * Decision: Cancel the meeting.
 * We have multiple ongoing protocol PRs by multiple people. How can we work efficiently to avoid stepping on each other's toes and rebasing too much?
-* Scope of [Santiago edition](https://github.com/eiffel-community/eiffel/milestone/9)
-* Can we add a source tag event ([github.com/eiffel-community/eiffel#219](https://github.com/eiffel-community/eiffel/issues/219)) before we're reasonably done with the new source change events?
-* PRs and issues
+* Out of time, postponed: Scope of [Santiago edition](https://github.com/eiffel-community/eiffel/milestone/9)
+* Out of time, postponed: Can we add a source tag event ([github.com/eiffel-community/eiffel#219](https://github.com/eiffel-community/eiffel/issues/219)) before we're reasonably done with the new source change events?
+* Out of time, postponed: PRs and issues
 
 #### Action Items
 * Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
@@ -66,3 +120,4 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Depending on whether or not we'll introduce a dormant state we'll transition the repo to either dormant or just archive it.
 * All: Evaluate key repositories according to the OpenSSF criteria.
 * ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Emil/Magnus: Ask Fatih/Daniel/Kristofer and Fredrik if they're willing to be election officers for the next year.
