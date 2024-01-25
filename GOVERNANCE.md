@@ -80,9 +80,9 @@ Responsibilities of Election Officers are
 
 Eiffel Community is served by **2** election officers.
 
-Eiffel Community Election Officers are the individuals listed below, appointed for a term ending January 25, 2024:
+Eiffel Community Election Officers are the individuals listed below, appointed for a term ending January 31, 2025:
 
-* Fatih Degirmenci, Linux Foundation
+* Fatih Degirmenci
 * Fredrik Fristedt, Axis Communications AB
 
 ### Security Officers
