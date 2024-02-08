@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-02-08 Meeting](#February-8-2024)
     * [2024-02-01 Meeting](#February-1-2024)
     * [2024-01-25 Meeting](#January-25-2024)
     * [2024-01-18 Meeting](#January-18-2024)
@@ -33,8 +34,58 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
     * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
+* OpenPubKey for public key distribution
+* Should we document whether to send events from separate services or from within the services where things actually happen (CDEvents-translator case)?
+
+### February 8, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+    * Fredrik Fristedt, present (up to and including _Self-hosted GitHub runners_ agenda item)
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* [TC elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Proposed timeline was approved.
+* Self-hosted GitHub runners
+    * https://www.securityweek.com/major-it-crypto-firms-exposed-to-supply-chain-compromise-via-new-class-of-ci-cd-attack/ 
+    > To mitigate this class of vulnerability, organizations are advised to change the default repository settings so that all outside contributions require approval.
+    * Decision: All repos should be configured to require approval of all outside contributions before workflows are run.
+    * Action Magnus: Update [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151) with the requirement that outside contributions require approval before any workflows are run.
+    * Action Mattias: Update the eiffel-easy2use configuration and update these minutes to state what was changed.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Coming Absence in TC
+    * Emil is off w8 (Feb 22)
+    * Mattias is off w9? (Feb 29)
+    * Meetings will be held with reduced presence.
+* Updates from CDEvents, Emil
+    * "[CDEvents Translator](https://github.com/cdevents/community/pull/42)" proposed. Mainly for transforming SCM 'events' to CDEvents.
 * Eiffel Summit 2024: Where and when?
-* TC elections
+    * Volvo wants to host a summit this year. Planning meeting to be scheduled by Volvo.
+* Open source tool for inserting events to MongoDB?
+    * Magnus will look into open sourcing Axis's MongoDB inserter.
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Magnus: Write an agenda for the OTel meeting.~~
+* Mattias: Draft text of email to maintainers re archival.
+* ~~Magnus: Update [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151) with the requirement that outside contributions require approval before any workflows are run.~~
+* Mattias: Update the eiffel-easy2use configuration to require approvals from outside contributions and update these minutes to state exactly what setting was changed.
 
 ### February 1, 2024
 
