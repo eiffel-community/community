@@ -139,7 +139,7 @@ List of community members nominated as candidates for Technical Committee.
 **Confirmed Candidates**
 
 * Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/Meo-7uTwAAAJ)
-* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/3U7hGPvwAAAJ)
+* Mattias Linnér, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/3U7hGPvwAAAJ)
 * Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/U69CMm66AAAJ)
 
 
@@ -347,7 +347,7 @@ List of community members nominated as candidates for Technical Committee.
 **Confirmed Candidates**
 
 * Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/1c6Hn5cRCQAJ)
-* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ)
+* Mattias Linnér, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ)
 * Azeem Ahmad, Volvo - [Link to nomination](https://groups.google.com/g/eiffel-community/c/VE0hGRDji1U/m/hT5Xa65PBAAJ)
 * Tobias Persson, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/jn_gQj9cBAAJ)
 * Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/s0boESXABAAJ)

@@ -240,7 +240,7 @@ Full Name         | Company              | GitHub                               
 ------------------|:--------------------:|-------------------------------------------------------------- |-------------------------------------------------------------------|-------------|-----------
 Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | May 2023    | May 2024
 Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | May 2023    | May 2024
-Mattias Linnèr    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2023    | May 2024
+Mattias Linnér    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2023    | May 2024
 
 The technical committee members will strive to
 

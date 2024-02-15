@@ -41,7 +41,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -103,7 +103,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, present
 * Henning Roos, Ericsson, **not present**
@@ -154,7 +154,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, present/**not present**
 * Raja Maragani, Ericsson/TCS, present/**not present**
 * Henning Roos, Ericsson, present
@@ -255,7 +255,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, **not present**
 * Kristofer Hallén, Ericsson, **not present**
-* Mattias Linnèr, Ericsson, **not present**
+* Mattias Linnér, Ericsson, **not present**
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -323,7 +323,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, **not present**
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, present
 * Henning Roos, Ericsson, present
@@ -391,7 +391,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -478,7 +478,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, present
 * Henning Roos, Ericsson, **not present**
@@ -550,7 +550,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, **not present**
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -613,7 +613,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -676,7 +676,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, **not present**
 * Kristofer Hallén, Ericsson, **not present**
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -731,7 +731,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, **not present**
+* Mattias Linnér, Ericsson, **not present**
 * Christian Madsen, Grundfos, **not present**
 * Raja Maragani, Ericsson/TCS, **not present**
 * Henning Roos, Ericsson, present
@@ -812,7 +812,7 @@ This meeting was cancelled due to public holidays.
 * Fatih Degirmenci, Ericsson Software Technology, present
 * Fredrik Fristedt, Axis, present
 * Kristofer Hallén, Ericsson, present
-* Mattias Linnèr, Ericsson, present
+* Mattias Linnér, Ericsson, present
 * Christian Madsen, Grundfos, present
 * Raja Maragani, Ericsson/TCS, present
 * Henning Roos, Ericsson, present
@@ -940,7 +940,7 @@ This meeting was cancelled due to public holidays.
           - Raja Maragani, Ericsson/TCS
           - Henning Roos, Ericsson
           - Ewelina Wilkosz, Eficode
-          - Mattias Linnèr, Ericsson 
+          - Mattias Linnér, Ericsson
           - Kristofer Hallén, Ericsson
           - David Westberg, Volvo
           - Christian Madsen, Grundfos
