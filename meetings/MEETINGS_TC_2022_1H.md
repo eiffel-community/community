@@ -367,7 +367,7 @@ Meeting canceled due to too few participants
     * Decide on way forward and document it in a similar way as [was done last year](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_BTC.md#April-22-2021)
     * Decision: As per the charter, if there are less than 7 nominees to the TC all candidates are automatically elected. Nominees, and hence future TC members, are:
         * Emil Bäckmark, Ericsson ([nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/1c6Hn5cRCQAJ))
-        * Mattias Linnèr, Ericsson ([nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ))
+        * Mattias Linnér, Ericsson ([nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ))
         * Azeem Ahmad, Volvo ([nomination](https://groups.google.com/g/eiffel-community/c/VE0hGRDji1U/m/hT5Xa65PBAAJ))
         * Tobias Persson, Axis ([nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/jn_gQj9cBAAJ))
         * Magnus Bäck, Axis ([nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/s0boESXABAAJ))
