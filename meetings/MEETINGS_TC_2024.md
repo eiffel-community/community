@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-02-22 Meeting](#February-22-2024)
     * [2024-02-08 Meeting](#February-8-2024)
     * [2024-02-01 Meeting](#February-1-2024)
     * [2024-01-25 Meeting](#January-25-2024)
@@ -33,9 +34,62 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Set via https://github.com/eiffel-community/eiffel-remrem-publish/settings/security_analysis
     * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
     * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
+        * (2024-02-21): You can set it up globaly - https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale#eligible-repositories-for-codeql-default-setup
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
 * OpenPubKey for public key distribution
 * Should we document whether to send events from separate services or from within the services where things actually happen (CDEvents-translator case)?
+* Have we tried /template on issues since we changed the template? https://github.com/orgs/community/discussions/14010#discussioncomment-8416778
+* How do we note compliance against protocol versiona and API (for example minimal ER API) amongst the community repos?
+* https://github.com/eiffel-community/eiffel/issues/374 - should this say an machine readable YAML file?
+* Should we have a possibility to identify a testcase from an issue? E.g. if a test fail and we write a ticket on it should we in the ID event link to the Testcase?
+
+### February 22 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, not present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Eiffel Community meeting 14th of March
+    * _Public key distribution for event signing using meta.security_ is a good candidate. Let's follow up next week and decide.
+* How should we handle issues like this https://github.com/eiffel-community/eiffel-intelligence/issues/534 when we can't reproduce it?
+    * Totally fine to close an issue if the problem can't be reproduced. Use good judgment.
+* How do we note compliance against protocol versiona and API (for example minimal ER API) amongst the community repos?
+    * Yes, this would be a good thing. However, the implementation is unclear. The information is probably too rich to fit in a single badge in the readme files. Perhaps a table that describes which events from which editions are consumed andd produced?
+* https://github.com/eiffel-community/eiffel/issues/374 - should this say an machine readable YAML file?
+    * The information already is machine readable, albeit in the original YAML files and therefore not super convenient to access.
+* Should we have a possibility to identify a testcase from an issue? E.g. if a test fail and we write a ticket on it should we in the ID event link to the Testcase?
+    * Discussion held, no conclusions. Follow up when Emil is back.
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Mattias: Draft text of email to maintainers re archival.~~
+    * ~~**Update:** Proposal~~
+    >Hi maintainers!
+    >
+    >We would like to make you aware we have created a ticket in your repository https://github.com/eiffel-community/eiffel-store/issues/10 on archiving it. Please use this ticket for further communication on this topic.
+    >
+    >Best Regards,  
+    >Eiffel Technical Committee
+    * ~~Update 2024-02-22: This email text looks fine.~~
+* ~~Mattias: Update the eiffel-easy2use configuration to require approvals from outside contributions and update these minutes to state exactly what setting was changed.~~
+    * ~~**Update**: Under `Actions->General->Fork pull request workflows from outside collaborators` set it to *Require approval for all outside collaborators*~~
 
 ### February 8, 2024
 
@@ -84,8 +138,16 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 * ~~Magnus: Write an agenda for the OTel meeting.~~
 * Mattias: Draft text of email to maintainers re archival.
+    * **Update:** Proposal
+    >Hi maintainers!
+    >
+    >We would like to make you aware we have created a ticket in your repository https://github.com/eiffel-community/eiffel-store/issues/10 on archiving it. Please use this ticket for further communication on this topic.
+    >
+    >Best Regards,  
+    >Eiffel Technical Committee
 * ~~Magnus: Update [github.com/eiffel-community/community#151](https://github.com/eiffel-community/community/issues/151) with the requirement that outside contributions require approval before any workflows are run.~~
 * Mattias: Update the eiffel-easy2use configuration to require approvals from outside contributions and update these minutes to state exactly what setting was changed.
+    * **Update**: Under `Actions->General->Fork pull request workflows from outside collaborators` set it to *Require approval for all outside collaborators*
 
 ### February 1, 2024
 
