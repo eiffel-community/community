@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-03-27 Meeting](#March-27-2024)
     * [2024-03-07 Meeting](#March-7-2024)
     * [2024-02-22 Meeting](#February-22-2024)
     * [2024-02-08 Meeting](#February-8-2024)
@@ -39,9 +40,57 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
 * [OpenPubkey](https://www.bastionzero.com/openpubkey) for public key distribution
 * Have we tried /template on issues since we changed the template? https://github.com/orgs/community/discussions/14010#discussioncomment-8416778
-* Follow up outcome of meeting about https://github.com/eiffel-community/eiffel-intelligence/issues/534.
 
-### March 7 2024
+### March 27, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, not present
+* Others
+    * Fatih Degirmenci, not present
+    * Fredrik Fristedt, present for TC elections item
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* TC Elections update
+    * The list of eligible candidates was announced a bit too late, but we found that it didn't warrant any particular action.
+    * No exception requests have been filed so the announced candidate list is final.
+    * We had a discussion about archived projects and that maintainers of such shouldn't be eligible. Draft issue to update GOVERNANCE.md has been created.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Future Eiffel Community meetings
+    * Magnus, the planned moderator of the _Public key distribution for event signing using meta.security_ community meeting planned for April 11, can't make it that day. Push it to the May meeting? Or move April community meeting to 25th?
+    * Yes, postpone April 11 meeting until April 25. May meeting still stands but we may end up canceling it if we don't find a topic.
+    * Action Magnus: Prepare agenda for April 11 meeting.
+    * Action Emil: Update invite for April 11 meeting.
+* Follow-up the OTel discussion. Are there any further actions we can take at this point?
+    * No immediate actions to take, but we look forward to the CI/CD WG within OTel.
+    * Axis is doing some work in this area and may be able to provide input to the ongoing OTel efforts related to context and baggage propagation in the CI/CD context.
+* Should we have a possibility to identify a testcase from an issue? E.g. if a test fail and we write a ticket on it should we in the ID event link to the Testcase?
+    * This is a valid use case and the target of such a link could not only be a TCT but also e.g. an SCS. Would a link type for this be better than simply having a CAUSE link to the failing TCF?
+    * Draft issue created.
+* Should we document whether to send events from separate services or from within the services where things actually happen (CDEvents-translator case)?
+* Follow up outcome of meeting about [github.com/eiffel-community/eiffel-intelligence#534](https://github.com/eiffel-community/eiffel-intelligence/issues/534).
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Prepare agenda for April 11 meeting.
+* Emil: Update invite for April 11 meeting.
+
+### March 7, 2024
 
 #### Participants
 
@@ -82,7 +131,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 
-### February 22 2024
+### February 22, 2024
 
 #### Participants
 
