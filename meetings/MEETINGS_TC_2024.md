@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-04-04 Meeting](#April-4-2024)
     * [2024-03-27 Meeting](#March-27-2024)
     * [2024-03-07 Meeting](#March-7-2024)
     * [2024-02-22 Meeting](#February-22-2024)
@@ -39,7 +40,48 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
         * (2024-02-21): You can set it up globaly - https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale#eligible-repositories-for-codeql-default-setup
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
 * [OpenPubkey](https://www.bastionzero.com/openpubkey) for public key distribution
+
+### April 4, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, not present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* TC Elections update
+    * Request for nominations sent out (one day too late)
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents, Emil
+    * CDEvents v0.4 about to be released in conjunction with cdCon.
+* Updates from OpenTelemetry CI/CD WG, Magnus
+* Next Eiffel Community meetings
+    * Postpone April 11 meeting until April 25
+* Should we document whether to send events from separate services or from within the services where things actually happen (CDEvents-translator case)?
+    * This should probably be documented, but it's hard to give concrete guidelines. Ideally, events should be sent as close to the source as possible, except when that isn't possible. We have more pressing documentation tasks, so no action is planned at this time.
+* Follow up outcome of meeting about [github.com/eiffel-community/eiffel-intelligence#534](https://github.com/eiffel-community/eiffel-intelligence/issues/534).
+    * Nasdaq will attempt to recreate the performance problems in a Nordix environment. That way Ericsson folks can easier help out with the debugging.
 * Have we tried /template on issues since we changed the template? https://github.com/orgs/community/discussions/14010#discussioncomment-8416778
+    * Apparently this only works for issues (i.e. not draft issues since they aren't tied to a repository) in repositories with old-school template, not the new form-based ones. This means that it currently doesn't work for the protocol repo. Being able to insert a template with `/template` would've been nice, but we prefer using the new form-based templates.
+* PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Prepare agenda for April 25 meeting.
+* Emil: Update invite for April 11->25 meeting.
 
 ### March 27, 2024
 
