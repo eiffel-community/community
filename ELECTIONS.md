@@ -26,19 +26,89 @@ The list of eligible community members can be extracted using EST (Ericsson Soft
 
 # Eiffel Technical Committee Elections 2024
 
-*A reference to the TC decision on Election Officers for the new term to be added here*
+As documented in the governance, Eiffel TC and TC Chair elections will be conducted by the individuals who are appointed as Election Officers by the Eiffel TC.
+
+Eiffel TC Committee [agreed](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg#January-18-2024) the individuals listed below to continue as election officers for 2024 Eiffel TC elections.
+
+* Fatih Degirmenci
+* Fredrik Fristedt, Axis Communications AB
 
 ## <a id="Election-Timeline-2024"></a>Election Timeline
 
-*To be defined by the Election Officers prior to the start of the election period. See previous years below for reference*
+### Preparation Phase
+
+- [x] Election Officers are appointed: Fatih Degirmenci and Fredrik Fristedt to serve as election officers for 2024 Eiffel TC elections
+- [x] Present 2024 Eiffel TC Election Process to Eiffel TC: February 8th, 2024
+- [x] Get a snapshot of eligible candidates: March 8th, 2024
+- [x] Publish 2024 Eiffel TC eligible community member list on Eiffel Google Group: March 11, 2024 (was in fact on March 22)
+- [x] Publish 2024 Eiffel TC eligible community member list on Eiffel LinkedIn Group: March 11, 2024 (was in fact on March 25)
+- [x] Present 2024 Eiffel TC eligible community members list to Eiffel TC for potential exception request, before their review: March 27, 2024
+- [x] Eiffel TC reviews exception requests: March 27, 2024
+
+### Nomination Phase
+
+- [x] Eiffel TC Election Nomination period starts with an e-mail to Eiffel Google Group: April 3, 2024
+- [x] Eiffel TC Election Nomination Period ends with an e-mail to Eiffel Google Group:  April 15, 2024
+
+### Election Phase
+
+- [ ] If the number of candidates is greater than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
+    - [ ] Elections start: April 17, 2024
+    - [ ] Elections end: April 30, 2024
+- [ ] If the number of candidates is equal to or less than [the number of available seats](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee) (7):
+    - [x] All candidates are automatically elected
+- [x] Announce newly elected Eiffel TC Members on Eiffel Google Group: May 2, 2024
+- [x] The new Eiffel TC assume their seats: May 2, 2024
+- [ ] Publish candidate list for Eiffel TC Co Chairs on Eiffel Google Group: May 2, 2024 (unless TC decides to agree on appointment of TC members as co-chairs without election)
+
 
 ## <a id="Eligible-Community-Members-2024"></a>Eligible Community Members
 
-*To be added by the Election Officers as a preparation to the elections*
+The list below contains the eligible community members who are eligible to nominate themselves or be nominated by other maintainers.
+
+The eligibility is determined based on the contributors maintainer status and only the maintainers of the (non-archived) projects hosted in [Eiffel Community GitHub Organization](https://github.com/eiffel-community) are eligible.
+
+1. alionski Alena Hramyka
+2. andmat900 Andrei Matveyeu
+3. azeem59
+4. BrandonRudiselNDSU
+5. Brett-Knecht Brett Knecht
+6. chrillebile Christian Bilevits
+7. Christoffer-Cortes Christoffer Cortes Sjöwall
+8. d-stahl-ericsson Daniel Ståhl
+9. dhruvin-kalavadia
+10. e-backmark-ericsson Emil Bäckmark
+11. e-pettersson-ericsson
+12. elebroerik
+13. emichaf Michael Frick
+14. ericstengard Eric Stengard
+15. erkist Erik Sternerson
+16. fdegir Fatih Degirmenci
+17. fredjn Fredrik Fristedt
+18. hartig Olaf Hartig
+19. Jack0076
+20. jaden-young Jaden Young
+21. jainadc9
+22. JonasAlfredsson Jonas Alfredsson
+23. jonathanwahlund Jonathan Wahlund
+24. k-hallen-ericsson Kristofer Hallén
+25. m-linner-ericsson Mattias Linnér
+26. magnusbaeck Magnus Bäck
+27. olale Ola Leifler
+28. pef-ericsson
+29. raja-maragani Raja Maragani
+30. rjalander Jalander Ramagiri
+31. saif-ericsson SAIF
+32. SantoshNC68 santosh nc
+33. t-akervik-ericsson tobiasake
+34. t-persson Tobias Persson
+35. z-sztrom
 
 ## <a id="Nominated-Candidates-2024"></a>Nominated Candidates
 
-*Confirmed candidates to be added by the Election Officers in the end of the nomination phase*
+* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/wsVWiV2uXNA/m/tpzq3-JbAAAJ)
+* Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/wsVWiV2uXNA/m/wCXKanrgAQAJ)
+* Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/wsVWiV2uXNA/m/GNEiJK7gAQAJ)
 
 ## <a id="Technical-Committee-Co-Chair-Elections-2024"></a>Technical Committee Co Chair Elections
 
@@ -139,7 +209,7 @@ List of community members nominated as candidates for Technical Committee.
 **Confirmed Candidates**
 
 * Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/Meo-7uTwAAAJ)
-* Mattias Linnér, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/3U7hGPvwAAAJ)
+* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/3U7hGPvwAAAJ)
 * Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/l3PAT2tryzY/m/U69CMm66AAAJ)
 
 
@@ -347,7 +417,7 @@ List of community members nominated as candidates for Technical Committee.
 **Confirmed Candidates**
 
 * Emil Bäckmark, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/1c6Hn5cRCQAJ)
-* Mattias Linnér, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ)
+* Mattias Linnèr, Ericsson - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/ja3jNKIRCQAJ)
 * Azeem Ahmad, Volvo - [Link to nomination](https://groups.google.com/g/eiffel-community/c/VE0hGRDji1U/m/hT5Xa65PBAAJ)
 * Tobias Persson, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/jn_gQj9cBAAJ)
 * Magnus Bäck, Axis - [Link to nomination](https://groups.google.com/g/eiffel-community/c/uyjewsLYrO8/m/s0boESXABAAJ)
