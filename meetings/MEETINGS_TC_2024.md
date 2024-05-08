@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-05-02 Meeting](#May-2-2024)
+    * [2024-04-18 Meeting](#April-18-2024)
     * [2024-04-04 Meeting](#April-4-2024)
     * [2024-03-27 Meeting](#March-27-2024)
     * [2024-03-07 Meeting](#March-7-2024)
@@ -40,6 +42,104 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
         * (2024-02-21): You can set it up globaly - https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale#eligible-repositories-for-codeql-default-setup
     * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
 * [OpenPubkey](https://www.bastionzero.com/openpubkey) for public key distribution
+* How do we document the process for adding external repos to the community?
+    * What responsiblities does the Community /TC have for external repos?
+    * Should the TC enforce maintainer rules on external repos?
+* Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
+    * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
+* Eiffel maintainer need to enable security alerts in each repo they maintain. E.g. you can turn them off in a repo you are maintainer of.
+
+
+### May 2, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Next community meeting
+    * The May 16 meeting will cover Volvo Cars's event protocol, hosted by Erik Sternersson.
+* Updates from CDEvents, Emil
+    * CDEvents interest shown at cdCon, e.g. Screwdriver
+    * Jenkins plugin/core support discussed
+* Updates from OpenTelemetry CI/CD WG, Magnus
+    * Mostly talks about semantic convention. Not about sending the information.
+* [TC Elections update](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Celebrate the forming of the new TC
+    * Appoint TC Chair
+        * Emil and Magnus elected on the meeting
+    * (Magnus) Publish info about elected TC Chairs
+    * (Emil) Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* Security Officers elections
+    * (Magnus) Ask current SOs if they can stay. If not we need to discuss replacement offline.
+* Summit
+    * Action Emil: After getting confirmation in the summit slack, send preliminary calender invite for the summit.
+    * Action Magnus: Update GH pages summit page.
+* Follow-up of April 25 community meeting
+    * Good discussions but no actions to take.
+    * Action Emil: Add public key distribution recording to YouTube and post it on the mailing list.
+* Out of time, postponed: Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Emil: Update agenda for May 16 community meeting.~~
+* ~~Emil: Talk to election officers about the next steps.~~
+* Magnus: Ask current security officers if they want to continue.
+* ~~Emil: After getting confirmation in the summit slack, send preliminary calender invite for the summit.~~
+* Magnus: Update GH pages summit page.
+* Emil: Add public key distribution recording to YouTube and post it on the mailing list.
+
+### April 18, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents, Emil
+    * [CDEvents v0.4 was announced](https://cd.foundation/blog/2024/04/16/cdevents-v04/)
+* Updates from OpenTelemetry CI/CD WG, Magnus
+    * Adriel has posted a proposal at [github.com/open-telemetry/semantic-conventions#915](https://github.com/open-telemetry/semantic-conventions/issues/915).
+* [TC Elections update](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Action Emil: Talk to election officers about the next steps.
+* Summit
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Magnus: Prepare agenda for April 25 meeting.~~
+* Emil: Talk to election officers about the next steps.
 
 ### April 4, 2024
 
@@ -81,7 +181,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 * Magnus: Prepare agenda for April 25 meeting.
-* Emil: Update invite for April 11->25 meeting.
+* ~~Emil: Update invite for April 11->25 meeting.~~
+
 
 ### March 27, 2024
 
