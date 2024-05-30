@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-05-30 Meeting](#May-30-2024)
     * [2024-05-02 Meeting](#May-2-2024)
     * [2024-04-18 Meeting](#April-18-2024)
     * [2024-04-04 Meeting](#April-4-2024)
@@ -49,6 +50,59 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Eiffel maintainer need to enable security alerts in each repo they maintain. E.g. you can turn them off in a repo you are maintainer of.
 
+### May 30, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents, Emil
+    * SDK updates for 0.4.0 and 0.4.1 ongoing.
+    * Link support in SDKs being discussed. Perhaps only embedded links?
+    * Ongoing work to get [Flux](https://fluxcd.io) to send CDEvents.
+* Updates from OpenTelemetry CI/CD WG, Magnus
+    * Adriel Perkins has opened two PRs for CI/CD attributes and environment variable based context propagation.
+        * [github.com/open-telemetry/semantic-conventions#1075](https://github.com/open-telemetry/semantic-conventions/pull/1075)
+        * [github.com/open-telemetry/oteps#258](https://github.com/open-telemetry/oteps/pull/258)
+* Follow-up of May 16 community meeting
+    * The presentation was interesting but there's nothing to follow up.
+* Next community meeting
+    * No obvious topic. Cancel?
+    * Yes. Also, July 4 and August 8 meeting are canceled because of vacations.
+* Security Officers elections
+    * We haven't received answers from both existing officers so we postpone the appointment.
+* Summit
+    * Action Magnus: Prepare sign-up form based on last year's.
+    * Action Emil: Send w27 invite to discuss the introduction session at the summit. Include Kristofer.
+* Out of time, postponed: Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Ask current security officers if they want to continue.
+    * Update 2024-05-30: Both have been asked and Fredrik has accepted.
+* ~~Magnus: Update GH pages summit page.~~
+* ~~Emil: Add public key distribution recording to YouTube and post it on the mailing list.~~
+* Emil: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* Magnus: Publish info on mailing list about elected TC Chairs.
+* Magnus: Prepare summit sign-up form based on last year's.
+* ~~Emil: Send w27 invite to discuss the introduction session at the summit. Include Kristofer.~~
 
 ### May 2, 2024
 
