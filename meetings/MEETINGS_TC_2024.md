@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-06-27 Meeting](#June-27-2024)
     * [2024-05-30 Meeting](#May-30-2024)
     * [2024-05-02 Meeting](#May-2-2024)
     * [2024-04-18 Meeting](#April-18-2024)
@@ -48,7 +49,55 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Should the TC enforce maintainer rules on external repos?
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
+* Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+
+### June 27, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, not present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG, Magnus
+    * The two PRs for CI/CD attributes and environment variable based context propagation or still open an awaiting reviews.
+        * [github.com/open-telemetry/semantic-conventions#1075](https://github.com/open-telemetry/semantic-conventions/pull/1075)
+        * [github.com/open-telemetry/oteps#258](https://github.com/open-telemetry/oteps/pull/258)
+* Security Officer appointments
+    * Fredrik Fristedt and Kristofer Hallén were appointed security officers for a term that ends 2025-06-30.
+* Summit
+    * Meeting with Volvo tomorrow.
+    * Meeting between Axis and Ericsson next week to talk about the agenda for the introduction session.
+* New message retention policy for the free tier of Slack.
+    * Action Magnus: See if there's a possibility to get a free ride since Eiffel is an open source project.
 * Eiffel maintainer need to enable security alerts in each repo they maintain. E.g. you can turn them off in a repo you are maintainer of.
+    * Added a comment to https://github.com/eiffel-community/community/issues/153.
+* PRs and issues
+    * Talked about https://github.com/eiffel-community/community/issues/200. Conclusion was to denote the difference between repos using text rather than a new icon.
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Magnus: Ask current security officers if they want to continue.~~
+    * ~~Update 2024-05-30: Both have been asked and Fredrik has accepted.~~
+    * ~~Update 2024-06-27: Kristofer has also accepted.~~
+* Emil: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* Magnus: Publish info on mailing list about elected TC Chairs.
+* ~~Magnus: Prepare summit sign-up form based on last year's.~~
+* Magnus: See if there's a possibility to get a free Slack ride since Eiffel is an open source project.
 
 ### May 30, 2024
 
