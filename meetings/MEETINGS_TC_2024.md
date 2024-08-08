@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-08-06 Meeting](#August-6-2024)
     * [2024-06-27 Meeting](#June-27-2024)
     * [2024-05-30 Meeting](#May-30-2024)
     * [2024-05-02 Meeting](#May-2-2024)
@@ -50,6 +51,54 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+* Question from Magnus on slack regarding the way to model "already built".
+* Why do we have sepia on the ´gh-pages´ branch but use the master branch for eiffel-community.github.io?
+
+### August 8, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG, Magnus
+    * OTel semconv v1.27.0 includes the CI/CD attributes from  [github.com/open-telemetry/semantic-conventions#1075](https://github.com/open-telemetry/semantic-conventions/pull/1075).
+    * During the work on said PR, several things popped up and were deemed out of scope. See https://github.com/orgs/open-telemetry/projects/79/views/1.
+* Summit
+    * Meeting with Volvo next Monday.
+    * Feedback from last summit: https://hackmd.io/6v4hYbmMRPSk2OHz3dIT-g
+    * Announce the Eiffel Summit on LinkedIn?
+        * Yes, post it as a LinkedIn event.
+* Eiffel Community meeting Aug 29?
+    * Shift weeks since Mattias's vacations collide several times during autumn?
+        * Swap dates for the extra TC meeting and community meetings, i.e. community meetings take place on Oct&nbsp;10, Nov&nbsp;7, and Dec&nbsp;5.
+    * Action Emil: Replace Aug 29 community meeting with a summit preparation meeting and adjust community meeting invites.
+* [Next Eiffel edition](https://github.com/eiffel-community/eiffel/milestone/9)
+    * Aim for a Sep&nbsp;30 release of the Santiago edition. Four issues currently remain, whereof one (new source tag event) probably needs to be descoped.
+* PRs and issues
+    * A few of Mattias's open PRs were discussed.
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Emil: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* ~~Magnus: Publish info on mailing list about elected TC Chairs.~~
+* ~~Magnus: See if there's a possibility to get a free Slack ride since Eiffel is an open source project.~~
+    * ~~Update 2023-08-08: AFAICT there's no FOSS waiver. The CNCF appears to be paying for a Pro plan. We won't do that.~~
+* Emil: Replace Aug 29 community meeting with a summit preparation meeting and adjust community meeting invites.
 
 ### June 27, 2024
 
