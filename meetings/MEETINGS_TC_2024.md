@@ -8,7 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
-    * [2024-08-06 Meeting](#August-6-2024)
+    * [2024-08-22 Meeting](#August-22-2024)
+    * [2024-08-08 Meeting](#August-8-2024)
     * [2024-06-27 Meeting](#June-27-2024)
     * [2024-05-30 Meeting](#May-30-2024)
     * [2024-05-02 Meeting](#May-2-2024)
@@ -51,8 +52,58 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
-* Question from Magnus on slack regarding the way to model "already built".
-* Why do we have sepia on the ´gh-pages´ branch but use the master branch for eiffel-community.github.io?
+* Should the mandatory Eiffel edition field at the bottom of the issue template be optional ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1723624074046039))?
+* How can we model activities that are started but complete early because they determine nothing needs to be done ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1716547052821279))?
+* Why do we have sepia on the gh-pages branch but use the master branch for eiffel-community.github.io?
+
+### August 22, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents (Emil)
+    * Ericsson Software Technologies staff will no longer work with CDEvents.
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * Recurring meetings in the CI/CD SIG will soon start.
+* [Next Eiffel edition](https://github.com/eiffel-community/eiffel/milestone/9)
+* Summit
+    * Will Edvin own and drive the agenda?
+    * Does the venue include breakout rooms? Say, if lots of people drop out on day 2 and we don't feel we need a room for 70 people.
+    * Note taker?
+    * Sessions that we need to prepare:
+        * Eiffel for beginners
+        * Effective collaboration strategies among diverse groups
+            * Check what the moderator knows about Eiffel.
+            * Try to prepare questions.
+            * Who will participate?
+        * Filtering and Scaling of Eiffel
+            * Explain routing keys (Magnus)
+            * Explain domain and general infrastructure (Magnus + Emil/Mattias)
+            * Pitfalls of ER dependencies when consuming events (Magnus)
+        * Contributing to the Eiffel open source community (Emil)
+        * What's new in Santiago (Magnus)
+* Out of time, postponed: PRs and issues
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Emil: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
 
 ### August 8, 2024
 
@@ -98,7 +149,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * ~~Magnus: Publish info on mailing list about elected TC Chairs.~~
 * ~~Magnus: See if there's a possibility to get a free Slack ride since Eiffel is an open source project.~~
     * ~~Update 2023-08-08: AFAICT there's no FOSS waiver. The CNCF appears to be paying for a Pro plan. We won't do that.~~
-* Emil: Replace Aug 29 community meeting with a summit preparation meeting and adjust community meeting invites.
+* ~~Emil: Replace Aug 29 community meeting with a summit preparation meeting and adjust community meeting invites.~~
 
 ### June 27, 2024
 
