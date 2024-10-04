@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-10-02 Meeting](#October-2-2024)
+    * [2024-09-12 Meeting](#September-12-2024)
     * [2024-08-22 Meeting](#August-22-2024)
     * [2024-08-08 Meeting](#August-8-2024)
     * [2024-06-27 Meeting](#June-27-2024)
@@ -56,6 +58,97 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * How can we model activities that are started but complete early because they determine nothing needs to be done ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1716547052821279))?
 * Why do we have sepia on the gh-pages branch but use the master branch for eiffel-community.github.io?
 
+### October 2, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Action Item Review, All
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from CDEvents (Emil)
+    * There was a mini summit at Open Source Summit, including an introduction by Andrea Fritolli and a presentation from Ericsson Software Technology about using CDEvents to integrate Flux with other software.
+    * Emil won't follow CDEvents very closely going forward.
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * [OTEP 258](https://github.com/open-telemetry/oteps/pull/258), covering trace context propagation via environment variables, should be merged soon.
+* Community meetings
+    * Action Emil: Send update to next week's community meeting. The topic will be following up on summit topics.
+    * Action Magnus: In the follow-up email to Volvo (existing action), include pointer to the community meeting.
+    * Volvo has been experimenting with Neo4j. That would be an interesting topic.
+* Summit feedback
+    * After a reminder last week we've received a few additional responses. Nothing to take immediate action on but we updated the [summit takeaways](https://hackmd.io/@eiffel-community/H17vikIj0) document.
+* YouTube videos: Do we need to get explicit permission from all speakers before publishing on the summit page.
+    * No, that shouldn't be necessary.
+* ActT discussion from Slack
+* Out of time, postponed: PRs and issues
+
+
+#### Action Items
+* ~~Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.~~
+    * ~~2024-10-02: No longer relevant. We don't have any problems with maintainership right now and it's unclear what this action item even entails.~~
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* ~~Mattias: Send a follow-up email to the new summit participants during October.~~
+    * ~~2024-10-02: Done.~~
+* ~~Magnus: Update summit.html to state that the summit is over.~~
+    * ~~2024-10-01: Done.~~
+* ~~Magnus: Invite Volvo to a follow-up meeting when they're ready. Include pointer to the community meeting in the email.~~
+    * ~~2024-10-04: Done.~~
+* ~~Emil: Send update to next week's community meeting. The topic will be following up on summit topics. Also, post to old Slack threads.~~
+    * ~~2024-10-02: Done.~~
+
+### September 12, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall, All
+    * We have quorum.
+* Agenda Bashing, All
+    * Approved.
+* Emil's Eiffel participation
+    * Emil's participation in the community will ramp down. He will remain in the TC and as TC chair but will not prioritize Eiffel meetings.
+* Summit follow-up
+    * [Summit Takeaways](https://hackmd.io/IOIGKpdcRh2FZVCn3AMO8A) 
+    * Did anyone take notes?
+        * No, but it's not clear that there was anything noteworthy.
+    * How to follow up with new participants?
+        * Action Mattias: Send a follow-up email to the new summit participants during October.
+    * Write a post on LinkedIn?
+        * Yes, let's make a post when the video and slides are available on the community site.
+    * Update [summit page](https://eiffel-community.github.io/summit.html)
+        * Action Magnus: Update summit.html to state that the summit is over.
+
+#### Action Items
+* Emil: Look into proposal made in the maintainer role presentation from the 2021 summit.
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
+* Mattias: Send a follow-up email to the new summit participants during October.
+* Magnus: Update summit.html to state that the summit is over.
+* Magnus: Invite Volvo to a follow-up meeting when they're ready.
+
 ### August 22, 2024
 
 #### Participants
@@ -103,7 +196,6 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * ?: Read up on static code analysis (see item in Next) and bring info to TC
 * Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
-* Emil: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.
 
 ### August 8, 2024
 
