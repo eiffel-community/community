@@ -102,7 +102,7 @@ Responsibilities of Security Officers are
 
 Eiffel Community is served by **2** Security Officers.
 
-Eiffel Community Security Officers are the individuals listed below, appointed for a term ending May 31, 2024:
+Eiffel Community Security Officers are the individuals listed below, appointed for a term ending May 31, 2025:
 
 * Fredrik Fristedt, Axis Communications
 * Kristofer Hallén, Ericsson
@@ -236,11 +236,11 @@ Maintainers and contributors are eligible to vote in elections.
 
 Members of the Technical Committee are the individuals listed below. You can reach all current members with the [eiffel-tc@googlegroups.com](mailto:eiffel-tc@googlegroups.com) mailing list.
 
-Full Name         | Company              | GitHub                                                        | Email Address                                                     | Elected On  | Until
-------------------|:--------------------:|-------------------------------------------------------------- |-------------------------------------------------------------------|-------------|-----------
-Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | May 2023    | May 2024
-Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | May 2023    | May 2024
-Mattias Linnér    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2023    | May 2024
+Full Name         | Company              | GitHub                                                        | Email Address                                                     | Elected On | Until
+------------------|:--------------------:|-------------------------------------------------------------- |-------------------------------------------------------------------|------------|-----------
+Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com)   | May 2024   | May 2025
+Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | [magnus.back@axis.com](mailto:magnus.back@axis.com)               | May 2024   | May 2025
+Mattias Linnér    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | [mattias.linner@ericsson.com](mailto:mattias.linner@ericsson.com) | May 2024   | May 2025
 
 The technical committee members will strive to
 
@@ -260,10 +260,10 @@ The goal of this position is servant leadership for the Eiffel Community, projec
 
 Current Technical Committee chairs are:
 
-Full Name         | Company              | GitHub                                                       | Email Address                                                   | Elected On  | Until
-------------------|:--------------------:|--------------------------------------------------------------|-----------------------------------------------------------------|-------------|-----------
-Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com) | May 2023    | May 2024
-Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                | [magnus.back@axis.com](mailto:magnus.back@axis.com)             | May 2023    | May 2024
+Full Name         | Company              | GitHub                                                       | Email Address                                                   | Elected On | Until
+------------------|:--------------------:|--------------------------------------------------------------|-----------------------------------------------------------------|------------|-----------
+Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson)| [emil.backmark@ericsson.com](mailto:emil.backmark@ericsson.com) | May 2024   | May 2025
+Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                | [magnus.back@axis.com](mailto:magnus.back@axis.com)             | May 2024   | May 2025
 
 The chairs MUST ensure that
 
