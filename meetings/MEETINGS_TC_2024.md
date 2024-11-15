@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-11-14 Meeting](#November-14-2024)
     * [2024-10-17 Meeting](#October-17-2024)
     * [2024-10-02 Meeting](#October-2-2024)
     * [2024-09-12 Meeting](#September-12-2024)
@@ -55,7 +56,48 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+* Archival of Slack discussions
+
+### November 14, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * Nothing in particular.
+* Next community meeting December 5
+    * Protocol workshop with the following topics:
+        * [Artifacts with multiple names](https://github.com/eiffel-community/eiffel/issues/405)
+        * Initial discussions about including SBOMs and build attestations in the Eiffel graph
+* CDEvents discussions
+    * CDEvents is looking for a modeling language for its schemas https://github.com/cdevents/implementation-wg/issues/5
+    * CDEvents is setting up requirements for a message service https://github.com/cdevents/implementation-wg/pull/4
 * How can we model activities that are started but complete early because they determine nothing needs to be done ([Slack thread](https://eiffel-workspace.slack.com/archives/CQD817AHY/p1716547052821279))?
+    * Action Magnus: Write an issue for this.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Mattias: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.~~
+    * ~~2024-10-17: Not entirely clear what needs to be done here. Follow up and update the action description.~~
+    * ~~2024-11-14: Still unclear. Closing for now.~~
+* Magnus: File an issue about modeling activities that start and finish early.
 
 ### October 17, 2024
 
@@ -96,7 +138,7 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * 2024-10-17: Not entirely clear what needs to be done here. Follow up and update the action description.
 * ~~Magnus: Invite Volvo to a follow-up meeting when they're ready. Include pointer to the community meeting in the email.~~
     * ~~2024-10-04: Done.~~
-* Mattias: Check with Volvo if they want to demo their Neo4j implementation.
+* ~~Mattias: Check with Volvo if they want to demo their Neo4j implementation.~~
 
 ### October 2, 2024
 
