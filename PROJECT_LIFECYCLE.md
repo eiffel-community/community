@@ -176,7 +176,7 @@ You should use the [![Archived badge](https://img.shields.io/badge/Stage-Archive
 - Open a PR to in the [eiffel-community/eiffel-community.github.io](https://github.com/eiffel-community/eiffel-community.github.io) repository to remove it from [https://eiffel-community.github.io/community.html](https://eiffel-community.github.io/community.html)
 - Delete the google group: Leaving the google group can cause confusion on if the repository has maintainers or not. Removing the group makes this clear.
 - Delete the team under https://github.com/orgs/eiffel-community/teams Leaving the team can cause confusion on if the repository has maintainers or not. Removing the team makes this clear.
-- Open a PR in the [eiffel-community/community](https://github.com/eiffel-community/community) repository 
+- Open a PR in the [eiffel-community/community](https://github.com/eiffel-community/community) repository to update [PROJECTS.md#project-facts](./PROJECTS.md#project-facts)
 	- Marking the repository as archived
 	- Remove the Google Group link
 
