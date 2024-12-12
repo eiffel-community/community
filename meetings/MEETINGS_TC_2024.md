@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2024-12-12 Meeting](#December-12-2024)
+    * [2024-11-28 Meeting](#November-28-2024)
     * [2024-11-14 Meeting](#November-14-2024)
     * [2024-10-17 Meeting](#October-17-2024)
     * [2024-10-02 Meeting](#October-2-2024)
@@ -56,7 +58,93 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+* January 2025: Election officer appointment
+* January 2025: Follow up email
+* For https://github.com/eiffel-community/eiffel/community (Community Standards) - should we enable "Repository admins accept content reports" 
+
+### December 12, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* VCC and Eiffel
+    * Action Mattias: Check in with Erik Sternersson.
 * Archival of Slack discussions
+    * As per last meeting: "Slack and the mailing list are enough, we don't need another medium in the form of GitHub Discussions.". Dropping the initiative.
+    * Info: Our old data will be removed 28th of January
+* Follow up security officers email
+    * Ping them again for a response.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+
+### November 28, 2024
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * A few new people have showed up in #otel-cicd in the CNCF Slack just in the past few days. 
+* Next community meeting December 5
+    * [Support modeling activities that finish without doing anything #406](https://github.com/eiffel-community/eiffel/issues/406)
+  * [Artifacts with multiple names](https://github.com/eiffel-community/eiffel/issues/405) (continue discussion from 2024-11-07 meeting)
+  * Initial discussions about including SBOMs and build attestations in the Eiffel graph
+* Christmas schedule
+    * Dec 26 TC meeting will obviously not take place, otherwise no meetings will be canceled.
+* Archival of Slack discussions
+    * Have exported all Slack discussions via  [Add archive of all public Slack conversations](https://github.com/eiffel-community/community/pull/206)
+        * You could use https://github.com/4350pChris/slack-vuesualizer to then show them
+        * We should anonymize the data before we publish it. Perhaps it's enough to not include users.json and drop the user_profile key?
+    * Propose to enables discussion on our repos and send the following via Slack and Community List
+    >   As Slack will remove the older conversations as per [Updates to message and file history on free workspaces](https://slack.com/intl/en-gb/help/articles/29414264463635-Updates-to-message-and-file-history-on-free-workspaces) we in the TC would like us to move questions and discussion to GitHub. This as we have hit the 90 days limit on discussions we wanted to revisit.
+    > 
+    > To preserve older discussion we have created [Add archive of all public Slack conversations](https://github.com/eiffel-community/community/pull/206) but it requires us to periodically archive discussion. We feel that using the discussions on GitHub serves the community better.
+
+    * Slack and the mailing list are enough, we don't need another medium in the form of GitHub Discussions.
+* How much on "Next" still have relevance?
+    * Will be kept for now.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Magnus: How can we model activities that are started but complete early because they determine nothing needs to be done (Slack thread)?~~
+    * ~~[Support modeling activities that finish without doing anything #406](https://github.com/eiffel-community/eiffel/issues/406)~~
+
 
 ### November 14, 2024
 
@@ -97,7 +185,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * ~~Mattias: Update info on web pages / GitHub, according to [post-election checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md). There is mis-alignment on when/how election officers are elected between Governance doc and Election HackMD doc.~~
     * ~~2024-10-17: Not entirely clear what needs to be done here. Follow up and update the action description.~~
     * ~~2024-11-14: Still unclear. Closing for now.~~
-* Magnus: File an issue about modeling activities that start and finish early.
+* ~~Magnus: File an issue about modeling activities that start and finish early.~~
+    * ~~2024-11-15: https://github.com/eiffel-community/eiffel/issues/406~~
 
 ### October 17, 2024
 
