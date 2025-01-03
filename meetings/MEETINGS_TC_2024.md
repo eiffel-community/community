@@ -2,7 +2,7 @@
 
 # Technical Committee Meetings 2024
 
-[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg)
+[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/NMYEAe3oSnucIP-V9LAkwA)
 
 ## Quick links
 
