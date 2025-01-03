@@ -2,7 +2,7 @@
 
 # Technical Committee Meetings 2022 2H
 
-[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg)
+[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/i0Hf5jlySEyIJ8oOuwm2pw)
 
 ## Quick links
 
