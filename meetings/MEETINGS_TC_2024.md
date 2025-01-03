@@ -40,27 +40,7 @@
 
 ## Agenda and Notes
 
-Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg) in order to prevent notes getting out of sync.
-
-### Next
-
-* Should we evaluate Eiffel against the [OpenSSF Security Scorecard](https://github.com/ossf/scorecard) and/or the [OpenSSF Best Practices](https://www.bestpractices.dev/en)?
-* Should we enable Code scanning for all repos. See https://github.com/eiffel-community/eiffel-remrem-publish/security/code-scanning for an example.
-    * Set via https://github.com/eiffel-community/eiffel-remrem-publish/settings/security_analysis
-    * Workflow example: https://github.com/eiffel-community/eiffel-remrem-publish/blob/master/.github/workflows/codeql.yml
-    * We need to understand how code scanning works before we enable it globally. Do we need a workflow similar to the codeql.yml above for things to work or is it enough to just click Enable in the repo (or global) settings?
-        * (2024-02-21): You can set it up globaly - https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale#eligible-repositories-for-codeql-default-setup
-    * When/if decided: Enable all code scanning, Dependabot, secret scanning etc globally from the organization and send email to the mailing list about this change.
-* [OpenPubkey](https://www.bastionzero.com/openpubkey) for public key distribution
-* How do we document the process for adding external repos to the community?
-    * What responsiblities does the Community /TC have for external repos?
-    * Should the TC enforce maintainer rules on external repos?
-* Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
-    * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
-* Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
-* January 2025: Election officer appointment
-* January 2025: Follow up email
-* For https://github.com/eiffel-community/eiffel/community (Community Standards) - should we enable "Repository admins accept content reports" 
+Please do not update the meeting agenda and notes directly on GitHub and instead use the document on [HackMD.io](https://hackmd.io/NMYEAe3oSnucIP-V9LAkwA) in order to prevent notes getting out of sync.
 
 ### December 12, 2024
 
