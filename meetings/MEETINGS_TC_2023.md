@@ -2,7 +2,7 @@
 
 # Technical Committee Meetings 2023
 
-[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg)
+[![HackMD documents](https://hackmd.io/badge.svg)](https://hackmd.io/03BGtiW8Qyeqq5Q52BvrMw)
 
 ## Quick links
 
