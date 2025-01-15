@@ -157,13 +157,13 @@ You should use the [![Archived badge](https://img.shields.io/badge/Stage-Archive
 
 #### Process for archiving a repository
 
-- Create ticket in the repository to be archived. See [This repo should be archived eiffel-store#10](https://github.com/eiffel-community/eiffel-store/issues/10) for an example
-- Send mail to maintainers google group, with the following contents (as decided in TC on [Feb 27](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2024.md#action-items-7)):
+- Create issue in the repository to be archived. See [This repo should be archived eiffel-store#10](https://github.com/eiffel-community/eiffel-store/issues/10) for an example
+- Send mail to maintainers Google group, with the following example contents (as decided in TC on [Feb 8 2024](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2024.md#february-8-2024)):
 
 > (Subject: Archiving of Eiffel Store)
 > Hi maintainers!
 > 
-> We would like to make you aware we have created a ticket in your repository [eiffel-community/eiffel-store#10](https://github.com/eiffel-community/eiffel-store/issues/10) on archiving it. Please use this ticket for further communication on this topic.
+> We would like to make you aware we have created a issue in your repository [eiffel-community/eiffel-store#10](https://github.com/eiffel-community/eiffel-store/issues/10) on archiving it. Please use this issue for further communication on this topic.
 > 
 > Best Regards,  
 > Eiffel Technical Committee
@@ -174,11 +174,11 @@ You should use the [![Archived badge](https://img.shields.io/badge/Stage-Archive
 - Close all PRs
 - Follow the instructions on https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories
 - Open a PR to in the [eiffel-community/eiffel-community.github.io](https://github.com/eiffel-community/eiffel-community.github.io) repository to remove it from [https://eiffel-community.github.io/community.html](https://eiffel-community.github.io/community.html)
-- Delete the google group: Leaving the google group can cause confusion on if the repository has maintainers or not. Removing the group makes this clear.
+- Delete the Google group: Leaving the Google group can cause confusion on if the repository has maintainers or not. Removing the group makes this clear.
 - Delete the team under https://github.com/orgs/eiffel-community/teams Leaving the team can cause confusion on if the repository has maintainers or not. Removing the team makes this clear.
 - Open a PR in the [eiffel-community/community](https://github.com/eiffel-community/community) repository to update [PROJECTS.md#project-facts](./PROJECTS.md#project-facts)
 	- Marking the repository as archived
-	- Remove the Google Group link
+	- Remove the Google group link
 
 ## References
 
