@@ -8,6 +8,8 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2025-02-06 Meeting](#February-6-2025)
+    * [2025-01-23 Meeting](#January-23-2025)
     * [2025-01-09 Meeting](#January-9-2025)
 
 ## Logistics
@@ -37,26 +39,31 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
-* January 2025: Election officer appointment
-* January 2025: Follow up email
-* For https://github.com/eiffel-community/eiffel/community (Community Standards) - should we enable "Repository admins accept content reports" 
+* Community meeting Feb 27
 
-### January 9, 2025
+### February 6, 2025
 
 #### Participants
 
 * TC Attendees
-    * Emil Bäckmark, present / not present
-    * Magnus Bäck, present / not present
-    * Mattias Linnér, present / not present
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+* Other Attendees
+    * Fredrik Fristedt
 
 #### Agenda and Notes
 * Rollcall (All)
+    * We have quorum.
 * Agenda Bashing (All)
+* Elections
+    * Fredrik's [election plan](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw) was reviewed.
+    * Action Magnus: Attempt to locate any previous script for extracting maintainers from GitHub and, if located, send to Fredrik.
 * Action Item Review (All)
     * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
     * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
 * Updates from OpenTelemetry CI/CD WG (Magnus)
+    * PR for adding CI/CD metrics the semantic conventions merged: https://github.com/open-telemetry/semantic-conventions/pull/1681
 * PRs and issues
 
 #### Action Items
@@ -66,3 +73,88 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 * Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Magnus: Attempt to locate any previous script for extracting maintainers from GitHub and, if located, send to Fredrik.
+
+### January 23, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* Election officer appointment
+    * Fredrik Fristedt was appointed as election officer for a term starting February 1, 2025, and ending January 31, 2026.
+    * Invite Fredrik to the next TC meeting (February 6) and ask him to prepare a schedule for the election process.
+* For https://github.com/eiffel-community/eiffel/community (Community Standards) - should we enable "Repository admins accept content reports"?
+    * Yes, enabled for the protocol repo and community repo. See the [documentation](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam) for what it means.
+* GitHub package access
+    * For some reason the organization had disallowed making GitHub packages public. This has been opened up via the [organization settings](https://github.com/organizations/eiffel-community/settings/packages). It's unclear when that setting was introduced or changed. At some point it was possible to pull Docker images without authentication.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* ~~Mattias: Ask the Volvo folks if any of them are willing to sit in the TC.~~
+* ~~Mattias: Ask Fatih about election officer appointment.~~
+* ~~Magnus: Ask Fredrik about election officer appointment.~~
+
+### January 9, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* Election officer appointment
+    * We ask Fatih and Fredrik if they'd like to be appointed for another term.
+* Security officer question regarding vulnerabilities
+    * Matter resolved in mid-December email thread.
+* Community meeting Jan 30
+    * Mattias will check with Johan at Volvo if he's willing to share their use of Neo4j. As a backup we can talk about SBOMs and build attestations, or follow up any of the topics from the December meeting.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Mattias: Ask the Volvo folks if any of them are willing to sit in the TC.
+* ~~Mattias: Ask Fatih about election officer appointment.~~
+* ~~Magnus: Ask Fredrik about election officer appointment.~~
