@@ -8,6 +8,10 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2025-04-23 Meeting](#April-23-2025)
+    * [2025-04-10 Meeting](#April-10-2025)
+    * [2025-03-19 Meeting](#March-19-2025)
+    * [2025-03-06 Meeting](#March-6-2025)
     * [2025-02-06 Meeting](#February-6-2025)
     * [2025-01-23 Meeting](#January-23-2025)
     * [2025-01-09 Meeting](#January-9-2025)
@@ -39,7 +43,180 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
-* Community meeting Feb 27
+
+### April 23, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* Elections
+    * Mattias and Magnus were reappointed for another TC term. Emil is leaving the TC.
+    * Action: Execute TC election checklist in reverse for Emil.
+    * Action: Execute TC member update checklist in reverse for Emil.
+    * Action: Make sure update of RESOURCES.md is covered by the checklist.
+* Someone needs to take over the invites from Emil.
+    * Emil will cancel his invites.
+    * Action Magnus: Attempt to take over the Teams invites.
+* https://github.com/eiffel-community/community/blob/master/RESOURCES.md
+* Coming TC meetings
+    * Magnus has sent an invite to the next meeting on May 8. At that meeting we'll sort out the upcoming meeting occasions.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* ~~Mattias: Check in with Erik Sternersson.~~
+    * ~~2025-01-09: Waiting for a response from Sabina.~~
+    * ~~2025-03-18: No response from Sabina but checked via Erik.~~
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Magnus: Try sending a Teams invite to Mattias to verify that everything works.
+* Execute TC election checklist in reverse for Emil.
+* Execute TC member update checklist in reverse for Emil.
+* Make sure update of RESOURCES.md is covered by the checklist.
+
+### April 10, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * Some movement for semconv for pipeline execution parts.
+* Updates from Kubecon (Emil & Mattias)
+    * Interesting and well-visited talk by Adriel and Dotan.
+* Codacy
+    * This GitHub app has been enabled for a couple of repositories.
+* Next community meeting on April 24
+    * No topics are ready, canceling.
+* Summit
+    * One company may offer to host the summit. They will make a decision during the spring.
+* Elections
+    * Nomination period open, closing April 14.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+    * 2025-03-18: No response from Sabina but checked via Erik.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+
+### March 19, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* Next community meeting on March 27
+* Summit
+* Event-triggered Renovate
+* Elections
+    * https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw
+        * The list of people eligible people was presented.
+        * Nobody had requested an exception, so there was nothing to approve.
+    * Did we publish the list on LinkedIn?
+        * No.
+* PRs and issues
+    * https://github.com/eiffel-community/eiffel/pull/410
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+    * 2025-03-18: No response from Sabina but checked via Erik. **(NEW)** 
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* ~~Magnus: Attempt to locate any previous script for extracting maintainers from GitHub and, if located, send to Fredrik.~~
+
+### March 6, 2025
+
+#### Participants
+
+* TC Attendees
+    * Emil Bäckmark, not present
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * Nothing in particular to report. One thing we could bring up in Slack and/or a working group meeting is integrating events from different such ecosystems with OTel entities, similar to what we talked about a community meeting last spring.
+* Elections
+    * Fredrik Fristedt will prepare a list of eligible candidates by early next week.
+* Next community meeting the 27 of March
+    * Will likely be canceled, but we can punt that decision until later.
+* CDEvents have gone for AsyncAPI - https://github.com/cdevents/implementation-wg/issues/5
+* UUID7 is out. Any benefit for switching?
+    * No dramatic benefits. Will ignore for now.
+* Summit
+    * Mattias has talked to TietoEvry about co-hosting a summit, and they might be willing to help out.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Check in with Erik Sternersson.
+    * 2025-01-09: Waiting for a response from Sabina.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review GOVERNANCE.md to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Magnus: Attempt to locate any previous script for extracting maintainers from GitHub and, if located, send to Fredrik.
 
 ### February 6, 2025
 
