@@ -238,9 +238,8 @@ Members of the Technical Committee are the individuals listed below. You can rea
 
 Full Name         | Company              | GitHub                                                        | Elected On | Until
 ------------------|:--------------------:|---------------------------------------------------------------|------------|-----------
-Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | May 2024   | May 2025
-Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | May 2024   | May 2025
-Mattias Linnér    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | May 2024   | May 2025
+Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | May 2025   | May 2026
+Mattias Linnér    | Ericsson             | [m-linner-ericsson](https://github.com/m-linner-ericsson)     | May 2025   | May 2026
 
 The technical committee members will strive to
 
@@ -258,12 +257,7 @@ The committee elects two Technical Committee Chairs from within members, who wil
 
 The goal of this position is servant leadership for the Eiffel Community, projects that take part in Eiffel Community, committee and stakeholders.
 
-Current Technical Committee chairs are:
-
-Full Name         | Company              | GitHub                                                        | Elected On | Until
-------------------|:--------------------:|---------------------------------------------------------------|------------|-----------
-Emil Bäckmark     | Ericsson             | [e-backmark-ericsson](https://github.com/e-backmark-ericsson) | May 2024   | May 2025
-Magnus Bäck       | Axis Communications  | [magnusbaeck](https://github.com/magnusbaeck)                 | May 2024   | May 2025
+As the Technical Committee currently only has two members, no chairs have been elected.
 
 The chairs MUST ensure that
 
