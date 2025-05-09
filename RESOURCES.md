@@ -10,9 +10,9 @@ contribute by adding the resource to this file through a Pull Request.
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [GitHub](https://github.com/eiffel-community)                                      | [TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members) |
 | [Slack](https://eiffel-workspace.slack.com/)                                       | [Magnus Bäck](https://github.com/magnusbaeck)                                                             |
-| [YouTube](https://www.youtube.com/@EiffelCommunity)                                | [Emil Bäckmark](https://github.com/e-backmark-ericsson)                                                   |
+| [YouTube](https://www.youtube.com/@EiffelCommunity)                                | [Mattias Linnér](https://github.com/m-linner-ericsson)                                                    |
 | [LinkedIn](https://www.linkedin.com/company/40197226)                              | [TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members) |
-| [HackMD](https://hackmd.io/team/eiffel-community?nav=overview)                     | [Emil Bäckmark](https://github.com/e-backmark-ericsson)                                                   |
+| [HackMD](https://hackmd.io/team/eiffel-community?nav=overview)                     | [Magnus Bäck](https://github.com/magnusbaeck)                                                             |
 | [Travis CI](https://app.travis-ci.com/organizations/eiffel-community/repositories) | [TC](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee-members) |
 | [Codacy](https://app.codacy.com/)                                                  | ?                                                                                                         |
 | [Reviewable](https://reviewable.io/)                                               | ?                                                                                                         |
