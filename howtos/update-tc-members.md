@@ -7,6 +7,7 @@ Checklist for updating Technical Committee members
 - Update [ownership in Eiffel Community GitHub organization](https://github.com/orgs/eiffel-community/people?query=role%3Aowner)
 - Update members of [eiffel-community-maintainers](https://github.com/orgs/eiffel-community/teams/eiffel-community-maintainers/members) (if someone is removed from the group, check first with that person to make sure private forks of the related repos with valuable content exists)
 - Update the [TC team](https://github.com/orgs/eiffel-community/teams/eiffel-technical-committee)
+- Update [RESOURCES.md](https://github.com/eiffel-community/community/blob/master/RESOURCES.md) as needed.
 - For a new TC person: Enable notification (immediate and/or digest) of Dependabot alerts
 
 ## Google Groups
