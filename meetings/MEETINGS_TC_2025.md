@@ -8,6 +8,9 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2025-06-12 Meeting](#June-12-2025)
+    * [2025-06-05 Meeting](#June-5-2025)
+    * [2025-05-08 Meeting](#May-8-2025)
     * [2025-04-23 Meeting](#April-23-2025)
     * [2025-04-10 Meeting](#April-10-2025)
     * [2025-03-19 Meeting](#March-19-2025)
@@ -19,7 +22,7 @@
 ## Logistics
 
 * **When:** 13:00–14:00 CET, every even week on Thursdays
-* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTc1NDIzNTUtYzJiMy00OThiLTkwZDUtYTdkODVhOGNjYzI3%40thread.v2/0?context=%7b%22Tid%22%3a%2292e84ceb-fbfd-47ab-be52-080c6b87953f%22%2c%22Oid%22%3a%2249725723-aa8c-4dcf-b9d0-b974e8a25702%22%7d)
+* **Where:** [Microsoft Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGJhNDNjMTktYmE2NC00MDYwLWE5NzgtMjNhYTM0YzgwODM0%40thread.v2/0?context=%7b%22Tid%22%3a%2278703d3c-b907-432f-b066-88f7af9ca3af%22%2c%22Oid%22%3a%22535d914b-36ac-466b-af0a-b637f03eed42%22%7d)
 * **Meeting Agenda and Minutes:** https://hackmd.io/sL9z7MGwSCOGSCXeY27mFg
 * **Community Repo:** https://github.com/eiffel-community/community
 
@@ -43,6 +46,163 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Should we take another look at [eventcatalog](https://www.eventcatalog.dev/), see also [example](https://app.eventcatalog.dev/visualiser/?type=all&name=AllEventsAndServices)
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
+
+### June 12, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates.
+* Summit
+    * Status of the invite
+        * Action Mattias: Update save-the-date calendar invite.
+        * Action Magnus: Announce registration form on mailing list.
+        * Action Magnus: Announce registration form on LinkedIn.
+    * Add the invite to the summit page
+        * Action Mattias: Update summit.html with the link to the registration form.
+* Eiffel TC
+    * Appointment of security officers.
+        * Fredrik Fristedt and Kristofer Hallén have accepted to continue for another term and were duly appointed for a term that ends May 31, 2026.
+        * Action Magnus: Update GOVERNANCE.md.
+    * Meetings during the summer
+        * All meetings during Magnus's vacation canceled.
+* Can we use AI in some why to help us do tickets and fixes? E.g. 
+    * https://github.com/features/copilot
+    * https://github.com/abuzarmahmood/blech_github_bot
+    * Feel free to use them yourself, but no central work will be done.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review [GOVERNANCE.md](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md) to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Magnus: Execute TC election checklist.
+* ~~Magnus: Check with current security officers if they're willing to remain for another term.~~
+    * ~~Update 2025-06-11: They accepted another term.~~
+* Magnus: Prepare the invitation form until next Wednesday.
+* Magnus: Send invites to the fall's community meetings.
+* Mattias: Update save-the-date calendar invite.
+* Mattias: Update summit.html with the link to the registration form.
+* Magnus: Announce registration form on mailing list.
+* Magnus: Announce registration form on LinkedIn.
+* Magnus: Update GOVERNANCE.md with the new security officers.
+
+### June 5, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * Nothing in particular.
+* Summit
+    * Volvo's participation: Ask them for a status update and maybe a talk on their Neo4j usage?
+        * Yes, it seems they've been active since the summit and should have things to say about the journey.
+    * Any feedback we should think of:
+        * https://hackmd.io/IOIGKpdcRh2FZVCn3AMO8A
+        * https://docs.google.com/forms/d/1aJ5nWkvEx5RYmewSYdxOT9N0um4ux0F0fRt41hXEiD4/edit#responses
+    * Action Magnus: Prepare the invitation form for next Wednesday.
+* Eiffel TC
+    * Appointment of security officers.
+        * The previous ones haven't been asked yet. Postponing until the next meeting.
+    * Invites for the fall's community meetings.
+        * Action Magnus: Send invites.
+* How to follow-up on https://nexergroup.com/events/ci-cd-gothenburg/ 
+* Add us to the [CNCF landscape](https://landscape.cncf.io/guide#introduction--what-is-the-cloud-native-landscape)?
+    * We should look into it. It seems we don't fulfill all the listed criteria but it might be accepted anyway.
+* [Proposal: Enable CI/CD Interoperability Through SDLC Workflow Segments](https://github.com/cdevents/spec/issues/253) (Should we post this sort of things in the General Slack channel?)
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review [GOVERNANCE.md](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md) to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* Magnus: Execute TC election checklist.
+* Magnus: Check with current security officers if they're willing to remain for another term.
+* ~~Magnus: Send invites for TC meeting on even weeks, with the exception of the May 29 which is moved to May 28 to avoid the ascension public holiday. Don't forget to update the Teams link in the HackMD document.~~
+* Magnus: Prepare the invitation form until next Wednesday.
+* Magnus: Send invites to the fall's community meetings.
+
+### May 8, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No particular updates.
+* [Post Technical Committee Election Checklist](https://github.com/eiffel-community/community/blob/master/howtos/post-tc-election-checklist.md)
+* Meeting logistics for TC
+    * Meeting time and dates
+        * Action Magnus: Send invites for TC meeting on even weeks, with the exception of the May 29 which is moved to May 28 to avoid the ascension public holiday. Don't forget to update the Teams link in the HackMD document.
+    * Invites for the Community Meeting
+        * Recordings?
+        * Send new invites for the fall meetings. There will be a meeting on May 22, but the June meeting conflicts with vacations, as does the July meeting.
+* Summit
+    * Reach out to companies regarding Eiffel Summit: Volvo Group, Nasdaq, VCC, DoWhile
+    * Send the "save the date" mail
+* [CDEvents Namespacing Proposal (WSDL-Inspired)](https://github.com/cdevents/spec/issues/250)
+    * Interesting but nothing we have time to act on now.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Review [GOVERNANCE.md](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md) to see if there are any plot holes when the number of people willing to be in the TC is very small.
+* ~~Magnus: Try sending a Teams invite to Mattias to verify that everything works.~~
+* Magnus: Execute TC election checklist.
+* ~~Magnus: Execute TC member update checklist in reverse for Emil.~~
+* ~~Magnus: Make sure update of [RESOURCES.md](https://github.com/eiffel-community/community/blob/master/RESOURCES.md) is covered by the checklist.~~
+    * ~~Created issue [github.com/eiffel-community/community#217](https://github.com/eiffel-community/community/issues/217) to track this.~~
+* ~~Magnus: Update current election officer in [GOVERNANCE.md](https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md).~~
+    * ~~[github.com/eiffel-community/community#219](https://github.com/eiffel-community/community/pull/219)~~
+* Magnus: Check with current security officers if they're willing to remain for another term.
+* ~~Mattias: Send "save the date" email once the date has been decided.~~
+* Magnus: Send invites for TC meeting on even weeks, with the exception of the May 29 which is moved to May 28 to avoid the ascension public holiday. Don't forget to update the Teams link in the HackMD document.
 
 ### April 23, 2025
 
