@@ -101,7 +101,7 @@ Responsibilities of Security Officers are
 
 Eiffel Community is served by **2** Security Officers.
 
-Eiffel Community Security Officers are the individuals listed below, appointed for a term ending May 31, 2025:
+Eiffel Community Security Officers are the individuals listed below, appointed for a term ending May 31, 2026:
 
 * Fredrik Fristedt, Axis Communications
 * Kristofer Hallén, Ericsson
