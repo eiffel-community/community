@@ -8,6 +8,9 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2025-10-15 Meeting](#October-15-2025)
+    * [2025-09-18 Meeting](#September-18-2025)
+    * [2025-09-11 Meeting](#September-11-2025)
     * [2025-08-21 Meeting](#August-21-2025)
     * [2025-07-03 Meeting](#July-3-2025)
     * [2025-06-12 Meeting](#June-12-2025)
@@ -49,6 +52,127 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
 * [JSON schema to validate PURLs](https://github.com/package-url/purl-spec/pull/514)
+
+
+### October 15, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates.
+* Eiffel summit
+    * Videos
+        * Mattias: Consolidate the three protocol news videos and publish them on Friday.
+        * Magnus: Add chapters to videos, where appropriate.
+        * Magnus: Prepare a PR with the summit.html to link to the videos.
+    * Feedback form
+        * Let's send the feedback form to the participants before the weekend.
+    * Presentation uploads
+        * Action Mattias: Send with PR his and Helena's slides. We'll remind the others next week if needed.
+    * Reflections
+        * Nice to see so many active participants.
+        * Let's talk next year about the feasibility of another summit.
+        * Proposal for new concept for the community meetings was perhaps the most important takeaway.
+* Monthly community meetings
+    * Convert existing community meetings to the new check-in concept and reduce the duration to 30 minutes.
+        * Action Magnus: Draft mailing list email to announce the new format for the meetings. Obviously also update the invites.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Draft mailing list email to announce the new format for the meetings. Obviously also update the invites.
+Consolidate the three protocol news videos and publish them on Friday.
+* Mattias: Send with PR his and Helena's slides. We'll remind the others next week if needed.
+* Magnus: Add chapters to videos, where appropriate.
+* Magnus: Prepare a PR with the summit.html to link to the videos.
+
+### September 18, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates because of lack of time.
+* Eiffel summit
+    * See notes [Summit 2025 Planning](https://hackmd.io/RtTg-aRASzaoqk_CfJEvag?both#Summit-planning)
+    * Everything correct https://eiffel-community.github.io/summit.html ?
+        * Submission API abstract missing
+            * Magnus will send PR.
+    * Should we prepare some Q&A questions?
+        * Yes. Put them in a new section in the Summit document.
+    * Do the additional registrations warrant a change in schedule?
+        * No.
+    * Discussion about:
+        * Source change verdirct
+        * Community Discussion
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+
+### September 11, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * [Interesting discussion about long-running spans](https://github.com/open-telemetry/opentelemetry-specification/discussions/4646)
+* Eiffel summit
+    * See notes [Summit 2025 Planning](https://hackmd.io/RtTg-aRASzaoqk_CfJEvag?both#Summit-planning)
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* ~~Magnus: Send invites to the fall's community meetings.~~
 
 ### August 21, 2025
 
@@ -96,7 +220,6 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Send invites to the fall's community meetings.
 * ~~Magnus: Announce registration form on mailing list some time in the second half of August.~~
     * ~~Mattias reminded people that they need to register instead of accepting the meeting call - Wed 2025-08-13 15:43.~~
-
 
 ### July 3, 2025
 
