@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2025-11-13 Meeting](#November-13-2025)
     * [2025-10-15 Meeting](#October-15-2025)
     * [2025-09-18 Meeting](#September-18-2025)
     * [2025-09-11 Meeting](#September-11-2025)
@@ -53,6 +54,45 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
 * [JSON schema to validate PURLs](https://github.com/package-url/purl-spec/pull/514)
 
+### November 13, 2025
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates.
+* Eiffel summit
+    * Presentations
+        * Still waiting for a few.
+        * Action Magnus: Remind them.
+    * Anything else left?
+        * Action Magnus: Remind people about the feedback survey.
+* Monthly community meetings
+* [Santiago Edition](https://github.com/eiffel-community/eiffel/milestone/9)
+    * Let's aim for a new edition before EOY.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Mattias: Create issue(s) for security vulnerabilities.
+* Magnus: Draft mailing list email and LinkedIn and Slack posts to announce the new format for the meetings. Obviously also update the invites.
+* Magnus: Remind those who haven't shared their summit presentations.
+* Magnus: Remind people about the feedback survey.
 
 ### October 15, 2025
 
@@ -98,10 +138,10 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
 * Mattias: Create issue(s) for security vulnerabilities.
 * Magnus: Draft mailing list email to announce the new format for the meetings. Obviously also update the invites.
-Consolidate the three protocol news videos and publish them on Friday.
-* Mattias: Send with PR his and Helena's slides. We'll remind the others next week if needed.
-* Magnus: Add chapters to videos, where appropriate.
-* Magnus: Prepare a PR with the summit.html to link to the videos.
+* ~~Mattias: Consolidate the three protocol news videos and publish them on Friday.~~
+* ~~Mattias: Send with PR his and Helena's slides. We'll remind the others next week if needed.~~
+* ~~Magnus: Add chapters to videos, where appropriate.~~
+* ~~Magnus: Prepare a PR with the summit.html to link to the videos.~~
 
 ### September 18, 2025
 
