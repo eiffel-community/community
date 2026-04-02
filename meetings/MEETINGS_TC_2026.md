@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2026-04-02 Meeting](#April-2-2026)
     * [2026-03-19 Meeting](#March-19-2026)
     * [2026-03-05 Meeting](#March-5-2026)
     * [2026-02-12 Meeting](#February-12-2026)
@@ -42,6 +43,43 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
 * [JSON schema to validate PURLs](https://github.com/package-url/purl-spec/pull/514)
+
+### April 2, 2026
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck
+    * Mattias Linnér
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+* Info cdCon 2026
+    * Some talks about CDEvents - https://osselcna2026.sched.com/?searchstring=cdevents&iframe=no&w=&sidebar=&bg=
+* [TC Elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * No exception requests have been submitted so the list of eligible candidates as announced by Fredrik Fristedt is approved.
+* Community meetup March 26
+    * Nobody showed up.
+* Community meetup April 23
+    * Will possibly be extended to 60 minutes since there's a chance of a discussion about RabbitMQ and ER infrastructure. Mattias will check with the Ericsson folks.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Create Google calendar for important events.
+* ~~Magnus: Ask Tobias about the ETOS workflow on GitHub. Anything to demo?~~
+    * ~~Yes, he can demo it on the next community meeting.~~
 
 ### March 19, 2026
 
