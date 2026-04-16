@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2026-04-16 Meeting](#April-16-2026)
     * [2026-04-02 Meeting](#April-2-2026)
     * [2026-03-19 Meeting](#March-19-2026)
     * [2026-03-05 Meeting](#March-5-2026)
@@ -44,13 +45,46 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
 * [JSON schema to validate PURLs](https://github.com/package-url/purl-spec/pull/514)
 
+### April 16, 2026
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates.
+* [TC Elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Technically the nomination period is still open, but so far Magnus is the only nominee. This is unfortunate, but there doesn't appear to be any formal problems with a single-seat TC.
+* Community meetup April 23
+    * Ericsson will present RabbitMQ architecture and Axis may present ETOS's GitHub workflow (Magnus will check with Tobias).
+    * Meeting will probably be extended to one hour.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Create Google calendar for important events.
+
 ### April 2, 2026
 
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -86,8 +120,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -129,8 +163,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -177,8 +211,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -220,8 +254,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -277,8 +311,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
@@ -311,8 +345,8 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
 #### Participants
 
 * TC Attendees
-    * Magnus Bäck
-    * Mattias Linnér
+    * Magnus Bäck, present
+    * Mattias Linnér, present
 
 #### Agenda and Notes
 * Rollcall (All)
