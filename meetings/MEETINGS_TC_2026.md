@@ -8,6 +8,7 @@
 
 * [Logistics](#logistics)
 * [Agenda and Notes](#agenda-and-notes)
+    * [2026-04-30 Meeting](#April-30-2026)
     * [2026-04-16 Meeting](#April-16-2026)
     * [2026-04-02 Meeting](#April-2-2026)
     * [2026-03-19 Meeting](#March-19-2026)
@@ -44,6 +45,57 @@ Please do not update the meeting agenda and notes directly on GitHub and instead
     * Was previously raised on [TC 2023-01-26](https://github.com/eiffel-community/community/blob/master/meetings/MEETINGS_TC_2023.md#agenda-and-notes-24)
 * Gap analysis - CDEvents vs Eiffel. To help CDEvents reach 1.0 we should provide our input on the gap
 * [JSON schema to validate PURLs](https://github.com/package-url/purl-spec/pull/514)
+
+
+### April 30, 2026
+
+#### Participants
+
+* TC Attendees
+    * Magnus Bäck, present
+    * Mattias Linnér, present
+
+#### Agenda and Notes
+* Rollcall (All)
+    * We have quorum.
+* Agenda Bashing (All)
+    * Approved.
+* Action Item Review (All)
+    * Follow up [the TC GitHub project board](https://github.com/orgs/eiffel-community/projects/3/views/4)
+    * Follow up [the Eiffel protocol project board](https://github.com/orgs/eiffel-community/projects/6)
+* Updates from OpenTelemetry CI/CD WG (Magnus)
+    * No updates.
+* [TC Elections](https://hackmd.io/6x1Ef5Y_RWqaOmytMeYVKw)
+    * Action Magnus: Push to ELECTIONS.md.
+    * Action Magnus: Execute post-election checklist.
+* Archival of Repos
+  | Repository | Issue created | On project board | Archived |
+  |---|---|---|---|
+  | eiffel-vici | [#78](https://github.com/eiffel-community/eiffel-vici/issues/78) | ✅ In Progress | ❌ |
+  | ml-jmespath-generator | [#2](https://github.com/eiffel-community/ml-jmespath-generator/issues/2) | ✅ In Progress | ❌ |
+  | eiffel-persistence-technology-evaluation | [#3](https://github.com/eiffel-community/eiffel-persistence-technology-evaluation/issues/3) | ✅ In Progress | ❌ |
+  | eiffel-gerrit-lib | ❌ | ❌ | ❌ |
+  | eiffel-gerrit-herald | ❌ | ❌ | ❌ |
+  | eiffel-jenkins-plugin | ❌ | ❌ | ❌ |
+  | eiffelactory | ❌ | ❌ | ❌ |
+  | eiffel-jira-plugin | ❌ | ❌ | ❌ |
+    * Does Magnus want help with this so Mattias should have organization access until task done?
+        * Yes.
+    * https://github.com/eiffel-community/eiffel-vici/issues/78 requires us to delete the Google group
+        * Should we do this on a meeting or just do it? https://groups.google.com/g/eiffel-vici-maintainers/settings
+            * Only Mattias was an owner. Group deleted.
+* PRs and issues
+
+#### Action Items
+* Magnus: Ask the security officers to try out the private vulnerability reporting feature.
+* All: Evaluate key repositories according to the OpenSSF criteria.
+* ?: Read up on static code analysis (see item in Next) and bring info to TC
+* Magnus: Look into why "Reply All" on Google Groups doesn't actually reply all.
+* Magnus: Check the proposed name of the source code tag event against the proposed new source change events to see if they're reasonably well aligned. If so we can move on with the tag event without waiting for the source change events.
+* Magnus: Create Google calendar for important events.
+* Mattias: Go though draft issues in the TC project and convert them to issues.
+* Magnus: Push to ELECTIONS.md
+* Magnus: Execute post-election checklist.
 
 ### April 16, 2026
 
